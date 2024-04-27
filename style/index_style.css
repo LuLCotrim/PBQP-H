@@ -35,6 +35,7 @@ header{
     width: 41vw;
     color: #0c2e40;
     font-family: "fibra one", sans-serif;
+    line-height: 44px;
 }
 #bandeira_brasil{
     position: absolute;
@@ -51,6 +52,7 @@ header{
     width: 100%;
     height: 9vh;
     top: 0vh;
+    z-index: 10000;
 }
 #ul_nav {
     display: flex;
@@ -122,8 +124,151 @@ a {
 }
 #programa{
     background-color: #00000011;
-    height: 60vh;
+    height: 92vh;
 }
 #titulo_programa{
-
+    color: #0c2e40;
+    font-family: Lato, sans-serif;
+    font-size: 35.2px;
+    position: absolute;
+    top: 92.5vh;
+    left: 7.5vw;
+    text-align: start;
+    line-height: 35.2px;
+}
+#enfeite_titulo_programa{
+    position: absolute;
+    top: 100vh;
+    left: 7.5vw;
+    height: 0.3vh;
+    width: 5vw;
+    background-color: #333333;
+}
+#conteudo_programa{
+    color: #0c2e40;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 102vh;
+    left: 7.5vw;
+    width: 45vw;
+    text-align: justify;
+    line-height: 24px;
+}
+#button_programa{
+    color: #0c2e40;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 155vh;
+    left: 7.5vw;
+    width: 12vw;
+    height: 7vh;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 27.5px;
+    border-color: #0c2e40;
+    border-style: solid;
+    font-weight: 900;
+}
+#button_programa:hover{
+    background-color: #0c2e40;
+    color: white;
+    transition: color 0.3s;
+}
+#programa_logo{
+    position: absolute;
+    top: 115vh;
+    left: 62.5vw;
+    width: 12vw;
+}
+#programa_minhaCasa{
+    position: absolute;
+    top: 115vh;
+    left: 77vw;
+    width: 9vw;
+}
+#programa_caixa{
+    position: absolute;
+    top: 138vh;
+    left: 69vw;
+    width: 12vw;
+}
+#projetos{
+    height: 115vh;
+    border-bottom-color: rgba(0, 0, 0, 0.144);
+    border-bottom-width: 0.1px;
+}
+#estruturas_e_tipos{
+    position: absolute;
+    top: 173.5vh;
+    left: 42vw;
+    font-size: 16px;
+    line-height: 16px;
+    color: #2d2d2d6b;
+}
+#projetos_titulo{
+    color: #0c2e40;
+    font-family: Lato, sans-serif;
+    font-size: 35.2px;
+    position: absolute;
+    top: 178vh;
+    left: 43.4vw;
+    text-align: start;
+    line-height: 35.2px;
+}
+#enfeite_projetos{
+    position: absolute;
+    top: 185vh;
+    left: 45.5vw;
+    height: 0.3vh;
+    width: 7vw;
+    background-color: #333333;
+}
+#conteudo_projetos{
+    color: #000000ab;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 188vh;
+    left: 12.5vw;
+    width:72vw;
+    text-align: center;
+    line-height: 24px;
+}
+#box_projetos{
+    position: absolute;
+    top: 205vh;
+    left: 12.5vw;
+    width:72vw;
+    height: 74vh;
+}
+#box_projetos1{
+    position: absolute;
+    width:20vw;
+    height: 73vh;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.144);
+    border-radius: 6px;
+    border-width: 0.1px;
+}
+#box_projetos2{
+    position: absolute;
+    left: 26vw;
+    width:20vw;
+    height: 73vh;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.144);
+    border-radius: 6px;
+    border-width: 0.1px;
+}
+#box_projetos3{
+    position: absolute;
+    left: 51.5vw;
+    width:20vw;    
+    height: 73vh;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.144);
+    border-radius: 6px;
+    border-width: 0.1px;
 }
