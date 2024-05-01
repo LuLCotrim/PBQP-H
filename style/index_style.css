@@ -568,7 +568,7 @@ a {
     transition: color 0.3s;
 }
 #como_implantar{
-    height: 90vh;
+    height: 100vh;
 }
 #estruturas_e_tipos_3{
     position: absolute;
@@ -658,4 +658,338 @@ a {
     border-bottom-color: white;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+}
+#siac_sub{
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #25252596;
+    font-weight: 600;
+    position: absolute;
+    left: 10.5vw;
+    top: 2vh;
+}
+#simat_sub{
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #25252596;
+    font-weight: 600;
+    position: absolute;
+    left: 10.5vw;
+    top: 2vh;
+}
+#sinac_sub{
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #25252596;
+    font-weight: 600;
+    position: absolute;
+    left: 10.5vw;
+    top: 2vh;
+}
+#construtora_siac{
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #2b2b2b;
+    font-weight: 600;
+    position: absolute;
+    left: 8vw;
+    top: 5vh;
+}
+#fabricante_simat{
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #2b2b2b;
+    font-weight: 600;
+    position: absolute;
+    left: 5.5vw;
+    top: 5vh;
+}
+#proponente_sinac{
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #2b2b2b;
+    font-weight: 600;
+    position: absolute;
+    left: 6vw;
+    top: 5vh;
+}
+#imgs_como_implementar{
+    position: absolute;
+    width: 60vw;
+    height: 8.8vh;
+    top: 490vh;
+    left: 20vw;
+}
+#imgs_como_implementar_enfeite{
+    position: absolute;
+    width: 51.8vw;
+    height: 0.5vh;
+    top: 101%;
+    left: 4.2vw;
+    background-color: #33333365;
+}
+#img1_como_implementar{
+    position: absolute;
+    top: 4.9vh;
+    left: 4vw;
+    z-index: 1000;
+}
+#img2_como_implementar{
+    position: absolute;
+    top: 5.1vh;
+    left: 21vw;
+    z-index: 1000;
+}
+#img3_como_implementar{
+    position: absolute;
+    top: 4.7vh;
+    left: 37vw;
+    z-index: 1000;
+}
+#img4_como_implementar{
+    position: absolute;
+    top: 4.7vh;
+    left: 52vw;
+    z-index: 1000;
+}
+#p1_como_implementar{
+    position: absolute;
+    top: 15vh;
+    left: 4vw;
+    font-size: 12.8px;
+    line-height: 12.8px;
+    color: #252525;
+    font-weight: 700;
+}
+#p2_como_implementar{
+    position: absolute;
+    top: 15vh;
+    left: 19vw;
+    font-size: 12.8px;
+    line-height: 12.8px;
+    color: #252525;
+    font-weight: 700;
+}
+#p3_como_implementar{
+    position: absolute;
+    top: 15vh;
+    left: 36.5vw;
+    font-size: 12.8px;
+    line-height: 12.8px;
+    color: #252525;
+    font-weight: 700;
+}
+#p4_como_implementar{
+    position: absolute;
+    top: 15vh;
+    left: 50.5vw;
+    font-size: 12.8px;
+    line-height: 12.8px;
+    color: #252525;
+    font-weight: 700;
+}
+#button_como_implementar{
+    color: #0c2e40;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 512vh;
+    left: 42vw;
+    width: 18vw;
+    height: 7vh;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 27.5px;
+    border-color: #0c2e40;
+    border-style: solid;
+    font-weight: 900;
+    background-color: white;
+}
+#button_como_implementar:hover{
+    background-color: #0c2e40;
+    color: white;
+    transition: color 0.3s;  
+}
+#base_legal{
+    height: 125vh;
+    background-color: #E4E4E4;
+}
+#base_legal_1{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+#base_legal_2{
+    position: absolute;
+    left: 49vw;
+    width: 50%;
+    height: 100%;
+}
+#estruturas_e_tipos_4{
+    position: absolute;
+    top:10vh;
+    left: 8vw;
+    font-size: 16px;
+    line-height: 16px;
+    color: #2d2d2d6b;
+}
+#titulo_base_legal{
+    color: #0c2e40; 
+    position: absolute; 
+    top: 13vh;
+    left: 8vw; 
+}
+#enfeite_base_legal{
+    position: absolute;
+    top: 20vh;
+    left: 8vw;
+    height: 0.3vh;
+    width: 3.5vw;
+    background-color: #333333;
+}
+#conteudo_base_legal{
+    color: #0c2e40;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 25vh;
+    left: 8vw;
+    width: 39vw;
+    text-align: justify;
+    line-height: 24px;
+}
+#button_base_legal{
+    color: #0c2e40;
+    font-family: Lato, sans-serif;
+    background-color: #E4E4E4;
+    font-size: 15px;
+    position: absolute;
+    top: 47vh;
+    left: 8vw;
+    width: 12vw;
+    height: 7vh;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 27.5px;
+    border-color: #0c2e40;
+    border-style: solid;
+    font-weight: 900;
+}
+#button_base_legal:hover{
+    background-color: #0c2e40;
+    color: white;
+    transition: color 0.3s;
+}
+#box1_base_legal{
+    position: absolute;
+    top: 10vh;
+    left: 2.5vw;
+    width:22vw;
+    height: 50vh;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.048);
+    border-radius: 6px;
+    border-width: 2px;
+}
+#box2_base_legal{
+    position: absolute;
+    top: 10vh;
+    left: 26vw;
+    width:22vw;
+    height: 50vh;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.048);
+    border-radius: 6px;
+    border-width: 2px;
+}
+#box3_base_legal{
+    position: absolute;
+    top: 63vh;
+    left: 2.5vw;
+    width:22vw;
+    height: 50vh;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.048);
+    border-radius: 6px;
+    border-width: 2px; 
+}
+#box4_base_legal{
+    position: absolute;
+    top: 63vh;
+    left: 26vw;
+    width:22vw;
+    height: 50vh;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.048);
+    border-radius: 6px;
+    border-width: 2px;
+}
+.h3_base_legal1{
+    color: #0c2e40;
+    position: absolute;
+    left: 1vw;
+}
+.p_base_legal1{
+    color: #0c2e40;
+    position: absolute;
+    top: 18vh;
+    left: 1vw;
+    line-height: 24px;
+}
+#noticias{
+    height: 100vh;
+}
+#titulo_noticias{
+    color: #0c2e40;
+    font-family: Lato, sans-serif;
+    font-size: 35.2px;
+    position: absolute;
+    top: 665vh;
+    left: 46vw;
+    text-align: start;
+    line-height: 35.2px;
+}
+#enfeite_noticias{
+    position: absolute;
+    top: 672vh;
+    left: 48vw;
+    height: 0.3vh;
+    width: 7vw;
+    background-color: #333333;
+}
+#box_noticias{
+    position: absolute;
+    width:22vw;
+    height: 65vh;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.144);
+    border-radius: 6px;
+    border-width: 0.1px;
+    top: 675vh;
+    left: 14vw;
+}
+.imgs_noticias{
+    width: 22vw;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.box_noticias_data{
+    position: absolute;
+    top: 32vh;
+    left: 1vw;
+    color: #25252581;
+    font-size: 12px;
+    line-height: 18px;
+}
+box_noticias_titulo{
+    
 }
