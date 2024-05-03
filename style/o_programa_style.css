@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Lato, sans-serif;
+}
+header{
+    background-color: #03979d;
+    height: 4.75vh;
+}
+#header_button{
+    background-color: #0c2e40;
+    color: white;
+    position: absolute;
+    width: 10vw;
+    height: 4.75vh;
+    left: 88vw;
+    border: none;
+}
+#pre_nav{
+    background-color: #00000011;
+    height: 25.5vh;
+}
+#logoAndName{
+    position: absolute;
+    height: 26vh;
+    left: 6vw;
+    top: 4.3vh;
+}
+#name_pre_nav{
+    position: absolute;
+    left: 25vw;
+    top: 12vh;
+    width: 41vw;
+    color: #0c2e40;
+    font-family: "fibra one", sans-serif;
+    line-height: 44px;
+}
+#bandeira_brasil{
+    position: absolute;
+    left: 85vw;
+    top: 10vh;
+}
+.nav-top{
+    background-color: #0c2e40;
+    height: 9vh;
+}
+.nav-fixed {
+    position: fixed;
+    background-color: #0c2e40;
+    width: 100%;
+    height: 9vh;
+    top: 0vh;
+    z-index: 10000;
+}
+#ul_nav {
+    display: flex;
+    position: absolute;
+    left: 6vw;
+}
+.li {
+    display: flex;
+    font-size: 13.6px;
+    height: 9vh;
+}
+.li:hover {
+    background-color: white;
+}
+a {
+    text-decoration: none; 
+    color: white;
+    margin: 20px;
+}
+.li:hover a {
+    color: black;
+    transition: color 0.3s;
+}
+.li:hover #inverseVNav {
+    stroke: black;
+}
+.button_nav {
+    background-color: #0c2e40;
+    color: white;
+    position: absolute;
+    width: 10vw;
+    height: 6.5vh;
+    left: 77vw;
+    top: 31.5vh;
+    font-size: 15px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+    border-width: 1px;
+}
+.button_nav:hover {
+    background-color: white;
+    color: black;
+    transition: color 0.3s;
+}
+.button_nav_fixed{
+    background-color: #0c2e40;
+    color: white;
+    position: fixed;
+    width: 10vw;
+    height: 6.5vh;
+    left: 77vw;
+    top: 1.25vh;
+    font-size: 15px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+    border-width: 1px;
+}
+.button_nav_fixed:hover {
+    background-color: white;
+    color: black;
+    transition: color 0.3s;
+}
+#title{
+    height: 40vh;
+    background: linear-gradient(170deg, white, #00000011);
+}
+#img_title{
+    position: absolute;
+    height: 40vh;
+    width: 40vw;
+    left: 58.85vw;
+    background-size: cover;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+}
+#h2_title{
+    color: #0c2e40;
+    position: absolute;
+    top: 60vh;
+    left: 8vw;
+}
+#explicacao{
+    height: 50vh;
+}
+#p_explicacao{
+    position: absolute; 
+    left: 8vw; 
+    top: 82vh; 
+    width: 45vw; 
+    color:#0c2e40; 
+    line-height: 24px;
+    text-align: justify;
+}
+#programa_logo{
+    position: absolute;
+    top: 90vh;
+    left: 62.5vw;
+    width: 12vw;
+}
+#programa_minhaCasa{
+    position: absolute;
+    top: 90vh;
+    left: 77vw;
+    width: 9vw;
+}
+#programa_caixa{
+    position: absolute;
+    top: 113vh;
+    left: 69vw;
+    width: 12vw;
+}
+
+
+
+
+
+footer{
+    height: 25vh;
+    background-color: #0c2e40;
+    
+}
+#img_footer{
+    position: absolute;
+    left: 2vw;
+    top: 88vh;
+}
+#img_footer_2{
+    position: absolute;
+    left: 6vw;
+    top: 88.4vh;
+}
+#img_footer_3{
+    position: absolute;
+    left: 10vw;
+    top: 88.1vh;
+}
+#button_footer{
+    background-color: #ffc300;
+    position: absolute;
+    color: #4d697e;
+    font-size: 15px;
+    font-weight: 15px;
+    top: 88vh;
+    left: 86vw;
+    width: 10vw;
+    height: 6vh;
+    border-color: #ffc300;
+    border-style: solid;
+    border-radius: 4px;
+}
+#button_footer:hover{
+    background-color: #0c2e40;
+    color: #ffc300;
+    transition: color 0.3s;
+    transition: 0.2s;
+}
+#enfeite_footer{
+    position: absolute;
+    top: 103.5vh;
+    left: 2vw;
+    width: 95vw;
+    height: 0.2vh;
+    background-color: white;
+}
+#direitos_reservados{
+    position: absolute;
+    left: 2vw;
+    top: 106vh;
+    color: #4d697e;
+    font-size: 12px;
+    line-height: 12px;
+}
+#rafael_ferr{
+    position: absolute;
+    left: 85vw;
+    top: 106vh;
+    color: #4d697e;
+    font-size: 12px;
+    line-height: 12px;
+}
