@@ -136,7 +136,7 @@ a {
     left: 8vw;
 }
 #explicacao{
-    height: 50vh;
+    height: 55vh;
 }
 #p_explicacao{
     position: absolute; 
@@ -165,15 +165,176 @@ a {
     left: 69vw;
     width: 12vw;
 }
-
-
+#estrutura{
+    height: 150vh;
+    background-color: #00000011;
+}
+#img_estrutura{
+    position: absolute;
+    height: 150vh;
+    width: 32.5vw;
+    left: 66.35vw;
+}
+#h1_estrutura{
+    position: absolute;
+    font-size: 35.2px;
+    line-height: 35.2px;
+    left: 7vw;
+    top: 134vh;
+    color: #0c2e40;
+}
+#p_estrutura{
+    font-size: 12.8px;
+    line-height: 19.2px;
+    text-align: justify;
+    position: absolute;
+    width: 49vw;
+    left: 7vw;
+    top: 142vh;  
+    color: #2b2b2b;
+}
+#box_central_estrutura{
+    position: absolute;
+    left: 7vw;
+    top: 157vh;
+    width: 55vw;
+    height: 100vh;
+}
+#box1_estrutura{
+    position: absolute;
+    left: 0vw;
+    top: 0vh;
+    width: 27.5vw;
+    height: 50vh;
+}
+#box2_estrutura{
+    position: absolute;
+    left: 27.5vw;
+    top: 0vh;
+    width: 27.5vw;
+    height: 50vh;
+}
+#box3_estrutura{
+    position: absolute;
+    left: 0vw;
+    top: 50vh;
+    width: 27.5vw;
+    height: 50vh;
+}
+#box4_estrutura{
+    position: absolute;
+    left: 27.5vw;
+    top: 50vh;
+    width: 27.5vw;
+    height: 50vh;
+}
+.h3_box_estrutura{
+    color: #252525;
+}
+.p_box_estrutura{
+    font-size: 12.8px;
+    line-height: 19.2px;
+    position: absolute;
+    top: 6vh;
+    width: 20vw;
+    text-align: justify;
+    position: absolute;
+    color: #2b2b2b;
+}
+#a_estrutura{
+    color: #0c2e40;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    position: absolute;
+    top: 262.5vh;
+    left: 5.5vw;
+}
+#historico{
+    height: 110vh;
+}
+#h1_historico{
+    position: absolute;
+    top: 280vh;
+    left: 45vw;
+    line-height: 32px;
+    color: #0c2e40;
+}
+#barra_historico{
+    position: absolute;
+    top: 290vh;
+    left: 33vw;
+    height: 100vh;
+}
+.circulo_historico{
+    width: 17.5px;
+    height: 17.5px;
+    background-color: #F4C000;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 2px;
+    z-index: 1000;
+}
+#enfeite_barra_historico{
+    background-color: rgba(0, 0, 0, 0.270);
+    width: 2px;
+    height: 101vh;
+    position: absolute;
+    left: 5.4vw;
+    top: -1vh;
+}
+#h3_barra_historico{
+    display: flex;
+    color: #0c2e40;
+    font-size: 19.2px;
+    line-height: 19.2px;
+}
+#barra_conteudo_historico{
+    position: absolute;
+    top: 289vh;
+    left: 40.5vw;
+    height: 101vh; 
+    width: 37vw;
+    border-color: rgba(0, 0, 0, 0.13);
+    border-style: solid;  
+    border-width: 1px;
+}
+.h4_title_historico{
+    font-size: 16px;
+    line-height: 16px;
+    position: absolute;
+    color: #252525;
+    left: 2.5vw;
+    top: 2.5vh;
+}
+.button_title_historico{
+    position: absolute;
+    left: 33.5vw;
+    top: 0.8vh;  
+    border: none;
+    background-color: white;
+    font-size: 35px;
+    color: #252525;
+}
+#title1_historico{
+    border-bottom-color:  rgba(0, 0, 0, 0.13);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: 37vw;
+    height: 8vh;
+}
+#conteudo1_historico{
+    border-bottom-color:  rgba(0, 0, 0, 0.13);
+    border-bottom-style: solid;
+    border-bottom-width: 1px; 
+}
 
 
 
 footer{
     height: 25vh;
-    background-color: #0c2e40;
-    
+    background-color: #0c2e40;    
 }
 #img_footer{
     position: absolute;
