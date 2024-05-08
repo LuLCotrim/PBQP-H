@@ -1215,31 +1215,30 @@ a {
 }
 footer{
     height: 25vh;
-    background-color: #0c2e40;
+    background-color: #0c2e40;    
+}
+#div1_footer{
+    display: flex;
+}
+#div2_footer{
+    display: flex;
 }
 #img_footer{
-    position: absolute;
-    left: 2vw;
-    top: 858vh;
+    margin-top: 0vh;
 }
 #img_footer_2{
-    position: absolute;
-    left: 6vw;
-    top: 858.4vh;
+    margin-top: 0.3vh;
 }
 #img_footer_3{
-    position: absolute;
-    left: 10vw;
-    top: 858.1vh;
+    margin-top: 0.15vh;
 }
 #button_footer{
     background-color: #ffc300;
-    position: absolute;
     color: #4d697e;
     font-size: 15px;
     font-weight: 15px;
-    top: 858vh;
-    left: 86vw;
+    margin-left: 69vw;
+    margin-top: 4vh;
     width: 10vw;
     height: 6vh;
     border-color: #ffc300;
@@ -1253,26 +1252,23 @@ footer{
     transition: 0.2s;
 }
 #enfeite_footer{
-    position: absolute;
-    top: 873.5vh;
-    left: 2vw;
     width: 95vw;
     height: 0.2vh;
     background-color: white;
+    margin-top: 5vh;
+    margin-left: 2vw;
 }
 #direitos_reservados{
-    position: absolute;
-    left: 2vw;
-    top: 877vh;
     color: #4d697e;
     font-size: 12px;
     line-height: 12px;
+    margin-top: 3vh;
+    margin-left: 2vw;
 }
 #rafael_ferr{
-    position: absolute;
-    left: 85vw;
-    top: 877vh;
     color: #4d697e;
     font-size: 12px;
     line-height: 12px;
+    margin-top: 3vh;
+    margin-left: 58.9vw;
 }

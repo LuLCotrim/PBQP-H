@@ -16,5 +16,4 @@ function handleNavScroll() {
         button_nav.classList.remove('button_nav_fixed');
     }
 }
-
 window.addEventListener('scroll', handleNavScroll);

@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Lato, sans-serif;
+}
+header{
+    background-color: #03979d;
+    height: 4.75vh;
+}
+#header_button{
+    background-color: #0c2e40;
+    color: white;
+    position: absolute;
+    width: 10vw;
+    height: 4.75vh;
+    left: 88vw;
+    border: none;
+}
+#pre_nav{
+    background-color: #00000011;
+    height: 25.5vh;
+}
+#logoAndName{
+    position: absolute;
+    height: 26vh;
+    left: 6vw;
+    top: 4.3vh;
+}
+#name_pre_nav{
+    position: absolute;
+    left: 25vw;
+    top: 12vh;
+    width: 41vw;
+    color: #0c2e40;
+    font-family: "fibra one", sans-serif;
+    line-height: 44px;
+}
+#bandeira_brasil{
+    position: absolute;
+    left: 85vw;
+    top: 10vh;
+}
+.nav-top{
+    background-color: #0c2e40;
+    height: 9vh;
+}
+.nav-fixed {
+    position: fixed;
+    background-color: #0c2e40;
+    width: 100%;
+    height: 9vh;
+    top: 0vh;
+    z-index: 10000;
+}
+#ul_nav {
+    display: flex;
+    position: absolute;
+    left: 6vw;
+}
+.li {
+    display: flex;
+    font-size: 13.6px;
+    height: 9vh;
+}
+.li:hover {
+    background-color: white;
+}
+a {
+    text-decoration: none; 
+    color: white;
+    margin: 20px;
+}
+.li:hover a {
+    color: black;
+    transition: color 0.3s;
+}
+.li:hover #inverseVNav {
+    stroke: black;
+}
+.button_nav {
+    background-color: #0c2e40;
+    color: white;
+    position: absolute;
+    width: 10vw;
+    height: 6.5vh;
+    left: 77vw;
+    top: 31.5vh;
+    font-size: 15px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+    border-width: 1px;
+}
+.button_nav:hover {
+    background-color: white;
+    color: black;
+    transition: color 0.3s;
+}
+.button_nav_fixed{
+    background-color: #0c2e40;
+    color: white;
+    position: fixed;
+    width: 10vw;
+    height: 6.5vh;
+    left: 77vw;
+    top: 1.25vh;
+    font-size: 15px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 3px;
+    border-width: 1px;
+}
+.button_nav_fixed:hover {
+    background-color: white;
+    color: black;
+    transition: color 0.3s;
+}
+#img_noticias_nav{
+    background-color: #03979d;
+    width: 100%;
+    height: 45vh;
+}
+#projetos{
+    height: 42vh;
+    background: linear-gradient(170deg, white, #00000011);
+}
+#title_projetos{
+    color: #0c2e40;
+    position: absolute;
+    top: 60vh;
+    left: 6vw;
+}
+#img_projetos{
+    position: absolute;
+    height: 42vh;
+    width: 40vw;
+    left: 58.85vw;
+    background-size: cover;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+}
+#explicacao{
+    height: 42vh;
+    border-bottom-color: rgba(0, 0, 0, 0.233);
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    display: flex;
+}
+#explicacao_text{
+    width: 58vw; 
+    color:#0c2e40; 
+    line-height: 24px;
+    text-align: justify;
+    margin-top: 8vh;
+    margin-left: 7vw;
+}
+#siac{
+    height: 250vh;
+}
+#h1_siac1{
+    color: #2b2b2b33;
+    margin-left: 5vw;
+    margin-top: 8vh;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+#h1_siac2{
+    margin-left: 5vw;
+    margin-top: 1.5vh;
+    font-size: 24px;
+    line-height: 24px;
+    width: 35vw;
+    color: #0c2e40;
+}
+.h5_siac1{
+    margin-left: 5vw;
+    margin-top: 9vh;
+    font-size: 17.6px;
+    line-height: 17.6px;
+    width: 35vw;
+    color: #0c2e40;
+}
+#ps_siac{
+    display: flex;
+    margin-top: 4vh;
+}
+#p1_siac{
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 5vw;
+    width: 42vw;
+    color: #252525;
+    text-align: justify;
+}
+#p2_siac{
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 5vw;
+    width: 42vw;
+    color: #252525;
+    text-align: justify;
+}
+.p_siac_2{
+    font-size: 16px;
+    width: 85vw;
+    line-height: 24px;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    color: #252525;
+    text-align: justify;
+}
+#boxer_boxers{
+    margin-top: 6vh;
+    margin-left: 6vw;
+    width: 85vw;
+    display: block; 
+    overflow-x: auto;
+}
+#boxers_box{
+    width: 120vw;
+    display: flex;
+}
+.box_siac{
+    width: 26vw;
+    height: 48vh;
+    border-color: #4d697e;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+}
+.img_siac{
+    width: 3vw;
+    height: 6vh;
+    margin-top: 20vh;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    transform: rotate(180deg);
+}
+.enfeite_box_siac{
+    width: 100%;
+    background-color: #4d697e;
+    height: 10vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+}
+.h3_box_siac{
+    color: white;
+    margin: 3vh;
+}
+.p_box_siac{
+    font-size: 12.8px;
+    line-height: 19.2px;
+    text-align: justify;
+    color: #252525;
+    margin-left: 1vw;
+    margin-top: 0.5vh;
+}
+ .cls-1 {   
+      
+} 
+#camada_1{
+    width: 10px;
+}
+#documentos_siac{
+}
+
+footer{
+    height: 25vh;
+    background-color: #0c2e40;    
+}
+#div1_footer{
+    display: flex;
+}
+#div2_footer{
+    display: flex;
+}
+#img_footer{
+    margin-top: 0vh;
+}
+#img_footer_2{
+    margin-top: 0.3vh;
+}
+#img_footer_3{
+    margin-top: 0.15vh;
+}
+#button_footer{
+    background-color: #ffc300;
+    color: #4d697e;
+    font-size: 15px;
+    font-weight: 15px;
+    margin-left: 69vw;
+    margin-top: 4vh;
+    width: 10vw;
+    height: 6vh;
+    border-color: #ffc300;
+    border-style: solid;
+    border-radius: 4px;
+}
+#button_footer:hover{
+    background-color: #0c2e40;
+    color: #ffc300;
+    transition: color 0.3s;
+    transition: 0.2s;
+}
+#enfeite_footer{
+    width: 95vw;
+    height: 0.2vh;
+    background-color: white;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+#direitos_reservados{
+    color: #4d697e;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+#rafael_ferr{
+    color: #4d697e;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 3vh;
+    margin-left: 58.9vw;
+}
