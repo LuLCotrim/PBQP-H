@@ -122,17 +122,17 @@ a {
     width: 100%;
     height: 45vh;
 }
-#projetos{
+#participar{
     height: 42vh;
     background: linear-gradient(170deg, white, #00000011);
 }
-#title_projetos{
+#title_participar{
     color: #0c2e40;
     position: absolute;
     top: 60vh;
     left: 6vw;
 }
-#img_projetos{
+#img_participar{
     position: absolute;
     height: 42vh;
     width: 40vw;
@@ -141,197 +141,66 @@ a {
     clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
 }
 #explicacao{
-    height: 42vh;
+    height: 55vh;
     border-bottom-color: rgba(0, 0, 0, 0.233);
     border-bottom-style: solid;
     border-bottom-width: 0.5px;
-    display: flex;
 }
-#explicacao_text{
+.explicacao_text{
     width: 58vw; 
     color:#0c2e40; 
     line-height: 24px;
     text-align: justify;
-    margin-top: 8vh;
+    margin-top: 7vh;
     margin-left: 7vw;
 }
-#siac{
-    height: 300vh;
-    border-bottom-color: rgba(0, 0, 0, 0.233);
-    border-bottom-style: solid;
-    border-bottom-width: 0.5px;
-}
-.h1_siac1{
-    color: #2b2b2b33;
-    margin-left: 5vw;
-    margin-top: 8vh;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-}
-.h1_siac2{
-    margin-left: 5vw;
-    margin-top: 1.5vh;
-    font-size: 24px;
-    line-height: 24px;
-    width: 35vw;
-    color: #0c2e40;
-}
-.h5_siac1{
-    margin-left: 5vw;
-    margin-top: 9vh;
-    font-size: 17.6px;
-    line-height: 17.6px;
-    width: 35vw;
-    color: #0c2e40;
-}
-.ps_siac{
+#razoes{
+    height: 100vh;
     display: flex;
-    margin-top: 4vh;
 }
-.p1_siac{
-    font-size: 16px;
-    line-height: 24px;
-    margin-left: 5vw;
-    width: 42vw;
-    color: #252525;
-    text-align: justify;
+#nav_razoes{
+    background-color: #4d697eea;
+    height: 90%;
+    width: 45%;
+    margin-top: 5vh;
 }
-.p2_siac{
-    font-size: 16px;
-    line-height: 24px;
-    margin-left: 5vw;
-    width: 42vw;
-    color: #252525;
-    text-align: justify;
+.box{
+    height: 15%;
+    border-bottom: 1px solid white;
 }
-.p_siac_2{
-    font-size: 16px;
-    width: 85vw;
-    line-height: 24px;
+.flex_razoes{
+    display: flex;
+}
+.img_razoes{
     margin-top: 4vh;
     margin-left: 5vw;
-    color: #252525;
-    text-align: justify;
 }
-.boxer_boxers{
-    margin-top: 6vh;
-    margin-left: 6vw;
-    width: 85vw;
-    display: block; 
-    overflow-x: auto;
+
+.h3_razoes{
+    margin-top: 5.65vh;
+    margin-left: 0vw;
+    color: #f0f0f0;
 }
-.boxers_box{
-    width: 120vw;
-    display: flex;
-}
-.box_siac{
-    width: 26vw;
-    height: 48vh;
-    border-color: #4d697e;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 12px;
-}
-.img_siac{
-    width: 3vw;
-    height: 6vh;
-    margin-top: 20vh;
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
-    transform: rotate(180deg);
-}
-.enfeite_box_siac{
-    width: 100%;
-    background-color: #4d697e;
-    height: 10vh;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    display: flex;
-}
-.h3_box_siac{
-    color: white;
-    margin: 3vh;
-    font-size: 14.5px;
-}
-.p_box_siac{
-    font-size: 12.8px;
-    line-height: 19.2px;
-    text-align: justify;
-    color: #252525;
-    margin-left: 1vw;
-    margin-top: 0.5vh;
-}
-.documentos_siac{
-    background: linear-gradient(80deg, rgba(0, 0, 0, 0.075), #0000001e);
-    margin-top: 7vh;
-    margin-left: 5vw;
-    width: 45vw;
-    height: 42vh;
-    border-radius: 10px;
-    display: flex;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-}
-.img_documentos{
-    margin-top: -6vh;
-    margin-left: -4.5vw;
-}
-.title_documentos{
-    font-size: 17.6px;
-    line-height: 17.6px;
-    color: #0c2e40;
+.p_razoes{
+    display: none;
     margin-top: 8vh;
-    font-weight: 600;
+    margin-left: 5.8vw;
+    width: 38vw;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f0f0f0;
 }
-.subTitle_documentos{
-    font-size: 12.2px;
-    line-height: 19.8px;
-    color: #252525;
-    margin-top: 2.5vh;
-    text-align: justify;
+#p1_razoes{
+    display: block;
 }
-.p_style_documentos{
-    font-size: 12.2px;
-    line-height: 19.8px;
-    color: #252525;
-    font-weight: 600;
-    margin-top: 2.5vh;
-    text-align: justify;
-    text-decoration: underline;
+#iniciado{
+    height: 40%;
 }
-.p_documentos{
-    font-size: 12.2px;
-    line-height: 19.8px;
-    color: #252525;
-    margin-top: 2.5vh;
-    width: 40vw;
-    text-align: justify;
-}
-#simac{
-    height: 325vh;
-    border-bottom-color: rgba(0, 0, 0, 0.233);
-    border-bottom-style: solid;
-    border-bottom-width: 0.5px;
-}
-.boxers_box_2{
-    width: 80vw;
-    margin-left: 10vw;
-    margin-top: 6vh;
-    display: flex;
-}
-.img_siac2{
-    width: 3vw;
-    height: 6vh;
-    margin-top: 20vh;
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
-}
-#sinat{
-    height: 315vh;
-    border-bottom-color: rgba(0, 0, 0, 0.233);
-    border-bottom-style: solid;
-    border-bottom-width: 0.5px;
-}
+
+
+
+
+
 footer{
     height: 25vh;
     background-color: #0c2e40;    
