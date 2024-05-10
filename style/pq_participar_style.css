@@ -190,13 +190,57 @@ a {
     line-height: 24px;
     color: #f0f0f0;
 }
-#p1_razoes{
+.p1_razoes{
     display: block;
+    margin-top: 8vh;
+    margin-left: 5.8vw;
+    width: 38vw;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f0f0f0;
 }
-#iniciado{
+.iniciado{
     height: 40%;
+    border-bottom: 1px solid white;
 }
-
+#conteudo_razoes{
+    display: flex;
+    height: 90%;
+    width: 45%;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    border: 1px solid black;    
+}
+#contents1{
+    height: 80%;
+    width: 49%;
+    border-right: 1px solid rgba(0, 0, 0, 0.432);
+    margin-top: 7vh;
+}
+#contents2{
+    margin-top: 7vh;
+    height: 80%;
+    width: 49%;
+    margin-left: 2vw;
+}
+.h2_contents{
+    color: #0c2e40;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 5vh;
+}
+.p_contents{
+    margin-bottom: 18vh;
+    font-size: 12.8px;
+    line-height: 19.2px;
+    color: #252525;
+}
+.enfeite_contents{
+    width: 1.5vw;
+    height: 2px;
+    background-color: #333333;
+    margin-top: 3vh;
+}
 
 
 
