@@ -122,7 +122,36 @@ a {
     width: 100%;
     height: 45vh;
 }
+#implementar{
+    height: 28vh;
+    background: linear-gradient(170deg, white, #00000011);
+}
+#title_implementar{
+    color: #0c2e40;
+    position: absolute;
+    top: 50vh;
+    left: 6vw;
+}
+#img_implementar{
+    position: absolute;
+    height: 28vh;
+    left: 76.6vw;
+}
+#central{
+    height: 200vh;
+}
+#div1_central{
+    margin-top: 10vh;
+    margin-left: 6.5vw;
+}
+.p1{
+    color: #252525;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    width: 58vw;
 
+}
 
 
 
