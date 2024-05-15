@@ -31,7 +31,7 @@ header{
 #name_pre_nav{
     position: absolute;
     left: 25vw;
-    top: 12vh;
+    top: 5vh;
     width: 41vw;
     color: #0c2e40;
     font-family: "fibra one", sans-serif;
@@ -123,7 +123,7 @@ a {
     height: 45vh;
 }
 #implementar{
-    height: 28vh;
+    height: 38vh;
     background: linear-gradient(170deg, white, #00000011);
 }
 #title_implementar{
@@ -134,10 +134,125 @@ a {
 }
 #img_implementar{
     position: absolute;
-    height: 28vh;
-    left: 76.6vw;
+    height: 38vh;
+    left: 70.25vw;
+    background-size: cover;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
 }
-
+#central{
+    height: 550vh;
+}
+.p_central{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    margin-left: 6vw;
+    margin-top: 10vh;
+    color: #252525;
+    width: 87vw;
+}
+#box{
+    width: 87vw;
+    height: 7vh;
+    margin-top: 7vh;
+    margin-left: 7.6vw;
+    display: flex;
+}
+.box2{
+    width: 89vw;
+    height: 43vh;
+    margin-left: 6vw;
+    display: flex;
+}
+.mini_box{
+    height: 100%;
+    width: 20%;
+    border: 0.5px solid rgba(0, 0, 0, 0.26);
+    display: flex;
+    margin-top: 0vh;
+    margin-left: -3.1vh;
+}
+.svg_div{
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+.categoria{
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #252525;
+    margin-top: 2.5vh;
+    margin-left: 2vw;
+}
+.mini_box:hover{
+    background-color: #0c2e40;
+    transition: background-color 0.3s;
+}
+.mini_box:hover .categoria{
+    color: white;
+    transition: color 0.3s;
+}
+.mini_box:hover #svg{
+    fill: white;
+}
+h1{
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 6vw;
+    margin-top: 8vh;
+    margin-bottom: 2.5vh;
+}
+.mini_box2{
+    height: 100%;
+    width: 30%;
+    border: 0.5px solid rgba(0, 0, 0, 0.26);
+    margin-top: 0vh;
+}
+.h2_mini_box2{
+    font-family: Lato;
+    font-size: 19.2px;
+    line-height: 28.8px;
+    color: #111111;
+    font-weight: 500;
+    width: 20vw;
+    margin-top: 4vh;
+    margin-left: 3vw;
+}
+.data_mini_box2{
+    font-family: Lato;
+    font-size: 14.4px;
+    line-height: 21.6px;
+    color: #11111179;
+    font-weight: 500;
+    width: 20vw;
+    margin-top: 0vh;
+    margin-left: 3vw;
+}
+.p_mini_box2{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111111;
+    font-weight: 500;
+    width: 22vw;
+    margin-top: 0vh;
+    margin-left: 3vw;
+}
+.a_mini_box2{
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 24px;
+    color: #03979d;
+    font-weight: 500;
+    width: 22vw;
+    margin-top: 0vh;
+    margin-left: 3vw;
+    text-decoration: underline;
+}
+.a_mini_box2:hover{
+    color: #111111;
+    text-decoration: none;
+}
 
 
 footer{
