@@ -16,4 +16,19 @@ function handleNavScroll() {
         button_nav.classList.remove('button_nav_fixed');
     }
 }
+const scrollContainer = document.getElementById('scroll');
+
+  function scrollLeft() {
+    scrollContainer.scrollBy({
+      left: -100,
+      behavior: 'smooth'
+    });
+  }
+
+  function scrollRight() {
+    scrollContainer.scrollBy({
+      left: 100,
+      behavior: 'smooth'
+    });
+  }
 window.addEventListener('scroll', handleNavScroll);
