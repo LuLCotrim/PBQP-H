@@ -18,3 +18,47 @@ function handleNavScroll() {
 }
 
 window.addEventListener('scroll', handleNavScroll);
+
+const sections = [
+    { id: 'programa', liId: 'li_1', inverseNavId: 'inverseVNav_1' },
+    { id: 'projetos', liId: 'li_2', inverseNavId: 'inverseVNav_2' },
+    { id: 'pq_participar', liId: 'li_3', inverseNavId: 'inverseVNav_3' },
+    { id: 'como_implantar', liId: 'li_4', inverseNavId: 'inverseVNav_4' },
+    { id: 'base_legal', liId: 'li_5', inverseNavId: 'inverseVNav_5' },
+    { id: 'noticias', liId: 'li_6' },
+    { id: 'downloads', liId: 'li_7' }
+];
+
+const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.1
+};
+
+function handleIntersection(entries) {
+    entries.forEach(entry => {
+        const liElement = document.getElementById(entry.target.dataset.liId);
+        const aElement = liElement.querySelector('a');
+        const inverseNavElement = entry.target.dataset.inverseNavId ? document.getElementById(entry.target.dataset.inverseNavId) : null;
+
+        if (entry.isIntersecting) {
+            liElement.style.backgroundColor = 'white';
+            aElement.style.color = 'black';
+            if (inverseNavElement) inverseNavElement.style.stroke = 'black';
+        } else {
+            liElement.style.backgroundColor = '';
+            aElement.style.color = '';
+            if (inverseNavElement) inverseNavElement.style.stroke = 'white';
+        }
+    });
+}
+
+const observer = new IntersectionObserver(handleIntersection, observerOptions);
+
+sections.forEach(section => {
+    const element = document.getElementById(section.id);
+    element.dataset.liId = section.liId;
+    if (section.inverseNavId) element.dataset.inverseNavId = section.inverseNavId;
+    observer.observe(element);
+});
+

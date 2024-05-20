@@ -76,7 +76,19 @@ a {
     color: black;
     transition: color 0.3s;
 }
-.li:hover #inverseVNav {
+.li:hover #inverseVNav_1 {
+    stroke: black;
+}
+.li:hover #inverseVNav_2 {
+    stroke: black;
+}
+.li:hover #inverseVNav_3 {
+    stroke: black;
+}
+.li:hover #inverseVNav_4 {
+    stroke: black;
+}
+.li:hover #inverseVNav_5 {
     stroke: black;
 }
 .button_nav {
