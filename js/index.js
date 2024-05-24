@@ -62,3 +62,32 @@ sections.forEach(section => {
     observer.observe(element);
 });
 
+document.getElementById('box_siac_como_implementar').addEventListener('click', function() {
+            document.getElementById('p1_como_implementar').textContent = 'DECISÃO';
+            document.getElementById('p2_como_implementar').textContent = 'IMPLEMENTAÇÃO';
+            document.getElementById('p3_como_implementar').textContent = 'AUDITORIA';
+            document.getElementById('p4_como_implementar').textContent = 'CERTIFICAÇÃO';
+            document.getElementById('box_siac_como_implementar').style.backgroundColor = '#f0f0f0';
+            document.getElementById('box_simat_como_implementar').style.backgroundColor = '';
+            document.getElementById('box_sinac_como_implementar').style.backgroundColor = '';
+        });
+
+        document.getElementById('box_simat_como_implementar').addEventListener('click', function() {
+            document.getElementById('p1_como_implementar').textContent = 'SOLICITAÇÃO';
+            document.getElementById('p2_como_implementar').textContent = 'CREDENCIAMENTO';
+            document.getElementById('p3_como_implementar').textContent = 'AVALIAÇÃO';
+            document.getElementById('p4_como_implementar').textContent = 'QUALIFICAÇÃO';
+            document.getElementById('box_siac_como_implementar').style.backgroundColor = '';
+            document.getElementById('box_simat_como_implementar').style.backgroundColor = '#f0f0f0';
+            document.getElementById('box_sinac_como_implementar').style.backgroundColor = '';
+        });
+
+        document.getElementById('box_sinac_como_implementar').addEventListener('click', function() {
+            document.getElementById('p1_como_implementar').textContent = 'SOLICITAÇÃO';
+            document.getElementById('p2_como_implementar').textContent = 'TESTES';
+            document.getElementById('p3_como_implementar').textContent = 'AVALIAÇÃO';
+            document.getElementById('p4_como_implementar').textContent = 'EMISSÃO';
+            document.getElementById('box_siac_como_implementar').style.backgroundColor = '';
+            document.getElementById('box_simat_como_implementar').style.backgroundColor = '';
+            document.getElementById('box_sinac_como_implementar').style.backgroundColor = '#f0f0f0';
+        });
