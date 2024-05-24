@@ -31,11 +31,7 @@ export function connectionCadastro(){
     let seletor3 = document.getElementById("seletor3");
     let name_input_7 = document.getElementById("name-input7").value;
     let mensagem_textarea = document.getElementById("mensagem-textarea").value;
-    let promisedCadastro = conect.cadastrar_usuario("cadastro",name_input, name_input_2, seletor1.value, seletor2.value, name_input_3, name_input_4, name_input_5, name_input_6, seletor3.value, name_input_7, mensagem_textarea);
-    promisedCadastro.then(resultado => {
-        console.log("funcionou", resultado);
-    }).catch(error =>{
-        console.error("ocorreu esse erro: ", error);
-    });
+    let promisedCadastro = conect.cadastrar_usuario("(Cadastro)", name_input, name_input_2, seletor1.value, seletor2.value+name_input_3, name_input_4, name_input_5, name_input_6, seletor3.value, name_input_7, mensagem_textarea);
 }
 window.addEventListener('scroll', handleNavScroll);
+window.connectionCadastro = connectionCadastro;

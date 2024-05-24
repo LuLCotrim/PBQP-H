@@ -12,7 +12,7 @@ export class connection{
         this.estado;
         this.email;
     }
-    cadastrar_usuario(origem, name, origem, empresa, segmento, telefone_celular, telefone_fixo, cep, cidade, estado, email, message){
+    cadastrar_usuario(origem, name, empresa, segmento, telefone_celular, telefone_fixo, cep, cidade, estado, email, message){
         return new Promise((resolve, reject) => {
             fetch("http://localhost:8080/api/email/send",{
                 headers: {
