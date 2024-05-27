@@ -3,17 +3,20 @@ function handleNavScroll() {
     const button_nav = document.getElementById('button_nav');
     const scrollPosition = window.scrollY;
     const topPosition = nav.getBoundingClientRect().top;
-
-    if (topPosition <= 0 && scrollPosition > 0) {
-        nav.classList.add('nav-fixed');
-        nav.classList.remove('nav-top');
-        button_nav.classList.add('button_nav_fixed');
-        button_nav.classList.remove('button_nav');
-    } else {
-        nav.classList.remove('nav-fixed');
-        nav.classList.add('nav-top');
-        button_nav.classList.add('button_nav');
-        button_nav.classList.remove('button_nav_fixed');
+    
+    // Verificar se a largura da tela é maior que 768px
+    if (window.matchMedia("(min-width: 769px)").matches) {
+        if (topPosition <= 0 && scrollPosition > 0) {
+            nav.classList.add('nav-fixed');
+            nav.classList.remove('nav-top');
+            button_nav.classList.add('button_nav_fixed');
+            button_nav.classList.remove('button_nav');
+        } else {
+            nav.classList.remove('nav-fixed');
+            nav.classList.add('nav-top');
+            button_nav.classList.add('button_nav');
+            button_nav.classList.remove('button_nav_fixed');
+        }
     }
 }
 
@@ -36,21 +39,24 @@ const observerOptions = {
 };
 
 function handleIntersection(entries) {
-    entries.forEach(entry => {
-        const liElement = document.getElementById(entry.target.dataset.liId);
-        const aElement = liElement.querySelector('a');
-        const inverseNavElement = entry.target.dataset.inverseNavId ? document.getElementById(entry.target.dataset.inverseNavId) : null;
+    // Verificar se a largura da tela é maior que 768px
+    if (window.matchMedia("(min-width: 769px)").matches) {
+        entries.forEach(entry => {
+            const liElement = document.getElementById(entry.target.dataset.liId);
+            const aElement = liElement.querySelector('a');
+            const inverseNavElement = entry.target.dataset.inverseNavId ? document.getElementById(entry.target.dataset.inverseNavId) : null;
 
-        if (entry.isIntersecting) {
-            liElement.style.backgroundColor = 'white';
-            aElement.style.color = 'black';
-            if (inverseNavElement) inverseNavElement.style.stroke = 'black';
-        } else {
-            liElement.style.backgroundColor = '';
-            aElement.style.color = '';
-            if (inverseNavElement) inverseNavElement.style.stroke = 'white';
-        }
-    });
+            if (entry.isIntersecting) {
+                liElement.style.backgroundColor = 'white';
+                aElement.style.color = 'black';
+                if (inverseNavElement) inverseNavElement.style.stroke = 'black';
+            } else {
+                liElement.style.backgroundColor = '';
+                aElement.style.color = '';
+                if (inverseNavElement) inverseNavElement.style.stroke = 'white';
+            }
+        });
+    }
 }
 
 const observer = new IntersectionObserver(handleIntersection, observerOptions);

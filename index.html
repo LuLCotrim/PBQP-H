@@ -23,6 +23,17 @@
         <img src="images/bandeira-brasil-1.png" id="bandeira_brasil">
     </div>
     <nav id="nav" class="nav-top">
+        <button id="button_media"><img src="images/Captura de tela de 2024-05-27 15-59-22.png" alt=""></button>
+        <script>
+            document.getElementById('button_media').addEventListener('click', function() {
+                const ulNav = document.getElementById('ul_nav');
+                if (ulNav.style.display === 'none' || ulNav.style.display === '') {
+                    ulNav.style.display = 'block';
+                } else {
+                    ulNav.style.display = 'none';
+                }
+            });
+        </script>
          <div id="ul_nav">
             <div class="li" id="li_1"><a href="o_programa.html">O Programa <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_1" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
             <div class="li" id="li_2"><a href="projetos.html">Projetos <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_2" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
@@ -31,6 +42,12 @@
             <div class="li" id="li_5"><a href="base_legal.html">Base Legal <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_5" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
             <div class="li" id="li_6"><a href="noticias.html">Notícias</a></div>
             <div class="li" id="li_7"><a href="downloads.html">Downloads</a></div>
+            <input type="text" placeholder="Faça uma pesquisa" class="search-input">
+            <button class="search-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M23.707 22.293l-6.364-6.364A9.917 9.917 0 0 0 20 10c0-5.523-4.477-10-10-10S0 4.477 0 10s4.477 10 10 10a9.917 9.917 0 0 0 5.93-2.071l6.364 6.364a1 1 0 0 0 1.414-1.414zM10 18c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"/>
+                </svg>
+            </button>
          </div>
          <button id="button_nav" class="button_nav"><p>Inscreva-se</p></button>
          <script>

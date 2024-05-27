@@ -54,6 +54,12 @@ header{
     top: 0vh;
     z-index: 10000;
 }
+#button_media{
+    display: none;
+    margin-top: 1vh;
+    border: none;
+    background-color: #0c2e40;
+}
 #ul_nav {
     display: flex;
     position: absolute;
@@ -1283,4 +1289,105 @@ footer{
     line-height: 12px;
     margin-top: 3vh;
     margin-left: 58.9vw;
+}
+@media (max-width: 768px){
+    header{
+        display: none;
+    }
+    #bandeira_brasil{
+        display: none;
+    }
+    #logoAndName{
+        width: 30vw;
+        height: 10vh;
+        top: 2.5vh;
+        left: 2vw;
+    }
+    #name_pre_nav{
+        width: 62vw;
+        font-size: 20px;
+        line-height: 19px;
+        top: 4.5vh;
+        left: 35vw;
+    }
+    #pre_nav{
+        height: 15vh;
+    }
+    .nav-top{
+        height: 7vh;
+    }
+    #ul_nav{
+       display: none;
+       background-color: #E4E4E4;
+       left: 0vh;
+       width: 100%;
+       height: 45%;
+       margin-top: -1vh;
+    }
+    .li{
+        height: 5vh;
+        background-color: #E4E4E4;
+    }
+    .li:hover {
+        border-bottom: 1px solid #0c2e40;
+    }
+    .li a{
+        color: black;
+    }
+    #inverseVNav_1 {
+        stroke: black;
+    }
+    #inverseVNav_2 {
+        stroke: black;
+    }
+    #inverseVNav_3 {
+        stroke: black;
+    }
+    #inverseVNav_4 {
+        stroke: black;
+    }
+    #inverseVNav_5 {
+        stroke: black;
+    }
+    #button_media{
+        display: inline;
+    }
+    .search-input {
+    width: 90%;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    height: 3vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    }
+
+    .search-input::placeholder {
+        color: #ccc;
+    }
+
+    .search-button {
+        transform: translateY(-50%);
+        margin-top: -235vh;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-left: 88vw;
+    }
+    .search-button svg {
+        fill: #333;
+    }
+
+    .search-button:focus {
+        outline: none;
+    }
+    .button_nav{
+     position:relative;
+     top: -2vh;
+     width: 27vw;
+     height: 5vh;
+     left: 58vw;
+    }
 }
