@@ -70,6 +70,12 @@ header{
     font-size: 13.6px;
     height: 9vh;
 }
+.search-input{
+    display: none;
+}
+.search-button{
+    display: none;
+}
 .li:hover {
     background-color: white;
 }
@@ -1323,6 +1329,7 @@ footer{
        width: 100%;
        height: 45%;
        margin-top: -1vh;
+       z-index: 1000;
     }
     .li{
         height: 5vh;
@@ -1353,6 +1360,7 @@ footer{
         display: inline;
     }
     .search-input {
+    display: inline;
     width: 90%;
     margin-left: 5vw;
     margin-top: 2vh;
@@ -1369,6 +1377,7 @@ footer{
     }
 
     .search-button {
+        display: inline;
         transform: translateY(-50%);
         margin-top: -235vh;
         border: none;
@@ -1389,5 +1398,298 @@ footer{
      width: 27vw;
      height: 5vh;
      left: 58vw;
+    }
+    #img_noticias_nav{
+        height: 25vh;
+    }
+    #programa{
+        height: 90vh;
+    }
+    #titulo_programa{
+        font-size: 25px;
+        top: 52vh;
+        left: 7.5vw;
+        line-height: 35.2px;
+    }
+    #enfeite_titulo_programa{
+        top: 57vh;
+        height: 0.4vh;
+        width: 10vw;
+    }
+    #conteudo_programa{
+        font-size: 12px;
+        top: 59vh;
+        left: 7.5vw;
+        width: 69vw;
+        line-height: 24px;
+    }
+    #button_programa{
+        font-size: 15px;
+        top: 117vh;
+        left: 27vw;
+        width: 42vw;
+        height: 5vh;
+    }
+    #programa_logo{
+        top: 125vh;
+        left: 10vw;
+        width: 22vw;
+    }
+    #programa_minhaCasa{
+        top: 125vh;
+        left: 70vw;
+        width: 15vw;
+    }
+    #programa_caixa{
+        top: 128vh;
+        left: 38vw;
+        width: 22vw;
+    }
+    #projetos{
+        height: 210vh;
+    }
+    #estruturas_e_tipos{
+        top: 140vh;
+        left: 32vw;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #projetos_titulo{
+        font-size: 25px;
+        top: 144vh;
+        left: 35.5vw;
+        line-height: 25px;
+    }
+    #enfeite_projetos{
+        top: 148vh;
+        left: 43.5vw;
+        height: 0.4vh;
+    }
+    #conteudo_projetos{
+        font-size: 12px;
+        top: 151vh;
+        left: 11vw;
+        width:78vw;
+        line-height: 20px;
+    }
+    #box_projetos{
+        position: absolute;
+        top: 172vh;
+        left: 12.5vw;
+        width:72vw;
+        height: 74vh;
+        display: block;
+    }
+    #box_projetos1{
+        position: relative;
+        width:75vw;
+        height: 53vh;
+        left: 0vw;
+        margin-bottom: 5vh;
+    }
+    #box_projetos2{
+        position: relative;
+        width:75vw;
+        height: 53vh;
+        left: 0vw;
+        margin-bottom: 5vh;
+    }
+    #box_projetos3{
+        position: relative;
+        width:75vw;    
+        height: 53vh;
+        left: 0vw;
+        margin-bottom: 5vh;
+    }
+    #chapeu{
+        left: 18.5vw;
+        top: 0vh;
+    }
+    #agenda{
+        left: 19vw;
+        top: 0vh;
+    }
+    #desenho{
+        left: 19vw;
+        top: 0vh;
+    }
+    #box_projetos2_h1{
+        left: 28vw; 
+        top: 9vh;
+    }
+    #box_projetos2_h2{
+        left: 27vw; 
+        top: 9vh;
+    }
+    #box_projetos2_h3{
+        left: 27vw; 
+        top: 9vh;
+    }
+    #box_projetos2_p1{
+        left: 7vw; 
+        top: 19vh; 
+        width: 60vw;
+    }
+    #box_projetos2_p2{
+        left: 7vw; 
+        top: 19vh; 
+        width: 60vw;
+    }
+    #box_projetos2_p3{
+        left: 7vw; 
+        top: 19vh; 
+        width: 60vw;    
+    }
+    #box_projetos2_a1{
+        left: 21vw; 
+        top: 45vh; 
+    }
+    #box_projetos2_a2{
+        left: 21vw; 
+        top: 45vh; 
+    }
+    #box_projetos2_a3{
+        left: 21vw; 
+        top: 45vh; 
+    }
+    #pq_participar{
+    height: 145vh;
+    display: block;
+}
+    #pq_participar_1{
+        width: 100vh;
+        height: 65vh;
+    }
+    #pq_participar_2{
+        width: 100vh;
+        height: 75vh;
+    }
+    #estruturas_e_tipos_2{
+        position: relative;
+        top: 2vh;
+        left: 5vw;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #titulo_pq_participar{ 
+        position: relative; 
+        top: 3vh;
+        left: 5vw;
+        width: 70vw;
+        font-size: 25px;
+    }
+    #enfeite_pq_participar{
+        position: relative;
+        top: 4vh;
+        left: 5vw;
+        height: 0.3vh;
+        width: 8vw;
+    }
+    #conteudo_pq_participar{
+        font-size: 14px;
+        position: relative;
+        top: 8vh;
+        left: 5vw;
+        width: 86vw;
+        text-align:start;
+        line-height: 24px;
+    }
+    #button_pq_participar{
+        position: relative;
+        top: 82vh;
+        left: 28vw;
+        width: 40vw;
+        height: 5vh;
+        line-height: 15px;
+    }
+    #principais_vantagens{
+        position: relative;
+        top: 0vh;
+        left: 5vw;
+        font-size: 17px;
+    }
+    #enfeite_pq_participar_2{
+        display: none; 
+    }
+    #img_vantagens_1{
+         position: absolute;
+        left:4vw; 
+        top: 420vh; 
+    }
+    #img_vantagens_2{
+        position: absolute;
+        left: 48vw; 
+        top: 420vh;
+    }
+    #img_vantagens_3{
+        position: absolute;
+        left: 4vw; 
+        top: 435vh;
+    }
+    #img_vantagens_4{
+        position: absolute;
+        left: 48vw; 
+        top: 435vh;
+    }
+    #img_vantagens_5{
+        position: absolute;
+        left: 4vw; 
+        top: 455vh;
+    }
+    #img_vantagens_6{
+        position: absolute;
+        left: 48vw; 
+        top: 455vh;
+    }
+    #p_vantagens_1{
+        position: absolute;
+        left: 4vw; 
+        top: 425.5vh; 
+        width: 32vw;  
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #p_vantagens_2{
+        position: absolute;
+        left: 48vw; 
+        top: 425.5vh; 
+        width: 32vw;  
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #p_vantagens_3{
+        position: absolute;
+        left: 4vw; 
+        top: 442vh; 
+        width: 32vw;  
+        font-size: 13px;
+        line-height: 18px;    
+    }
+    #p_vantagens_4{
+        position: absolute;
+        left: 48vw; 
+        top: 442vh; 
+        width: 32vw;  
+        font-size: 13px;
+        line-height: 18px;  
+    }
+    #p_vantagens_5{
+        position: absolute;
+        left: 4vw; 
+        top: 460vh; 
+        width: 32vw;  
+        font-size: 13px;
+        line-height: 18px;  
+    }
+    #p_vantagens_6{
+        position: absolute;
+        left: 48vw; 
+        top: 460vh; 
+        width: 32vw;  
+        font-size: 13px;
+        line-height: 18px; 
+    }
+    #img_quer_participar{
+
     }
 }

@@ -14,7 +14,7 @@ export class connection{
     }
     cadastrar_usuario(origem, name, empresa, segmento, telefone_celular, telefone_fixo, cep, cidade, estado, email, message){
         return new Promise((resolve, reject) => {
-            fetch("http://localhost:8080/api/email/send",{
+            fetch("http://89.116.74.153:8080/api/email/send",{
                 headers: {
                     "Accept": "application/json",
                     "Content-Type": "application/json"
