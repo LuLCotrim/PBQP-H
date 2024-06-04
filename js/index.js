@@ -73,7 +73,13 @@ document.getElementById('box_siac_como_implementar').addEventListener('click', f
             document.getElementById('p2_como_implementar').textContent = 'IMPLEMENTAÇÃO';
             document.getElementById('p3_como_implementar').textContent = 'AUDITORIA';
             document.getElementById('p4_como_implementar').textContent = 'CERTIFICAÇÃO';
-            document.getElementById('box_siac_como_implementar').style.backgroundColor = '#f0f0f0';
+            document.getElementById('up1').innerHTML = "-";
+            document.getElementById('up2').innerHTML = "+";
+            document.getElementById('up3').innerHTML = "+";
+            document.getElementById('img_siac').style.display = "flex";
+            document.getElementById('img_siac2').style.display = "none";
+            document.getElementById('img_siac3').style.display = "none";
+            document.getElementById('box_siac_como_implementar').style.backgroundColor = '#03989d13';
             document.getElementById('box_simat_como_implementar').style.backgroundColor = '';
             document.getElementById('box_sinac_como_implementar').style.backgroundColor = '';
         });
@@ -83,8 +89,14 @@ document.getElementById('box_siac_como_implementar').addEventListener('click', f
             document.getElementById('p2_como_implementar').textContent = 'CREDENCIAMENTO';
             document.getElementById('p3_como_implementar').textContent = 'AVALIAÇÃO';
             document.getElementById('p4_como_implementar').textContent = 'QUALIFICAÇÃO';
+            document.getElementById('up2').innerHTML = "-";
+            document.getElementById('up1').innerHTML = "+";
+            document.getElementById('up3').innerHTML = "+";
+            document.getElementById('img_siac').style.display = "none";
+            document.getElementById('img_siac2').style.display = "flex";
+            document.getElementById('img_siac3').style.display = "none";
             document.getElementById('box_siac_como_implementar').style.backgroundColor = '';
-            document.getElementById('box_simat_como_implementar').style.backgroundColor = '#f0f0f0';
+            document.getElementById('box_simat_como_implementar').style.backgroundColor = '#03989d13';
             document.getElementById('box_sinac_como_implementar').style.backgroundColor = '';
         });
 
@@ -93,7 +105,13 @@ document.getElementById('box_siac_como_implementar').addEventListener('click', f
             document.getElementById('p2_como_implementar').textContent = 'TESTES';
             document.getElementById('p3_como_implementar').textContent = 'AVALIAÇÃO';
             document.getElementById('p4_como_implementar').textContent = 'EMISSÃO';
+            document.getElementById('up3').innerHTML = "-";
+            document.getElementById('up2').innerHTML = "+";
+            document.getElementById('up1').innerHTML = "+";
+            document.getElementById('img_siac').style.display = "none";
+            document.getElementById('img_siac2').style.display = "none";
+            document.getElementById('img_siac3').style.display = "flex";
             document.getElementById('box_siac_como_implementar').style.backgroundColor = '';
             document.getElementById('box_simat_como_implementar').style.backgroundColor = '';
-            document.getElementById('box_sinac_como_implementar').style.backgroundColor = '#f0f0f0';
+            document.getElementById('box_sinac_como_implementar').style.backgroundColor = '#03989d13';
         });

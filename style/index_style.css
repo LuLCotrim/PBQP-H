@@ -44,13 +44,13 @@ header{
 }
 .nav-top{
     background-color: #0c2e40;
-    height: 9vh;
+    height: 60px; 
 }
 .nav-fixed {
     position: fixed;
     background-color: #0c2e40;
     width: 100%;
-    height: 9vh;
+    height: 60px;
     top: 0vh;
     z-index: 10000;
 }
@@ -67,8 +67,8 @@ header{
 }
 .li {
     display: flex;
-    font-size: 13.6px;
-    height: 9vh;
+    font-size: 1.5vh;
+    height: 60px;
 }
 .search-input{
     display: none;
@@ -106,12 +106,12 @@ a {
 .button_nav {
     background-color: #0c2e40;
     color: white;
-    position: absolute;
+    position: relative;
     width: 10vw;
-    height: 6.5vh;
-    left: 77vw;
-    top: 31.5vh;
-    font-size: 15px;
+    height: 45px;
+    left: 84vw;
+    top: 8px;
+    font-size: 1.5vh;
     border-style: solid;
     border-color: white;
     border-radius: 3px;
@@ -127,10 +127,10 @@ a {
     color: white;
     position: fixed;
     width: 10vw;
-    height: 6.5vh;
-    left: 77vw;
-    top: 1.25vh;
-    font-size: 15px;
+    height: 45px;
+    left: 84vw;
+    top: 8px;
+    font-size: 1.5vh;
     border-style: solid;
     border-color: white;
     border-radius: 3px;
@@ -153,7 +153,7 @@ a {
 #titulo_programa{
     color: #0c2e40;
     font-family: Lato, sans-serif;
-    font-size: 35.2px;
+    font-size: 3.5vh;
     position: absolute;
     top: 92.5vh;
     left: 7.5vw;
@@ -161,8 +161,8 @@ a {
     line-height: 35.2px;
 }
 #enfeite_titulo_programa{
-    position: absolute;
-    top: 100vh;
+    position: relative;
+    top: 23vh;
     left: 7.5vw;
     height: 0.3vh;
     width: 5vw;
@@ -171,7 +171,7 @@ a {
 #conteudo_programa{
     color: #0c2e40;
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 2vh;
     position: absolute;
     top: 102vh;
     left: 7.5vw;
@@ -182,12 +182,12 @@ a {
 #button_programa{
     color: #0c2e40;
     font-family: Lato, sans-serif;
-    font-size: 15px;
+    font-size: 1.7vh;
     position: absolute;
     top: 155vh;
     left: 7.5vw;
     width: 12vw;
-    height: 7vh;
+    height: 55px;
     text-align: center;
     line-height: 15px;
     border-radius: 27.5px;
@@ -227,25 +227,25 @@ a {
 #estruturas_e_tipos{
     position: absolute;
     top: 173.5vh;
-    left: 42vw;
-    font-size: 16px;
+    margin-left: 45vw;
+    font-size: 1.7vh;
     line-height: 16px;
     color: #2d2d2d6b;
 }
 #projetos_titulo{
     color: #0c2e40;
     font-family: Lato, sans-serif;
-    font-size: 35.2px;
+    font-size: 3.5vh;
     position: absolute;
     top: 178vh;
-    left: 43.4vw;
+    margin-left: 46vw;
     text-align: start;
     line-height: 35.2px;
 }
 #enfeite_projetos{
-    position: absolute;
-    top: 185vh;
-    left: 45.5vw;
+    position: relative;
+    top: 13.5%;
+    margin-left: 46.2vw;
     height: 0.3vh;
     width: 7vw;
     background-color: #333333;
@@ -253,7 +253,7 @@ a {
 #conteudo_projetos{
     color: #000000ab;
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 2vh;
     position: absolute;
     top: 188vh;
     left: 12.5vw;
@@ -270,25 +270,25 @@ a {
 }
 #box_projetos2_h1{
     color: #2b2b2b;
-     position: absolute; 
-     left: 7.5vw; 
-     top: 17vh;
+     position: relative; 
+     left: 8vw; 
+     top: 3vh;
 }
 #box_projetos2_h2{
     color: #2b2b2b; 
-    position: absolute; 
-    left: 7.5vw; 
-    top: 17vh;
+    position: relative; 
+    left: 7.7vw; 
+    top: 3vh;
 }
 #box_projetos2_h3{
     color: #2b2b2b; 
-    position: absolute; 
-    left: 7.5vw; 
-    top: 17vh;
+    position: relative; 
+    left: 8vw; 
+    top: 3.2vh;
 }
 #box_projetos2_p1{
     color: #2b2b2b; 
-    font-size: 14.4px; 
+    font-size: 2vh; 
     position: absolute; 
     left: 0vw; 
     top: 25vh; 
@@ -297,7 +297,7 @@ a {
 }
 #box_projetos2_p2{
     color: #2b2b2b; 
-    font-size: 14.4px; 
+    font-size: 2vh; 
     position: absolute; 
     left: 0vw; 
     top: 25vh; 
@@ -306,7 +306,7 @@ a {
 }
 #box_projetos2_p3{
     color: #2b2b2b; 
-    font-size: 14.4px; 
+    font-size: 2vh; 
     position: absolute; 
     left: 0vw; 
     top: 25vh; 
@@ -320,10 +320,10 @@ a {
     text-decoration-color: #0c2e40; 
     text-decoration-line:underline; 
     line-height: 16px; 
-    font-size: 16px; 
-    position: absolute; 
-    left: 5.1vw; 
-    top: 55vh; 
+    font-size: 1.5vh; 
+    position: relative; 
+    left: 6.3vw; 
+    top: 44vh; 
     text-align: center;
 }
 #box_projetos2_a2{
@@ -333,10 +333,10 @@ a {
     text-decoration-color: #0c2e40; 
     text-decoration-line:underline; 
     line-height: 16px; 
-    font-size: 16px; 
-    position: absolute; 
-    left: 5.1vw; 
-    top: 55vh; 
+    font-size: 1.5vh; 
+    position: relative; 
+    left: 6.3vw; 
+    top: 44vh;  
     text-align: center;
 }
 #box_projetos2_a3{
@@ -346,10 +346,10 @@ a {
     text-decoration-color: #0c2e40; 
     text-decoration-line:underline; 
     line-height: 16px; 
-    font-size: 16px; 
-    position: absolute; 
-    left: 5.1vw; 
-    top: 55vh; 
+    font-size: 1.5vh; 
+    position: relative; 
+    left: 6.3vw; 
+    top: 44vh; 
     text-align: center;
 }
 #box_projetos1{
@@ -382,18 +382,18 @@ a {
     border-width: 0.1px;
 }
 #chapeu{
-    position: absolute;
-    left: 4.5vw;
+    position: relative;
+    left: 30%;
     top: 2vh;
 }
 #agenda{
-    position: absolute;
-    left: 5vw;
+    position: relative;
+    left: 30%;
     top: 2vh;
 }
 #desenho{
-    position: absolute;
-    left: 5vw;
+    position: relative;
+    left: 30%;
     top: 2vh;
 }
 #pq_participar{
@@ -412,7 +412,7 @@ a {
     position: absolute;
     top: 298vh;
     left: 8vw;
-    font-size: 16px;
+    font-size: 2vh;
     line-height: 16px;
     color: #2d2d2d6b;
 }
@@ -433,7 +433,7 @@ a {
 #conteudo_pq_participar{
     color: #0c2e40;
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 2vh;
     position: absolute;
     top: 310vh;
     left: 8vw;
@@ -444,12 +444,12 @@ a {
 #button_pq_participar{
     color: #0c2e40;
     font-family: Lato, sans-serif;
-    font-size: 15px;
+    font-size: 1.5vh;
     position: absolute;
     top: 375vh;
     left: 7.5vw;
     width: 12vw;
-    height: 7vh;
+    height: 55px;
     text-align: center;
     line-height: 15px;
     border-radius: 27.5px;
@@ -468,7 +468,7 @@ a {
     top: 302vh;
     left: 55vw;
     color: #2d2d2d49;
-    font-size: 22px;
+    font-size: 2.2vh;
     font-weight: 550;
 }
 #enfeite_pq_participar_2{
@@ -573,12 +573,12 @@ a {
     background-color: #0c2e40;
     color: white;
     font-family: Lato, sans-serif;
-    font-size: 15px;
+    font-size: 1.5vh;
     position: absolute;
     top:413.5vh;
     left: 47vw;
     width: 20vw;
-    height: 8vh;
+    height: 55px;
     text-align: center;
     line-height: 15px;
     border-radius: 27.5px;
@@ -594,21 +594,33 @@ a {
 #como_implantar{
     height: 100vh;
 }
+ #img_siac{
+        display: none;
+        height: 20vh;
+    }
+    #img_siac2{
+        display: none;
+        height: 20vh;
+    }
+    #img_siac3{
+        display: none;
+        height: 20vh;
+    }
 #estruturas_e_tipos_3{
     position: absolute;
     top:442vh;
-    left: 44.5vw;
-    font-size: 16px;
+    left: 46vw;
+    font-size: 1.7vh;
     line-height: 16px;
     color: #2d2d2d6b;
 }
 #titulo_como_implementar{
     color: #0c2e40;
     font-family: Lato, sans-serif;
-    font-size: 35.2px;
+    font-size: 3.5vh;
     position: absolute;
     top: 447vh;
-    left: 33vw;
+    left: 37vw;
     text-align: start;
     line-height: 35.2px;
 }
@@ -623,7 +635,7 @@ a {
 #conteudo_como_implementar{
     color: #0c2e40;
     font-family: Lato, sans-serif;
-    font-size: 13.6px;
+    font-size: 1.7vh;
     position: absolute;
     top: 460vh;
     left: 30vw;
@@ -685,7 +697,7 @@ a {
 }
 #siac_sub{
     font-family: Poppins, sans-serif;
-    font-size: 12px;
+    font-size: 1.5vh;
     line-height: 12px;
     text-align: center;
     color: #25252596;
@@ -696,7 +708,7 @@ a {
 }
 #simat_sub{
     font-family: Poppins, sans-serif;
-    font-size: 12px;
+    font-size: 1.5vh;
     line-height: 12px;
     text-align: center;
     color: #25252596;
@@ -707,7 +719,7 @@ a {
 }
 #sinac_sub{
     font-family: Poppins, sans-serif;
-    font-size: 12px;
+    font-size: 1.5vh;
     line-height: 12px;
     text-align: center;
     color: #25252596;
@@ -717,34 +729,46 @@ a {
     top: 2vh;
 }
 #construtora_siac{
-    font-size: 16px;
+    font-size: 1.7vh;
     line-height: 16px;
     text-align: center;
     color: #2b2b2b;
     font-weight: 600;
     position: absolute;
-    left: 8vw;
+    left: 8.6vw;
     top: 5vh;
 }
 #fabricante_simat{
-    font-size: 16px;
+    font-size: 1.7vh;
     line-height: 16px;
     text-align: center;
     color: #2b2b2b;
     font-weight: 600;
     position: absolute;
-    left: 5.5vw;
+    left: 6.5vw;
     top: 5vh;
 }
 #proponente_sinac{
-    font-size: 16px;
+    font-size: 1.7vh;
     line-height: 16px;
     text-align: center;
     color: #2b2b2b;
     font-weight: 600;
     position: absolute;
-    left: 6vw;
+    left: 6.8vw;
     top: 5vh;
+}
+#up1{
+    display: none;
+}
+#up2{
+    display: none;
+}
+#up3{
+    display: none;
+}
+#img_siac{
+    display: none;
 }
 #imgs_como_implementar{
     position: absolute;
@@ -766,30 +790,34 @@ a {
     top: 4.9vh;
     left: 4vw;
     z-index: 1000;
+    width: 8.3vh;
 }
 #img2_como_implementar{
     position: absolute;
     top: 5.1vh;
     left: 21vw;
     z-index: 1000;
+    width: 8.3vh;
 }
 #img3_como_implementar{
     position: absolute;
     top: 4.7vh;
     left: 37vw;
     z-index: 1000;
+    width: 8.3vh;
 }
 #img4_como_implementar{
     position: absolute;
     top: 4.7vh;
     left: 52vw;
     z-index: 1000;
+    width: 8.3vh;
 }
 #p1_como_implementar{
     position: absolute;
     top: 15vh;
-    left: 4vw;
-    font-size: 12.8px;
+    left: 4.35vw;
+    font-size: 1.5vh;
     line-height: 12.8px;
     color: #252525;
     font-weight: 700;
@@ -797,8 +825,8 @@ a {
 #p2_como_implementar{
     position: absolute;
     top: 15vh;
-    left: 19vw;
-    font-size: 12.8px;
+    left: 19.5vw;
+    font-size: 1.5vh;
     line-height: 12.8px;
     color: #252525;
     font-weight: 700;
@@ -806,8 +834,8 @@ a {
 #p3_como_implementar{
     position: absolute;
     top: 15vh;
-    left: 36.5vw;
-    font-size: 12.8px;
+    left: 37vw;
+    font-size: 1.5vh;
     line-height: 12.8px;
     color: #252525;
     font-weight: 700;
@@ -815,8 +843,8 @@ a {
 #p4_como_implementar{
     position: absolute;
     top: 15vh;
-    left: 50.5vw;
-    font-size: 12.8px;
+    left: 51vw;
+    font-size: 1.5vh;
     line-height: 12.8px;
     color: #252525;
     font-weight: 700;
@@ -824,12 +852,12 @@ a {
 #button_como_implementar{
     color: #0c2e40;
     font-family: Lato, sans-serif;
-    font-size: 15px;
+    font-size: 1.5vh;
     position: absolute;
     top: 512vh;
     left: 42vw;
     width: 18vw;
-    height: 7vh;
+    height: 58px;
     text-align: center;
     line-height: 15px;
     border-radius: 27.5px;
@@ -862,7 +890,7 @@ a {
     position: absolute;
     top:10vh;
     left: 8vw;
-    font-size: 16px;
+    font-size: 1.7vh;
     line-height: 16px;
     color: #2d2d2d6b;
 }
@@ -883,7 +911,7 @@ a {
 #conteudo_base_legal{
     color: #0c2e40;
     font-family: Lato, sans-serif;
-    font-size: 16px;
+    font-size: 2vh;
     position: absolute;
     top: 25vh;
     left: 8vw;
@@ -895,7 +923,7 @@ a {
     color: #0c2e40;
     font-family: Lato, sans-serif;
     background-color: #E4E4E4;
-    font-size: 15px;
+    font-size: 1.5vh;
     position: absolute;
     top: 47vh;
     left: 8vw;
@@ -975,7 +1003,7 @@ a {
 #titulo_noticias{
     color: #0c2e40;
     font-family: Lato, sans-serif;
-    font-size: 35.2px;
+    font-size: 3.5vh;
     position: absolute;
     top: 665vh;
     left: 46vw;
@@ -1042,7 +1070,7 @@ a {
     top: 32vh;
     left: 1vw;
     color: #2525259c;
-    font-size: 12px;
+    font-size: 1.5vh;
     line-height: 18px;
 }
 .box_noticias_titulo{
@@ -1051,7 +1079,7 @@ a {
     left: 1vw;
     color: #252525;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 2vh;
     line-height: 24px;   
 }
 .box_noticias_subtitulo{
@@ -1060,7 +1088,7 @@ a {
     left: 1vw;
     width: 20vw;
     color: #252525;
-    font-size: 13.6px;
+    font-size: 1.5vh;
     line-height: 20.4px;  
     text-align: justify; 
 }
@@ -1069,7 +1097,7 @@ a {
     top: 55vh;
     left: 0vw;
     color: #252525;
-    font-size: 16px;
+    font-size: 1.7vh;
     line-height: 20.4px;  
     font-weight: 600;  
 }
@@ -1101,7 +1129,7 @@ a {
     color: #0c2e40;
     font-family: Lato, sans-serif;
     background-color: white;
-    font-size: 15px;
+    font-size: 1.5vh;
     position: absolute;
     top: 745vh;
     left: 43.3vw;
@@ -1125,7 +1153,7 @@ a {
 #titulo_downloads{
     color: #0c2e40;
     font-family: Lato, sans-serif;
-    font-size: 35.2px;
+    font-size: 3.5vh;
     position: absolute;
     top: 760vh;
     left: 44.5vw;
@@ -1202,7 +1230,7 @@ a {
     left: 1vw;
     color: #252525;
     font-weight: 600;
-    font-size: 19.2px;
+    font-size: 2.1vh;
     line-height: 23.04px;   
 }
 .box_downloads_subtitulo{
@@ -1211,7 +1239,7 @@ a {
     left: 1vw;
     width: 18vw;
     color: #252525;
-    font-size: 16px;
+    font-size: 2vh;
     line-height: 24px;  
     text-align: justify; 
 }
@@ -1219,7 +1247,7 @@ a {
     color: #0c2e40;
     font-family: Lato, sans-serif;
     background-color: white;
-    font-size: 15px;
+    font-size: 1.5vh;
     position: absolute;
     top: 832vh;
     left: 46vw;
@@ -1259,7 +1287,7 @@ footer{
 #button_footer{
     background-color: #ffc300;
     color: #4d697e;
-    font-size: 15px;
+    font-size: 1.5vh;
     font-weight: 15px;
     margin-left: 69vw;
     margin-top: 4vh;
@@ -1284,14 +1312,14 @@ footer{
 }
 #direitos_reservados{
     color: #4d697e;
-    font-size: 12px;
+    font-size: 1.5vh;
     line-height: 12px;
     margin-top: 3vh;
     margin-left: 2vw;
 }
 #rafael_ferr{
     color: #4d697e;
-    font-size: 12px;
+    font-size: 1.5vh;
     line-height: 12px;
     margin-top: 3vh;
     margin-left: 58.9vw;
@@ -1713,5 +1741,292 @@ footer{
         height: 4.5vh;
         margin-top: 7vh;
         margin-left: -67vw;
+    }
+    #estruturas_e_tipos_3{
+        position: relative;
+        top:0vh;
+        left: 0vw;
+        margin-left: 32vw;
+        margin-top: 2vh;
+        font-size: 12px;
+        line-height: 16px; 
+    }
+    #como_implantar{
+        height: 54.5vh;
+    }
+    #titulo_como_implementar{
+        font-size: 22px;
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+        margin-left: 12vw;
+        line-height: 35.2px;
+    }
+    #enfeite_como_implementar{
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+        height: 0.2vh;
+        width: 16vw;
+        margin-left: 40vw;
+    }
+    #conteudo_como_implementar{
+        font-size: 13.6px;
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+        width: 88vw;
+        text-align: center;
+        line-height: 20.4px;
+        margin-left: 6vw;
+        margin-top: 2vh;
+    }
+    #box_geral_como_implementar{
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+        width: 100vw;
+        height: 0vh;
+        border: none;
+        margin-top: 2vh;
+    }
+    #box_siac_como_implementar{
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+        width: 100vw;
+        height: 6vh;
+        border: none;
+        border-radius: 0px;
+        background-color: #03989d13;
+    }
+    #box_simat_como_implementar{
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+        width: 100vw;
+        height: 6vh;
+        border: none;
+        border-radius: 0px;
+        background-color: #03989d13;
+    }
+    #box_sinac_como_implementar{
+        position: relative;
+        top: 0vh;
+        left: 0vw;
+        width: 100vw;
+        height: 6vh;
+        border: none;
+        border-radius: 0px;
+        background-color: #03989d13;
+    }
+    #siac_sub{
+        left: 47vw;
+        top: 1vh;
+    }
+    #simat_sub{
+        left: 47vw;
+        top: 1vh;
+    }
+    #sinac_sub{
+        left: 47vw;
+        top: 1vh;
+    }
+    #construtora_siac{
+        left: 39vw;
+        top: 3vh;
+    }
+    #fabricante_simat{
+        left: 29vw;
+        top: 3vh;
+    }
+    #proponente_sinac{
+        left: 31vw;
+        top: 3vh;
+    }
+    #up1{
+        display: flex;
+        margin-top: 1vh;
+        margin-left: 92vw;
+    }
+    #up2{
+        display: flex;
+        margin-top: 1vh;
+        margin-left: 92vw;
+    }
+    #up3{
+        display: flex;
+        margin-top: 1vh;
+        margin-left: 92vw;
+    }
+    #imgs_como_implementar{
+        display: none;
+    }
+    #button_como_implementar{
+        display: none;
+    }
+    #img_siac{
+        display: none;
+        height: 20vh;
+    }
+    #img_siac2{
+        display: none;
+        height: 20vh;
+    }
+    #img_siac3{
+        display: none;
+        height: 20vh;
+    }
+    #img1_siac{
+        margin-left: 8vw;
+        margin-top: 0.2vh;
+    }
+    #img2_siac{
+        margin-left: 10vw;
+        margin-top: 0.3vh;
+    }
+    #img3_siac{
+        margin-left: 8vw;
+    }
+    #img4_siac{
+        margin-left: 8vw;
+    }
+    #p1_siac1{
+        font-size: 12px;
+        margin-left: 8vw;
+        margin-top: 0.3vh;
+    }
+    #p2_siac2{
+        font-size: 12px;
+        margin-left: 3.5vw;
+        margin-top: 0.1vh;
+    }
+    #p3_siac3{
+        font-size: 12px;
+        margin-left: 6.5vw;
+        margin-top: 0.2vh;
+    }
+    #p4_siac4{
+        font-size: 12px;
+        margin-left: 4vw;
+    }
+    #siac_enfeite_ofc{
+        position: relative;
+        width: 82vw;
+        height: 0.3vh;
+        top: 0vh;
+        left: 0vw;
+        margin-top: 3vh;
+        margin-left: -88vw;
+        z-index: -100;
+        background-color: #33333365; 
+    }
+    #button_siac_1{
+        color: #0c2e40;
+        font-family: Lato, sans-serif;
+        font-size: 15px;
+        width: 48vw;
+        height: 4vh;
+        text-align: center;
+        line-height: 15px;
+        border-radius: 27.5px;
+        border-color: #0c2e40;
+        border-style: solid;
+        font-weight: 900;
+        background-color: white; 
+        margin-top: 12vh;
+        margin-left: -65vw;
+    }
+    #button_siac_1:hover{
+        background-color: #0c2e40;
+        color: white;
+        transition: color 0.3s;
+    }
+    #base_legal{
+        height: 190vh;
+    }
+    #base_legal_1{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+    }
+    #base_legal_2{
+        position: relative;
+        left: 0vw;
+        width: 100%;
+    }
+    #estruturas_e_tipos_4{
+        position: relative;
+        top:3vh;
+        left: 8vw;
+        font-size: 12px;
+    }
+    #titulo_base_legal{
+        position: relative; 
+        top: 5vh;
+        left: 8vw; 
+        font-size: 25px;
+    }
+    #enfeite_base_legal{
+        position: relative;
+        top: 6vh;
+        left: 8vw;
+        height: 0.3vh;
+        width: 9vw;
+        background-color: #333333;
+    }
+    #conteudo_base_legal{
+        font-size: 13px;
+        position: absolute;
+        top: 16vh;
+        left: 8vw;
+        width: 80vw;
+    }
+    #button_base_legal{
+        position: relative;
+        top: 28vh;
+        left: 8vw;
+        width: 30vw;
+        height: 3.8vh;
+    }
+    #box1_base_legal{
+        position: relative;
+        top: 0vh;
+        left: 5vw;
+        width: 88vw;
+        height: 35vh;
+    }
+    #box2_base_legal{
+        position: relative;
+        top: 1vh;
+        left: 5vw;
+        width: 88vw;
+        height: 35vh;
+    }
+    #box3_base_legal{
+        position: relative;
+        top: 1vh;
+        left: 5vw;
+        width:88vw;
+        height: 35vh;
+    }
+    #box4_base_legal{
+        position: relative;
+        top: 1vh;
+        left: 5vw;
+        width:88vw;
+        height: 35vh;
+    }
+    .h3_base_legal1{
+        color: #0c2e40;
+        position: relative;
+        left: 1vw;
+    }
+    .p_base_legal1{
+        color: #0c2e40;
+        position: relative;
+        top: 2vh;
+        left: 1vw;
+        line-height: 24px;
     }
 }
