@@ -40,23 +40,19 @@ const observerOptions = {
 
 function handleIntersection(entries) {
     // Verificar se a largura da tela é maior que 768px
-    if (window.matchMedia("(min-width: 769px)").matches) {
-        entries.forEach(entry => {
-            const liElement = document.getElementById(entry.target.dataset.liId);
-            const aElement = liElement.querySelector('a');
-            const inverseNavElement = entry.target.dataset.inverseNavId ? document.getElementById(entry.target.dataset.inverseNavId) : null;
+    const isWideScreen = window.matchMedia("(min-width: 769px)").matches;
+    entries.forEach(entry => {
+        const liElement = document.getElementById(entry.target.dataset.liId);
+        const inverseNavElement = entry.target.dataset.inverseNavId ? document.getElementById(entry.target.dataset.inverseNavId) : null;
 
-            if (entry.isIntersecting) {
-                liElement.style.backgroundColor = 'white';
-                aElement.style.color = 'black';
-                if (inverseNavElement) inverseNavElement.style.stroke = 'black';
-            } else {
-                liElement.style.backgroundColor = '';
-                aElement.style.color = '';
-                if (inverseNavElement) inverseNavElement.style.stroke = 'white';
-            }
-        });
-    }
+        if (entry.isIntersecting && isWideScreen) {
+            liElement.classList.add('active');
+            if (inverseNavElement) inverseNavElement.classList.add('inverse-active');
+        } else {
+            liElement.classList.remove('active');
+            if (inverseNavElement) inverseNavElement.classList.remove('inverse-active');
+        }
+    });
 }
 
 const observer = new IntersectionObserver(handleIntersection, observerOptions);
@@ -68,6 +64,7 @@ sections.forEach(section => {
     observer.observe(element);
 });
 
+
 document.getElementById('box_siac_como_implementar').addEventListener('click', function() {
             document.getElementById('p1_como_implementar').textContent = 'DECISÃO';
             document.getElementById('p2_como_implementar').textContent = 'IMPLEMENTAÇÃO';
@@ -76,9 +73,11 @@ document.getElementById('box_siac_como_implementar').addEventListener('click', f
             document.getElementById('up1').innerHTML = "-";
             document.getElementById('up2').innerHTML = "+";
             document.getElementById('up3').innerHTML = "+";
-            document.getElementById('img_siac').style.display = "flex";
-            document.getElementById('img_siac2').style.display = "none";
-            document.getElementById('img_siac3').style.display = "none";
+            if (window.matchMedia("(max-width: 768px)").matches) {
+                document.getElementById('img_siac').style.display = "flex";
+                document.getElementById('img_siac2').style.display = "none";
+                document.getElementById('img_siac3').style.display = "none";
+            }
             document.getElementById('box_siac_como_implementar').style.backgroundColor = '#03989d13';
             document.getElementById('box_simat_como_implementar').style.backgroundColor = '';
             document.getElementById('box_sinac_como_implementar').style.backgroundColor = '';
@@ -92,9 +91,11 @@ document.getElementById('box_siac_como_implementar').addEventListener('click', f
             document.getElementById('up2').innerHTML = "-";
             document.getElementById('up1').innerHTML = "+";
             document.getElementById('up3').innerHTML = "+";
-            document.getElementById('img_siac').style.display = "none";
-            document.getElementById('img_siac2').style.display = "flex";
-            document.getElementById('img_siac3').style.display = "none";
+            if (window.matchMedia("(max-width: 768px)").matches) {
+                document.getElementById('img_siac').style.display = "none";
+                document.getElementById('img_siac2').style.display = "flex";
+                document.getElementById('img_siac3').style.display = "none";
+            }
             document.getElementById('box_siac_como_implementar').style.backgroundColor = '';
             document.getElementById('box_simat_como_implementar').style.backgroundColor = '#03989d13';
             document.getElementById('box_sinac_como_implementar').style.backgroundColor = '';
@@ -108,9 +109,11 @@ document.getElementById('box_siac_como_implementar').addEventListener('click', f
             document.getElementById('up3').innerHTML = "-";
             document.getElementById('up2').innerHTML = "+";
             document.getElementById('up1').innerHTML = "+";
-            document.getElementById('img_siac').style.display = "none";
-            document.getElementById('img_siac2').style.display = "none";
-            document.getElementById('img_siac3').style.display = "flex";
+            if (window.matchMedia("(max-width: 768px)").matches) {
+                document.getElementById('img_siac').style.display = "none";
+                document.getElementById('img_siac2').style.display = "none";
+                document.getElementById('img_siac3').style.display = "flex";
+            }
             document.getElementById('box_siac_como_implementar').style.backgroundColor = '';
             document.getElementById('box_simat_como_implementar').style.backgroundColor = '';
             document.getElementById('box_sinac_como_implementar').style.backgroundColor = '#03989d13';
