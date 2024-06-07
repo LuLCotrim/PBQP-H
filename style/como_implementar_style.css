@@ -169,7 +169,7 @@ a {
     right: 0vw;
 }
 #central{
-    height: 510vh;
+    height: 360vh;
 }
 #div1_central{
     margin-top: 10vh;
@@ -211,7 +211,7 @@ a {
 .box{
     margin-top: 2vh;
     width: 21vw;
-    height: 65vh;
+    height: 50vh;
     border-radius: 6px;
     margin-bottom: 10vh;
 }
@@ -232,13 +232,12 @@ a {
     margin-top:4vh;
 }
 .numero{
-    font-size: 28.8px;
+    font-size: 35px;
     line-height: 28.8px;
     color: white;
     font-weight: 600;
-    margin-top: 0.8vh;
+    margin-top: 1.2vh;
     margin-left: 1vw;
-    margin-left: 0.85vw;
 }
 .h2_implementar{
     color: #252525;
@@ -249,13 +248,13 @@ a {
     margin-top: 2vh;
 }
 .p_box{
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 2vh;
+    line-height: 22px;
     color: #252525;
-    width: 20vw;
+    width: 15vw;
     margin-left: 1vw;
-    margin-top: 2vh;
-    margin-bottom: 10vh;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
 }
 .a_estrutura{
     display: none;
@@ -277,7 +276,7 @@ a {
 .box2{
     margin-top: 2vh;
     width: 21vw;
-    height: 65vh;
+    height: 50vh;
     border-radius: 6px;
     margin-bottom: 10vh;
 }
@@ -296,7 +295,7 @@ a {
 .box3{
     margin-top: 2vh;
     width: 21vw;
-    height: 65vh;
+    height: 50vh;
     border-radius: 6px;
     margin-bottom: 10vh;
 }

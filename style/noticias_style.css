@@ -31,7 +31,7 @@ header{
 #name_pre_nav{
     position: absolute;
     left: 27vw;
-    top: 14vh;
+    top: 7vh;
     font-size: 4.5vh;
     width: 41vw;
     color: #0c2e40;
@@ -184,7 +184,7 @@ h1{
     width: 28vw;
 
 }
-  .search-input {
+  .search-input2 {
     width: 27vw;
     padding: 12px;
     border: 1px solid #ccc;
@@ -194,23 +194,23 @@ h1{
     color: #333;
     margin-left: 2vw;
   }
-  .search-input::placeholder {
+  .search-input2::placeholder {
     color: #ccc;
   }
-  .search-button {
+  .search-button2{
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
     background-color: transparent;
     border: none;
     cursor: pointer;
-    margin-top: -3vh;
+    margin-top: -1.9vh;
     margin-left: 26.3vw;
   }
-  #central_1 .search-button{
+  #central_1 .search-button2{
     display: flex;
   }
-  .search-button img {
+  .search-button2 img {
     width: 100%;
     height: auto;
   }

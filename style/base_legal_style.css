@@ -31,7 +31,7 @@ header{
 #name_pre_nav{
     position: absolute;
     left: 27vw;
-    top: 14vh;
+    top: 7vh;
     font-size: 4.5vh;
     width: 41vw;
     color: #0c2e40;
@@ -166,7 +166,7 @@ a {
 #img_implementar{
     position: absolute;
     height: 38vh;
-    left: 70.25vw;
+    right: 0vw;
     background-size: cover;
     clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
 }
@@ -201,7 +201,7 @@ a {
     border: 0.5px solid rgba(0, 0, 0, 0.26);
     display: flex;
     margin-top: 0vh;
-    margin-left: -3.1vh;
+    margin-left: -20px;
 }
 .svg_div{
     margin-top: 2vh;
