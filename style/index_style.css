@@ -1138,6 +1138,14 @@ a {
     left: 13vw;
     top: 700vh;
 }
+#button_right_noticias_mobile{
+    display: none;
+    background-color: white;
+    border: none;
+    position: absolute;
+    left: 13vw;
+    top: 700vh;
+}
 #button_noticias{
     color: #0c2e40;
     font-family: Lato, sans-serif;
@@ -1453,6 +1461,7 @@ footer{
         line-height: 35.2px;
     }
     #enfeite_titulo_programa{
+        position: absolute;
         top: 57vh;
         height: 0.4vh;
         width: 10vw;
@@ -1491,19 +1500,18 @@ footer{
     }
     #estruturas_e_tipos{
         top: 140vh;
-        left: 32vw;
+        margin-left: 35.5vw;
         font-size: 12px;
         line-height: 16px;
     }
     #projetos_titulo{
         font-size: 25px;
+        margin-left: 39vw;
         top: 144vh;
-        left: 35.5vw;
         line-height: 25px;
     }
     #enfeite_projetos{
-        top: 148vh;
-        left: 43.5vw;
+        top: 11vh;
         height: 0.4vh;
     }
     #conteudo_projetos{
@@ -1556,15 +1564,15 @@ footer{
     }
     #box_projetos2_h1{
         left: 28vw; 
-        top: 9vh;
+        top: 0vh;
     }
     #box_projetos2_h2{
         left: 27vw; 
-        top: 9vh;
+        top: 0vh;
     }
     #box_projetos2_h3{
         left: 27vw; 
-        top: 9vh;
+        top: 0vh;
     }
     #box_projetos2_p1{
         left: 7vw; 
@@ -1572,26 +1580,26 @@ footer{
         width: 60vw;
     }
     #box_projetos2_p2{
-        left: 7vw; 
+        left: 5.5vw; 
         top: 19vh; 
         width: 60vw;
     }
     #box_projetos2_p3{
-        left: 7vw; 
+        left: 5vw; 
         top: 19vh; 
         width: 60vw;    
     }
     #box_projetos2_a1{
         left: 21vw; 
-        top: 45vh; 
+        top: 35vh; 
     }
     #box_projetos2_a2{
         left: 21vw; 
-        top: 45vh; 
+        top: 35vh; 
     }
     #box_projetos2_a3{
         left: 21vw; 
-        top: 45vh; 
+        top: 35vh; 
     }
     #pq_participar{
     height: 145vh;
@@ -1717,7 +1725,7 @@ footer{
     #p_vantagens_5{
         position: absolute;
         left: 4vw; 
-        top: 460vh; 
+        top: 462vh; 
         width: 32vw;  
         font-size: 13px;
         line-height: 18px;  
@@ -1725,7 +1733,7 @@ footer{
     #p_vantagens_6{
         position: absolute;
         left: 48vw; 
-        top: 460vh; 
+        top: 462vh; 
         width: 32vw;  
         font-size: 13px;
         line-height: 18px; 
@@ -2042,4 +2050,154 @@ footer{
         left: 1vw;
         line-height: 24px;
     }
+    #titulo_noticias{
+        position: relative;
+        top: 2vh;
+        left: 35vw;
+    }
+    #enfeite_noticias{
+        position: relative;
+        top: 2vh;
+        left: 47vw;
+    }
+    #box_mobile{
+        overflow-y:hidden;
+        width: 100vw;
+        height: 65vh;
+    }
+    #box_central_noticias{
+        display: flex;
+        position: relative;
+        top: 4vh;
+        left: 2.5vw;
+        width: 200vw;
+        height: 65vh;
+    }
+    #box_noticias{
+        position:relative;
+        width: 300px;
+        height: 95vh;
+        border-radius: 8px;
+        top: 3vh;
+        left: 2vw;
+    }
+    #box_noticias_2{
+        position:relative;
+        width: 300px;
+        height: 65vh;
+        border-radius: 8px;
+        top: 3vh;
+        left: 6vw;
+    }
+    #box_noticias_3{
+        display: none;
+    }
+    #button_left_noticias{
+        display: none;
+    }
+    #button_right_noticias{
+        display: none;
+    }
+    #button_right_noticias_mobile{
+        display: block;
+        background-color: white;
+        width: 8vw;
+        height: 8vw;
+        border: none;
+        position: relative;
+        left: 84vw;
+        top: -34vh;
+        border-radius: 50%;
+        box-shadow: 1px 1px 1px 1px black;
+    }
+    #button_noticias{
+        position: relative;
+        top: 0vh;
+        left: 25vw;
+        width: 50vw;
+    }
+    #titulo_downloads{
+        position: relative;
+        top: 1vh;
+        left: 30vw;
+    }
+    #enfeite_downloads{
+        position: relative;
+        top: 1vh;
+        left: 47.6vw;
+        height: 0.3vh;
+        width: 7vw;
+        background-color: #333333;
+    }
+    #box_central_downloads{
+        position: relative;
+        top: 5vh;
+        left: 0vw;
+        width: 95vw;
+        height: 70vh;
+        display: block;
+    }
+    #box_downloads{
+        position: relative;
+        width:45vw;
+        height: 35vh;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.144);
+        border-radius: 6px;
+        border-width: 2px;
+        top: 3vh;
+        left: 4vw;
+    }
+    #box_downloads_2{
+        position: relative;
+        width:45vw;
+        height: 35vh;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.144);
+        border-radius: 6px;
+        border-width: 2px;
+        top: 3vh;
+        left: 4vw;
+    }
+    #box_downloads_3{
+        position: relative;
+        width:45vw;
+        height: 35vh;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.144);
+        border-radius: 6px;
+        border-width: 2px;
+        top: 3vh;
+        left: 4vw;
+    }
+    #box_downloads_4{
+        position: relative;
+        width:45vw;
+        height: 35vh;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.144);
+        border-radius: 6px;
+        border-width: 2px;
+        top: 3vh;
+        left: 4vw;
+    }
+    .box_downloads_titulo{
+    position: absolute;
+    top: 10vh;
+    left: 1vw;
+    color: #252525;
+    font-weight: 600;
+    font-size: 2.1vh;
+    line-height: 23.04px;   
+}
+    .box_downloads_subtitulo{
+    position: absolute;
+    top: 15vh;
+    left: 1vw;
+    width: 40vw;
+    color: #252525;
+    font-size: 1.5vh;
+    line-height: 24px;  
+    text-align: justify; 
+}
 }

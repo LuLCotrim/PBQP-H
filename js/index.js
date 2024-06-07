@@ -118,3 +118,13 @@ document.getElementById('box_siac_como_implementar').addEventListener('click', f
             document.getElementById('box_simat_como_implementar').style.backgroundColor = '';
             document.getElementById('box_sinac_como_implementar').style.backgroundColor = '#03989d13';
         });
+
+const scrollAmount = 100;
+function scrollRight() {
+    const outerContainer = document.getElementById('box_mobile');
+    outerContainer.scrollBy({
+        top: 0,
+        left: scrollAmount,
+        behavior: 'smooth'
+    });
+}
