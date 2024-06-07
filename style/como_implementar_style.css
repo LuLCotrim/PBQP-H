@@ -166,7 +166,7 @@ a {
 #img_implementar{
     position: absolute;
     height: 28vh;
-    left: 76.6vw;
+    right: 0vw;
 }
 #central{
     height: 510vh;

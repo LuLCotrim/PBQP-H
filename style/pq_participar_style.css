@@ -167,7 +167,7 @@ a {
     position: absolute;
     height: 42vh;
     width: 40vw;
-    left: 58.85vw;
+    right: 0vh;
     background-size: cover;
     clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
 }

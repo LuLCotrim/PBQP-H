@@ -1,77 +1,74 @@
 function toggleAltura1() {
-    toggleAltura(1, 5.5);
+    toggleAltura(1);
 }
 function toggleAltura2() {
-    toggleAltura(2, 5.5);
+    toggleAltura(2);
 }
 function toggleAltura3() {
-    toggleAltura(3, 5.7);
+    toggleAltura(3);
 }
 function toggleAltura4() {
-    toggleAltura(4, 5.7);
+    toggleAltura(4);
 }
 function toggleAltura5() {
-    toggleAltura(5, 5.5);
+    toggleAltura(5);
 }
 function toggleAltura6() {
-    toggleAltura(6, 5.8);
+    toggleAltura(6);
 }
 function toggleAltura7() {
-    toggleAltura(7, 5.35);
+    toggleAltura(7);
 }
 function toggleAltura8() {
-    toggleAltura(8, 5.2);
+    toggleAltura(8);
 }
 function toggleAltura9() {
-    toggleAltura(9, 5.9);
+    toggleAltura(9);
 }
 function toggleAltura10() {
-    toggleAltura(10, 5.9);
+    toggleAltura(10);
 }
 function toggleAltura11() {
-    toggleAltura(11, 5.8);
+    toggleAltura(11);
 }
 function toggleAltura12() {
-    toggleAltura(12, 5.3);
+    toggleAltura(12);
 }
 function toggleAltura13() {
-    toggleAltura(13, 6);
+    toggleAltura(13);
 }
 function toggleAltura14() {
-    toggleAltura(14, 5.4);
+    toggleAltura(14);
 }
 function toggleAltura15() {
-    toggleAltura(15, 5.4);
+    toggleAltura(15);
 }
 
-function toggleAltura(numero, marginBottom) {
-    var alturaInicial = 2; 
-    var conteudoDiv = document.getElementById("conteudo" + numero + "_historico");
-    var alturaAtual = conteudoDiv.offsetHeight;
-    var conteudo_ofc = document.getElementById("conteudo"+numero+"_ofc");
-    var conteudoButton = document.getElementById("button_title" + numero + "_historico");
-    var marginbottonData = document.getElementById("h3_barra_historico_" + numero);
-
-        let div = document.getElementById("enfeite_barra_historico");
-        let divOfc = document.getElementById("historico");
-        const valueDivOfc = divOfc.offsetHeight;
-        const valueBarra = div.offsetHeight;
-        const val = window.innerHeight;
-    if (alturaAtual === alturaInicial) {
-        conteudoDiv.style.height = "16vh";
-        conteudoButton.innerHTML = "-";
-        marginbottonData.style.marginBottom = (16+marginBottom) + "vh";
-        conteudo_ofc.style.display = "block";
-        div.style.height = (((valueBarra/val)*100)+16)+"vh";
-        divOfc.style.height = (((valueDivOfc/val)*100)+16)+"vh";
-    } else {
-        conteudoDiv.style.height = "0vh";
-        conteudoButton.innerHTML = "+";
-        marginbottonData.style.marginBottom = marginBottom + "vh";
-        conteudo_ofc.style.display = "none";
-        div.style.height = (((valueBarra/val)*100)-16)+"vh";
-        divOfc.style.height = (((valueDivOfc/val)*100)-16)+"vh";
+function toggleAltura(numero) {
+    let conteudo = document.getElementById('conteudo'+numero+'_historico');
+    let conteudo1 = document.getElementById('conteudo'+numero+'_ofc');
+    let barra = document.getElementById('enfeite_barra_historico');
+    let historico = document.getElementById('historico');
+    if(conteudo.style.height === '16vh'){
+        conteudo.style.height = '0vh';
+        conteudo1.style.display = 'none';
+        let currentHeight = parseFloat(window.getComputedStyle(barra).height);
+        let newHeight = currentHeight - (window.innerHeight * 0.16);
+        barra.style.height = newHeight + 'px';
+        let currentHeight2 = parseFloat(window.getComputedStyle(historico).height);
+        let newHeight2 = currentHeight2 - (window.innerHeight * 0.16);
+        historico.style.height = newHeight2 + 'px';
+    }else{
+        conteudo.style.height = '16vh';
+        conteudo1.style.display = 'block';
+        let currentHeight = parseFloat(window.getComputedStyle(barra).height);
+        let newHeight = currentHeight + (window.innerHeight * 0.16);
+        barra.style.height = newHeight + 'px';
+        let currentHeight2 = parseFloat(window.getComputedStyle(historico).height);
+        let newHeight2 = currentHeight2 + (window.innerHeight * 0.16);
+        historico.style.height = newHeight2 + 'px';
     }
+    
 }
 function handleNavScroll() {
     const nav = document.getElementById('nav');
