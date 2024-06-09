@@ -2063,7 +2063,7 @@ footer{
     #box_mobile{
         overflow-y:hidden;
         width: 100vw;
-        height: 65vh;
+        height: 75vh;
     }
     #box_central_noticias{
         display: flex;
@@ -2076,7 +2076,7 @@ footer{
     #box_noticias{
         position:relative;
         width: 300px;
-        height: 95vh;
+        height: 55vh;
         border-radius: 8px;
         top: 3vh;
         left: 2vw;
@@ -2084,7 +2084,7 @@ footer{
     #box_noticias_2{
         position:relative;
         width: 300px;
-        height: 65vh;
+        height: 55vh;
         border-radius: 8px;
         top: 3vh;
         left: 6vw;
@@ -2115,6 +2115,31 @@ footer{
         top: 0vh;
         left: 25vw;
         width: 50vw;
+    }
+    .imgs_noticias{
+        width: 100%;
+    }
+    .box_noticias_data{
+        top: 24vh;
+        left: 4vw;
+    }
+    .box_noticias_titulo{
+        top: 26vh;
+        left: 4vw;  
+    }
+    .box_noticias_subtitulo{
+        top: 29vh;
+        left: 4vw;
+        width: 60vw;
+    }
+    .box_noticias_a{
+        top: 42vh;
+        left: 0vw; 
+    }
+    .elemento_enfeite{
+        top: 0vh;
+        left: 20vw;
+        display: none;
     }
     #titulo_downloads{
         position: relative;
@@ -2182,22 +2207,46 @@ footer{
         left: 4vw;
     }
     .box_downloads_titulo{
-    position: absolute;
-    top: 10vh;
-    left: 1vw;
-    color: #252525;
-    font-weight: 600;
-    font-size: 2.1vh;
-    line-height: 23.04px;   
-}
-    .box_downloads_subtitulo{
-    position: absolute;
-    top: 15vh;
-    left: 1vw;
-    width: 40vw;
-    color: #252525;
-    font-size: 1.5vh;
-    line-height: 24px;  
-    text-align: justify; 
-}
+        position: absolute;
+        top: 10vh;
+        left: 1vw;
+        color: #252525;
+        font-weight: 600;
+        font-size: 2.1vh;
+        line-height: 23.04px;   
+    }
+        .box_downloads_subtitulo{
+        position: absolute;
+        top: 15vh;
+        left: 1vw;
+        width: 40vw;
+        color: #252525;
+        font-size: 1.5vh;
+        line-height: 24px;  
+        text-align: justify; 
+    }
+    #button_downloads{
+        position: relative;
+        top: 15vh;
+        left: 18vw;
+        width: 30vh;
+    }
+    footer{
+        height: 30vh;
+    }
+    #button_footer{
+        margin-left: 5vw;
+    }
+    #img_footer{
+        margin-top: 1vh;
+        width: 3vh;
+    }
+    #img_footer_2{
+        margin-top: 1.3vh;
+        width: 3vh;
+    }
+    #img_footer_3{
+        margin-top: 1.15vh;
+        width: 3vh;
+    }
 }

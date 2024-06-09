@@ -119,7 +119,7 @@ document.getElementById('box_siac_como_implementar').addEventListener('click', f
             document.getElementById('box_sinac_como_implementar').style.backgroundColor = '#03989d13';
         });
 
-const scrollAmount = 100;
+const scrollAmount = 320;
 function scrollRight() {
     const outerContainer = document.getElementById('box_mobile');
     outerContainer.scrollBy({
