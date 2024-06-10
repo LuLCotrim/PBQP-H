@@ -1346,6 +1346,9 @@ footer{
     margin-left: 60vw;
 }
 @media (max-width: 768px){
+    html, body {
+        overflow-x: hidden;
+    }
     header{
         display: none;
     }
@@ -1565,14 +1568,17 @@ footer{
     #box_projetos2_h1{
         left: 28vw; 
         top: 0vh;
+        width: 30vw;
     }
     #box_projetos2_h2{
         left: 27vw; 
         top: 0vh;
+        width: 30vw;
     }
     #box_projetos2_h3{
         left: 27vw; 
         top: 0vh;
+        width: 30vw;
     }
     #box_projetos2_p1{
         left: 7vw; 

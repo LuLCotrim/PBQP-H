@@ -150,7 +150,8 @@ a {
 }
 #title{
     height: 40vh;
-    background: linear-gradient(170deg, white, #00000011);
+    background: transparent linear-gradient(72deg, #F6F6F6 0%, #DEDEDE 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 #img_title{
     position: absolute;
@@ -165,6 +166,10 @@ a {
     position: absolute;
     top: 60vh;
     left: 8vw;
+    text-align: left;
+    font: normal normal medium 25px/30px Lato;
+    letter-spacing: 0px;
+    opacity: 1;
 }
 #explicacao{
     height: 55vh;
@@ -962,4 +967,156 @@ footer{
     line-height: 12px;
     margin-top: 3vh;
     margin-left: 60vw;
+}
+@media (max-width: 768px){
+    html, body {
+        overflow-x: hidden;
+    }
+    header{
+        display: none;
+    }
+    #bandeira_brasil{
+        display: none;
+    }
+    #logoAndName{
+        width: 30vw;
+        height: 10vh;
+        top: 2.5vh;
+        left: 2vw;
+    }
+    #name_pre_nav{
+        width: 62vw;
+        font-size: 20px;
+        line-height: 19px;
+        top: 4.5vh;
+        left: 35vw;
+    }
+    #pre_nav{
+        height: 15vh;
+    }
+    .nav-top{
+        height: 7vh;
+    }
+    #ul_nav{
+       display: none;
+       background-color: #E4E4E4;
+       left: 0vh;
+       width: 100%;
+       height: 45%;
+       margin-top: -1vh;
+       z-index: 1000;
+    }
+    .li{
+        height: 5vh;
+        background-color: #E4E4E4;
+    }
+    .li:hover {
+        border-bottom: 1px solid #0c2e40;
+    }
+    .li a{
+        color: black;
+    }
+    #inverseVNav_1 {
+        stroke: black;
+    }
+    #inverseVNav_2 {
+        stroke: black;
+    }
+    #inverseVNav_3 {
+        stroke: black;
+    }
+    #inverseVNav_4 {
+        stroke: black;
+    }
+    #inverseVNav_5 {
+        stroke: black;
+    }
+    #button_media{
+        display: inline;
+    }
+    .search-input {
+    display: inline;
+    width: 90%;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    height: 3vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    }
+
+    .search-input::placeholder {
+        color: #ccc;
+    }
+
+    .search-button {
+        display: inline;
+        transform: translateY(-50%);
+        margin-top: -235vh;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-left: 88vw;
+    }
+    .search-button svg {
+        fill: #333;
+    }
+
+    .search-button:focus {
+        outline: none;
+    }
+    .button_nav{
+     position:relative;
+     top: -2vh;
+     width: 27vw;
+     height: 5vh;
+     left: 58vw;
+    }
+    #title{
+        height: 183px;
+        display: flex;
+    }
+    #img_title{
+        height: 183px;
+        position: relative;
+        margin-left: 30vw;
+    }
+    #h2_title{
+        top: 128px;
+        position: relative;
+        width: 30vw;
+    }
+    #explicacao{
+        height: 75vh;
+    }
+    #p_explicacao{
+        position: relative; 
+        left: 6vw; 
+        top: 3vh; 
+        width: 90vw; 
+        line-height: 24px;
+        text-align: left;
+        font-size:16px/24px;
+        letter-spacing: 0px;
+    }
+    #programa_logo{
+        position: relative;
+        top: 15vh;
+        left: 11vw;
+        width: 27vw;
+    }
+    #programa_minhaCasa{
+        position: relative;
+        top: 15vh;
+        left: 42vw;
+        width: 18vw;
+    }
+    #programa_caixa{
+        position: relative;
+        top: 13vh;
+        left: -6vw;
+        width: 22vw;
+    }
 }
