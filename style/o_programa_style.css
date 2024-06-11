@@ -211,6 +211,9 @@ a {
     width: 32.5vw;
     right: 0vh;
 }
+#img_estrutura_mobile{
+    display: none;
+}
 #h1_estrutura{
     position: absolute;
     font-size: 35.2px;
@@ -302,6 +305,12 @@ a {
     top: 290vh;
     left: 33vw;
     height: 100vh;
+}
+#barra_mobile{
+    display: none;
+}
+#barra_enfeite_mobile{
+    display: none;
 }
 .circulo_historico{
     width: 17.5px;
@@ -1118,5 +1127,153 @@ footer{
         top: 13vh;
         left: -6vw;
         width: 22vw;
+    }
+    #estrutura{
+        display: block;
+        height: 155vh;
+    }
+    #img_estrutura{
+        display: none;
+    }
+    #img_estrutura_mobile{
+        display: block;
+        position: relative;
+        height: 193px;
+        width: 100vw;
+        top: 19.5vh;
+    }
+    #h1_estrutura{
+        position: relative;
+        font-size: 28px;
+        line-height: 35.2px;
+        left: 7vw;
+        top: 50px;
+        color: #0c2e40;
+    }
+    #p_estrutura{
+        font-size: 12.8px;
+        line-height: 19.2px;
+        text-align: left;
+        position: relative;
+        width: 325px;
+        left: 7vw;
+        top: 55px;  
+        color: #2b2b2b;
+    }
+    #box_central_estrutura{
+        position: relative;
+        left: 7vw;
+        top: 11vh;
+        width: 80vw;
+        height: 100vh;
+    }
+    #box1_estrutura{
+        position: relative;
+        left: 0vw;
+        top: 0vh;
+        width: 100vw;
+        height: 37vh;
+    }
+    #box2_estrutura{
+        position: relative;
+        left: 0vw;
+        top: 0vh;
+        width: 100vw;
+        height: 17vh;
+    }
+    #box3_estrutura{
+        position: relative;
+        left: 0vw;
+        top: 0vh;
+        width: 100vw;
+        height: 27vh;
+    }
+    #box4_estrutura{
+        position: relative;
+        left: 0vw;
+        top: 0vh;
+        width: 100vw;
+        height: 50vh;
+    }
+    .p_box_estrutura{
+        position: relative;
+        top: 2.5vh;
+        width: 325px;
+        text-align: left;
+        color: #2b2b2b;
+    }
+    #a_estrutura{
+        display: none;
+    }
+    #historico{
+        height: 350vh;
+    }
+    #h1_historico{
+        position: relative;
+        top: 45.19px;
+        left: 130px;
+    }
+    #barra_historico{
+        display: none;
+    }
+    #barra_conteudo_historico{
+        display: none;
+    }
+    #barra_mobile{
+        display: block;
+        position: relative;
+        top: 10vh;
+    }
+    #barra_enfeite_mobile{
+        display: block;
+        position: absolute;
+        top:4vh;
+        height: 311vh;
+        width: 3px;
+        background-color: rgba(0, 0, 0, 0.13);
+        left: 6vw;
+    }
+    .circulo_historico{
+        width: 3vw;
+        height: 3vw;
+        margin-top: 7px;
+        margin-right: 20px;
+        z-index: 10000;
+    }
+    .titles_historico_center{
+        display: flex;
+        margin-top: 2vh;
+    }
+    .titles_historico{
+        text-align: right;
+        font-size:23px;
+        letter-spacing: 0px;
+        color: #0c2e40;
+        text-transform: uppercase;
+        opacity: 1;
+    }
+    #box_mobile1,
+    #box_mobile2,
+    #box_mobile3,
+    #box_mobile4,
+    #box_mobile5,
+    #box_mobile6,
+    #box_mobile7,
+    #box_mobile8,
+    #box_mobile9,
+    #box_mobile10,
+    #box_mobile11,
+    #box_mobile12,
+    #box_mobile13,
+    #box_mobile14,
+    #box_mobile15{
+        display: block;
+        border: 1px solid #00020533;
+        margin-top: 2vh;
+        margin-left: 12.5vw;
+        width: 75vw;
+        height: 138px;
+        border-radius: 4px;
+        opacity: 1;
     }
 }
