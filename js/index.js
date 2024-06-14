@@ -3,20 +3,22 @@ function handleNavScroll() {
     const button_nav = document.getElementById('button_nav');
     const scrollPosition = window.scrollY;
     const topPosition = nav.getBoundingClientRect().top;
-    
-    // Verificar se a largura da tela é maior que 768px
-    if (window.matchMedia("(min-width: 769px)").matches) {
-        if (topPosition <= 0 && scrollPosition > 0) {
-            nav.classList.add('nav-fixed');
-            nav.classList.remove('nav-top');
-            button_nav.classList.add('button_nav_fixed');
-            button_nav.classList.remove('button_nav');
-        } else {
-            nav.classList.remove('nav-fixed');
-            nav.classList.add('nav-top');
-            button_nav.classList.add('button_nav');
-            button_nav.classList.remove('button_nav_fixed');
-        }
+    let ul_nav = document.getElementById("ul_nav");
+    let ocupation = document.getElementById("ul_nav_ocupation")
+    if (topPosition <= 0 && scrollPosition > 0) {
+        nav.classList.add('nav-fixed');
+        nav.classList.remove('nav-top');
+        button_nav.classList.add('button_nav_fixed');
+        button_nav.classList.remove('button_nav'); 
+        ul_nav.style.position = 'fixed';
+        ocupation.style.display = "block";
+    } else {
+        nav.classList.remove('nav-fixed');
+        nav.classList.add('nav-top');
+        button_nav.classList.add('button_nav');
+        button_nav.classList.remove('button_nav_fixed');
+        ul_nav.style.position = 'absolute';
+        ocupation.style.display = "none";
     }
 }
 

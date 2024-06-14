@@ -43,6 +43,11 @@ header{
     left: 85vw;
     top: 13vh;
 }
+#ul_nav_ocupation{
+    display: none;
+    width: 100%;
+    height: 60px; 
+}
 .nav-top{
     background-color: #0c2e40;
     height: 60px; 
@@ -1451,6 +1456,10 @@ footer{
      height: 5vh;
      left: 58vw;
     }
+    .button_nav_fixed{
+        width: 30vw;
+        left: 64vw;
+    }
     #img_noticias_nav{
         height: 25vh;
     }
@@ -2238,21 +2247,33 @@ footer{
         width: 30vh;
     }
     footer{
-        height: 30vh;
+        height: 40vh;
     }
     #button_footer{
-        margin-left: 5vw;
+        margin-left: -55.5vw;
+        margin-top: 7vh;
     }
     #img_footer{
-        margin-top: 1vh;
-        width: 3vh;
+        margin-left: 18vw;
+        margin-top: 16.1vh;
+        width: 5vh;
     }
     #img_footer_2{
-        margin-top: 1.3vh;
-        width: 3vh;
+        margin-top: 16.3vh;
+        width: 5vh;
     }
     #img_footer_3{
-        margin-top: 1.15vh;
-        width: 3vh;
+        margin-top: 16.15vh;
+        width: 5vh;
+    }
+    #div2_footer{
+        display: block;
+    }
+    #rafael_ferr{
+        color: #4d697e;
+        font-size: 1.5vh;
+        line-height: 12px;
+        margin-top: 1vh;
+        margin-left:3vw;
     }
 }

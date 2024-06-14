@@ -1005,6 +1005,7 @@ footer{
     }
     .nav-top{
         height: 7vh;
+        z-index: 30000;
     }
     #ul_nav{
        display: none;
@@ -1013,7 +1014,7 @@ footer{
        width: 100%;
        height: 45%;
        margin-top: -1vh;
-       z-index: 1000;
+       z-index: 10000;
     }
     .li{
         height: 5vh;
@@ -1206,7 +1207,7 @@ footer{
         display: none;
     }
     #historico{
-        height: 350vh;
+        height: 360vh;
     }
     #h1_historico{
         position: relative;
@@ -1228,7 +1229,7 @@ footer{
         display: block;
         position: absolute;
         top:4vh;
-        height: 311vh;
+        height: 340vh;
         width: 3px;
         background-color: rgba(0, 0, 0, 0.13);
         left: 6vw;
@@ -1238,7 +1239,7 @@ footer{
         height: 3vw;
         margin-top: 7px;
         margin-right: 20px;
-        z-index: 10000;
+        z-index: 1000;
     }
     .titles_historico_center{
         display: flex;
@@ -1275,5 +1276,90 @@ footer{
         height: 138px;
         border-radius: 4px;
         opacity: 1;
+    }
+    #box_center_1,
+     #box_center_2,
+      #box_center_3,
+       #box_center_4,
+        #box_center_5,
+         #box_center_6,
+          #box_center_7,
+           #box_center_8,
+            #box_center_9,
+             #box_center_10,
+              #box_center_11,
+               #box_center_12,
+                #box_center_13,
+                 #box_center_14,
+                  #box_center_15{
+        margin-top: 10px;
+        height: 4.5vh;
+        overflow: hidden;
+    }
+    .h2_box{
+        margin-top: 20px;
+        color: #0c2e40;
+        margin-left: 20px;
+        font-size: 24px;
+    }
+    #h2_box2_1,
+    #h2_box2_2,
+    #h2_box2_3,
+    #h2_box2_4,
+    #h2_box2_5,
+    #h2_box2_6,
+    #h2_box2_7,
+    #h2_box2_8,
+    #h2_box2_9,
+    #h2_box2_10,
+    #h2_box2_11,
+    #h2_box2_12,
+    #h2_box2_13,
+    #h2_box2_14,
+    #h2_box2_15{
+        position: absolute;
+        margin-top: 12px;
+        margin-left: 260px;
+        color: #0c2e40;
+        font-size: 34px;
+    }
+    .conteudo_box_mobile{
+        font-size: 18px;
+        margin-left: 20px;
+        width: 60vw;
+    }
+    .button_nav_fixed{
+        width: 30vw;
+        left: 64vw;
+    }
+    footer{
+        height: 40vh;
+    }
+    #button_footer{
+        margin-left: -55.5vw;
+        margin-top: 7vh;
+    }
+    #img_footer{
+        margin-left: 18vw;
+        margin-top: 16.1vh;
+        width: 5vh;
+    }
+    #img_footer_2{
+        margin-top: 16.3vh;
+        width: 5vh;
+    }
+    #img_footer_3{
+        margin-top: 16.15vh;
+        width: 5vh;
+    }
+    #div2_footer{
+        display: block;
+    }
+    #rafael_ferr{
+        color: #4d697e;
+        font-size: 1.5vh;
+        line-height: 12px;
+        margin-top: 1vh;
+        margin-left:3vw;
     }
 }
