@@ -339,3 +339,151 @@ footer{
     margin-top: 3vh;
     margin-left: 60vw;
 }
+@media (max-width: 768px){
+    html, body {
+        overflow-x: hidden;
+    }
+    header{
+        display: none;
+    }
+    #bandeira_brasil{
+        display: none;
+    }
+    #logoAndName{
+        width: 30vw;
+        height: 10vh;
+        top: 2.5vh;
+        left: 2vw;
+    }
+    #name_pre_nav{
+        width: 62vw;
+        font-size: 20px;
+        line-height: 19px;
+        top: 4.5vh;
+        left: 35vw;
+    }
+    #pre_nav{
+        height: 15vh;
+    }
+    .nav-top{
+        height: 7vh;
+    }
+    #ul_nav{
+       display: none;
+       background-color: #E4E4E4;
+       left: 0vh;
+       width: 100%;
+       height: 45%;
+       margin-top: -1vh;
+       z-index: 1000;
+    }
+    .li{
+        height: 5vh;
+        background-color: #E4E4E4;
+    }
+    .li:hover {
+        border-bottom: 1px solid #0c2e40;
+    }
+    .li a{
+        color: black;
+    }
+    #inverseVNav_1 {
+        stroke: black;
+    }
+    #inverseVNav_2 {
+        stroke: black;
+    }
+    #inverseVNav_3 {
+        stroke: black;
+    }
+    #inverseVNav_4 {
+        stroke: black;
+    }
+    #inverseVNav_5 {
+        stroke: black;
+    }
+    #button_media{
+        display: inline;
+    }
+    .search-input {
+    display: inline;
+    width: 90%;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    height: 3vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    }
+
+    .search-input::placeholder {
+        color: #ccc;
+    }
+
+    .search-button {
+        display: inline;
+        transform: translateY(-50%);
+        margin-top: -235vh;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-left: 88vw;
+    }
+    .search-button svg {
+        fill: #333;
+    }
+
+    .search-button:focus {
+        outline: none;
+    }
+    .button_nav{
+     position:relative;
+     top: -2vh;
+     width: 27vw;
+     height: 5vh;
+     left: 58vw;
+    }
+    .button_nav_fixed{
+        width: 30vw;
+        left: 64vw;
+    }
+
+
+
+
+
+
+
+    footer{
+        height: 40vh;
+    }
+    #button_footer{
+        margin-left: -55.5vw;
+        margin-top: 7vh;
+    }
+    #img_footer{
+        margin-left: 18vw;
+        margin-top: 16.1vh;
+        width: 5vh;
+    }
+    #img_footer_2{
+        margin-top: 16.3vh;
+        width: 5vh;
+    }
+    #img_footer_3{
+        margin-top: 16.15vh;
+        width: 5vh;
+    }
+    #div2_footer{
+        display: block;
+    }
+    #rafael_ferr{
+        color: #4d697e;
+        font-size: 1.5vh;
+        line-height: 12px;
+        margin-top: 1vh;
+        margin-left:3vw;
+    }
+}
