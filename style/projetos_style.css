@@ -148,11 +148,6 @@ a {
     color: black;
     transition: color 0.3s;
 }
-#img_noticias_nav{
-    background-color: #03979d;
-    width: 100%;
-    height: 45vh;
-}
 #projetos{
     height: 42vh;
     background: linear-gradient(170deg, white, #00000011);
@@ -421,4 +416,279 @@ footer{
     line-height: 12px;
     margin-top: 3vh;
     margin-left: 60vw;
+}
+@media (max-width: 768px){
+    html, body {
+        overflow-x: hidden;
+    }
+    header{
+        display: none;
+    }
+    #bandeira_brasil{
+        display: none;
+    }
+    #logoAndName{
+        width: 30vw;
+        height: 10vh;
+        top: 2.5vh;
+        left: 2vw;
+    }
+    #name_pre_nav{
+        width: 62vw;
+        font-size: 20px;
+        line-height: 19px;
+        top: 4.5vh;
+        left: 35vw;
+    }
+    #pre_nav{
+        height: 15vh;
+    }
+    .nav-top{
+        height: 7vh;
+    }
+    #ul_nav{
+       display: none;
+       background-color: #E4E4E4;
+       left: 0vh;
+       width: 100%;
+       height: 45%;
+       margin-top: -1vh;
+       z-index: 1000;
+    }
+    .li{
+        height: 5vh;
+        background-color: #E4E4E4;
+    }
+    .li:hover {
+        border-bottom: 1px solid #0c2e40;
+    }
+    .li a{
+        color: black;
+    }
+    #inverseVNav_1 {
+        stroke: black;
+    }
+    #inverseVNav_2 {
+        stroke: black;
+    }
+    #inverseVNav_3 {
+        stroke: black;
+    }
+    #inverseVNav_4 {
+        stroke: black;
+    }
+    #inverseVNav_5 {
+        stroke: black;
+    }
+    #button_media{
+        display: inline;
+    }
+    .search-input {
+    display: inline;
+    width: 90%;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    height: 3vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    }
+
+    .search-input::placeholder {
+        color: #ccc;
+    }
+
+    .search-button {
+        display: inline;
+        transform: translateY(-50%);
+        margin-top: -235vh;
+        border: none;
+        background: none;
+        cursor: pointer;
+        margin-left: 88vw;
+    }
+    .search-button svg {
+        fill: #333;
+    }
+
+    .search-button:focus {
+        outline: none;
+    }
+    .button_nav{
+     position:relative;
+     top: -2vh;
+     width: 27vw;
+     height: 5vh;
+     left: 58vw;
+    }
+    .button_nav_fixed{
+        width: 30vw;
+        left: 64vw;
+    }
+    #projetos{
+        height: 138px;
+        background: transparent linear-gradient(72deg, #F6F6F6 0%, #DEDEDE 100%) 0% 0% no-repeat padding-box;
+    }
+    #title_projetos{
+        position: absolute;
+        top: 32vh;
+        left: 6vw;
+    }
+    #img_projetos{
+    height: 138px;
+    width: 25vw;
+    }
+    #explicacao_text{
+    width: 85vw; 
+    text-align: left;
+    margin-top: 8vh;
+    margin-left: 7vw;
+    }
+    #explicacao{
+        height: 55vh;
+    }
+    #siac{
+        height: 350vh;
+    }
+    .h1_siac1{
+        margin-top: 7vh;
+    }
+    .h1_siac2{
+        width: 85vw;
+    }
+    .h5_siac1{
+        margin-top: 4vh;
+        width: 55vw;
+    }
+    .ps_siac{
+        display: block;
+        margin-top: 4vh;
+    }
+    .p1_siac{
+        width: 85vw;
+        text-align: left;
+    }
+    .p2_siac{
+        width: 85vw;
+        text-align: left;
+    }
+    .p_siac_2{
+        width: 85vw;
+        text-align: left;
+    }
+    .boxer_boxers{
+        margin-left: 5vw;
+        width: 90vw;
+        overflow-y: hidden;
+    }
+    .boxers_box{
+        width: 320vw;
+        display: flex;
+    }
+    .box_siac{
+        width: 230px;
+        height: 295px;
+    }
+    .img_siac{
+        width: 5vw;
+        height: 2vh;
+        margin-top: 20vh;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        transform: rotate(180deg);
+    }
+    .documentos_siac{
+        margin-left: 33px;
+        width: 327px;
+        height: 245px;
+    }
+    .img_documentos{
+        margin-top: -6vh;
+        margin-left: -12vw;
+    }
+    .title_documentos{
+        margin-top: 2vh;
+    }
+    .subTitle_documentos{
+        font-size: 12.2px;
+        line-height: 19.8px;
+        color: #252525;
+        margin-top: 1vh;
+        text-align: left;
+    }
+    .p_style_documentos{
+        margin-top: 1vh;
+        text-align: left;
+    }
+    .p_documentos{
+        font-size: 10px;
+        line-height: 10px;
+        color: #252525;
+        margin-top: 1vh;
+        width: 65vw;
+        text-align: left;
+    }
+    #simac{
+        height: 370vh;
+        border-bottom-color: rgba(0, 0, 0, 0.233);
+        border-bottom-style: solid;
+        border-bottom-width: 0.5px;
+    }
+    .box_mobile{
+        margin-left: 1vw;
+        width: 90vw;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+    .boxers_box_2{
+         width: 245vw;
+        display: flex;
+    }
+    .img_siac2{
+        width: 5vw;
+        height: 2vh;
+        margin-top: 20vh;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+    #sinat{
+    height: 360vh;
+    border-bottom-color: rgba(0, 0, 0, 0.233);
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+}
+
+
+    footer{
+        height: 40vh;
+    }
+    #button_footer{
+        margin-left: -55.5vw;
+        margin-top: 7vh;
+    }
+    #img_footer{
+        margin-left: 18vw;
+        margin-top: 16.1vh;
+        width: 5vh;
+    }
+    #img_footer_2{
+        margin-top: 16.3vh;
+        width: 5vh;
+    }
+    #img_footer_3{
+        margin-top: 16.15vh;
+        width: 5vh;
+    }
+    #div2_footer{
+        display: block;
+    }
+    #rafael_ferr{
+        color: #4d697e;
+        font-size: 1.5vh;
+        line-height: 12px;
+        margin-top: 1vh;
+        margin-left:3vw;
+    }
 }
