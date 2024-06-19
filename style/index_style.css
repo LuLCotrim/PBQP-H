@@ -7,41 +7,47 @@ body{
 }
 header{
     background-color: #03979d;
-    height: 4.75vh;
+    height: 30px;
 }
 #header_button{
     background-color: #0c2e40;
     color: white;
     position: absolute;
-    width: 10vw;
-    height: 4.75vh;
-    left: 88vw;
+    width: 120px;
+    height: 30px;
+    right: 42px;
     border: none;
 }
 #pre_nav{
     background-color: #00000011;
-    height: 25.5vh;
+    height: 179px;
 }
 #logoAndName{
     position: absolute;
-    height: 26vh;
-    left: 6vw;
-    top: 4.3vh;
+    width: 204px;
+    height: 157px;
+    top: 45px;
+    left: clamp(100px, 8vw, 118px);
+
 }
 #name_pre_nav{
     position: absolute;
-    left: 27vw;
-    top: 14vh;
-    font-size: 4.5vh;
-    width: 41vw;
+    top: 79px;
+    left: 349px;
+    width: 480px;
+    height: 82px;
+    text-align: left;
+    font: normal normal bold 32px/42px ZapfHumnst BT;
+    letter-spacing: 0px;
     color: #0c2e40;
-    font-family: "fibra one", sans-serif;
-    line-height: 44px;
+    opacity: 1;
 }
 #bandeira_brasil{
     position: absolute;
-    left: 85vw;
-    top: 13vh;
+    top: 69px;
+    right: 42px;
+    width: 151px;
+    height: 101px;
 }
 .nav-top{
     background-color: #0c2e40;
@@ -82,8 +88,12 @@ header{
 }
 a {
     text-decoration: none; 
-    color: white;
     margin: 20px;
+    text-align: left;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
 }
 #li_1:hover #inverseVNav_1,
 #li_2:hover #inverseVNav_2,
@@ -112,7 +122,10 @@ a {
 }
 .button_nav {
     background-color: #0c2e40;
-    color: white;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
     position: relative;
     width: 10vw;
     height: 45px;
@@ -131,7 +144,11 @@ a {
 }
 .button_nav_fixed{
     background-color: #0c2e40;
-    color: white;
+    text-align: left;
+    font: normal normal normal 16px/19px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
     position: fixed;
     width: 10vw;
     height: 45px;
