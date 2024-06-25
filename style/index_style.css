@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: 2px solid red;
 }
 body{
     font-family: Lato, sans-serif;
@@ -529,7 +530,7 @@ a {
     height: 100%;
 }
 #pq_participar_2{
-    width: 683px;
+    width: 633px;
     height: 100%;
 }
 #estruturas_e_tipos_2{
@@ -734,7 +735,6 @@ a {
     font: normal normal normal 30px/36px Lato;
     letter-spacing: 0px;
     opacity: 1;
-
 }
 #button_quer_participar{
     color: #0c2e40;
@@ -768,291 +768,56 @@ a {
     align-items: center;
 }
 #centerComoimplantar{
-    width: 1366px;
-    height: 700px;
+    width: 1364px;
+    height: 745px;
 }
- #img_siac{
-        display: none;
-        height: 20vh;
-    }
-    #img_siac2{
-        display: none;
-        height: 20vh;
-    }
-    #img_siac3{
-        display: none;
-        height: 20vh;
-    }
 #estruturas_e_tipos_3{
-    position: absolute;
-    top:442vh;
-    left: 46vw;
-    font-size: 1.7vh;
-    line-height: 16px;
+    position: relative;
+    top: 78px;
+    left: 590px;
+    width: 200px;
+    text-align: center;
+    font: normal normal medium 15px/18px Lato;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 0.35;
     color: #2d2d2d6b;
 }
 #titulo_como_implementar{
     color: #0c2e40;
-    font-family: Lato, sans-serif;
-    font-size: 3.5vh;
-    position: absolute;
-    top: 447vh;
-    left: 38vw;
+    position: relative;
+    text-align: center;
+    font: normal normal 600 32px/39px Lato;
+    letter-spacing: 0px;
+    top: 82px;
+    left: 440px;
     text-align: start;
     line-height: 35.2px;
+    width: 500px;
 }
 #enfeite_como_implementar{
-    position: absolute;
-    top: 453vh;
-    left: 48vw;
-    height: 0.3vh;
-    width: 7vw;
+    position: relative;
+    top: 100px;
+    left: 662.5px;
+    width: 50px;
+    height: 3px;
     background-color: #0c2e40;
 }
 #conteudo_como_implementar{
+    position: relative;
+    top: 140px;
+    left: 377px;
+    width: 613px;
+    height: 46px;
+    text-align: center;
+    font: normal normal normal 16px/23px Lato;
+    letter-spacing: 0px;
     color: #0c2e40;
-    font-family: Lato, sans-serif;
-    font-size: 1.7vh;
-    position: absolute;
-    top: 460vh;
-    left: 30vw;
-    width: 40vw;
-    text-align: center;
-    line-height: 20.4px;
+    opacity: 0.7;
 }
-#box_geral_como_implementar{
-    position: absolute;
-    top: 460vh;
-    left: 7vw;
-    width: 85vw;
-    height: 20vh;
-    border-bottom-color: rgba(0, 0, 0, 0.199);
-    border-bottom-width: 1.5px;
-    border-bottom-style: solid;
-}
-#box_siac_como_implementar{
-    position: absolute;
-    top: 10vh;
-    left: 8vw;
-    width:22.5vw;
-    height: 10vh;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.144);
-    border-radius: 6px;
-    border-width: 0.1px;
-    border-bottom-color: white;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-#box_simat_como_implementar{
-    position: absolute;
-    top: 10vh;
-    left: 32vw;
-    width:22.5vw;
-    height: 10vh;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.144);
-    border-radius: 6px;
-    border-width: 0.1px;
-    border-bottom-color: white;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-#box_sinac_como_implementar{
-    position: absolute;
-    top: 10vh;
-    left: 56vw;
-    width:22.5vw;
-    height: 10vh;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.144);
-    border-radius: 6px;
-    border-width: 0.1px;
-    border-bottom-color: white;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-#siac_sub{
-    font-family: Poppins, sans-serif;
-    font-size: 1.5vh;
-    line-height: 12px;
-    text-align: center;
-    color: #25252596;
-    font-weight: 600;
-    position: absolute;
-    left: 10.5vw;
-    top: 2vh;
-}
-#simat_sub{
-    font-family: Poppins, sans-serif;
-    font-size: 1.5vh;
-    line-height: 12px;
-    text-align: center;
-    color: #25252596;
-    font-weight: 600;
-    position: absolute;
-    left: 10.5vw;
-    top: 2vh;
-}
-#sinac_sub{
-    font-family: Poppins, sans-serif;
-    font-size: 1.5vh;
-    line-height: 12px;
-    text-align: center;
-    color: #25252596;
-    font-weight: 600;
-    position: absolute;
-    left: 10.5vw;
-    top: 2vh;
-}
-#construtora_siac{
-    font-size: 1.7vh;
-    line-height: 16px;
-    text-align: center;
-    color: #2b2b2b;
-    font-weight: 600;
-    position: absolute;
-    left: 8.6vw;
-    top: 5vh;
-}
-#fabricante_simat{
-    font-size: 1.7vh;
-    line-height: 16px;
-    text-align: center;
-    color: #2b2b2b;
-    font-weight: 600;
-    position: absolute;
-    left: 6.5vw;
-    top: 5vh;
-}
-#proponente_sinac{
-    font-size: 1.7vh;
-    line-height: 16px;
-    text-align: center;
-    color: #2b2b2b;
-    font-weight: 600;
-    position: absolute;
-    left: 6.8vw;
-    top: 5vh;
-}
-#up1{
-    display: none;
-}
-#up2{
-    display: none;
-}
-#up3{
-    display: none;
-}
-#img_siac{
-    display: none;
-}
-#img_siac2{
-    display: none;
-}
-#img_siac3{
-    display: none;
-}
-#imgs_como_implementar{
-    position: absolute;
-    width: 60vw;
-    height: 8.8vh;
-    top: 490vh;
-    left: 20vw;
-}
-#imgs_como_implementar_enfeite{
-    position: absolute;
-    width: 51.8vw;
-    height: 0.5vh;
-    top: 101%;
-    left: 4.2vw;
-    background-color: #0c2e4065;
-}
-#img1_como_implementar{
-    position: absolute;
-    top: 4.9vh;
-    left: 4vw;
-    z-index: 1000;
-    width: 8.3vh;
-}
-#img2_como_implementar{
-    position: absolute;
-    top: 5.1vh;
-    left: 21vw;
-    z-index: 1000;
-    width: 8.3vh;
-}
-#img3_como_implementar{
-    position: absolute;
-    top: 4.7vh;
-    left: 37vw;
-    z-index: 1000;
-    width: 8.3vh;
-}
-#img4_como_implementar{
-    position: absolute;
-    top: 4.7vh;
-    left: 52vw;
-    z-index: 1000;
-    width: 8.3vh;
-}
-#p1_como_implementar{
-    position: absolute;
-    top: 15vh;
-    left: 4.35vw;
-    font-size: 1.5vh;
-    line-height: 12.8px;
-    color: #252525;
-    font-weight: 700;
-}
-#p2_como_implementar{
-    position: absolute;
-    top: 15vh;
-    left: 19.5vw;
-    font-size: 1.5vh;
-    line-height: 12.8px;
-    color: #252525;
-    font-weight: 700;
-}
-#p3_como_implementar{
-    position: absolute;
-    top: 15vh;
-    left: 37vw;
-    font-size: 1.5vh;
-    line-height: 12.8px;
-    color: #252525;
-    font-weight: 700;
-}
-#p4_como_implementar{
-    position: absolute;
-    top: 15vh;
-    left: 51vw;
-    font-size: 1.5vh;
-    line-height: 12.8px;
-    color: #252525;
-    font-weight: 700;
-}
-#button_como_implementar{
-    color: #0c2e40;
-    font-family: Lato, sans-serif;
-    font-size: 1.5vh;
-    position: absolute;
-    top: 512vh;
-    left: 42vw;
-    width: 18vw;
-    height: 58px;
-    text-align: center;
-    line-height: 15px;
-    border-radius: 27.5px;
-    border-color: #0c2e40;
-    border-style: solid;
-    font-weight: 900;
-    background-color: white;
-}
-#button_como_implementar:hover{
-    background-color: #0c2e40;
-    color: white;
-    transition: color 0.3s;  
+#cmBox{
+    display: flex;
+    width: 1364px;
 }
 #base_legal{
     height: 125vh;
@@ -1982,167 +1747,7 @@ footer{
         margin-left: 6vw;
         margin-top: 2vh;
     }
-    #box_geral_como_implementar{
-        position: relative;
-        top: 0vh;
-        left: 0vw;
-        width: 100vw;
-        height: 0vh;
-        border: none;
-        margin-top: 2vh;
-    }
-    #box_siac_como_implementar{
-        position: relative;
-        top: 0vh;
-        left: 0vw;
-        width: 100vw;
-        height: 6vh;
-        border: none;
-        border-radius: 0px;
-        background-color: #03989d13;
-    }
-    #box_simat_como_implementar{
-        position: relative;
-        top: 0vh;
-        left: 0vw;
-        width: 100vw;
-        height: 6vh;
-        border: none;
-        border-radius: 0px;
-        background-color: #03989d13;
-    }
-    #box_sinac_como_implementar{
-        position: relative;
-        top: 0vh;
-        left: 0vw;
-        width: 100vw;
-        height: 6vh;
-        border: none;
-        border-radius: 0px;
-        background-color: #03989d13;
-    }
-    #siac_sub{
-        left: 47vw;
-        top: 1vh;
-    }
-    #simat_sub{
-        left: 47vw;
-        top: 1vh;
-    }
-    #sinac_sub{
-        left: 47vw;
-        top: 1vh;
-    }
-    #construtora_siac{
-        left: 39vw;
-        top: 3vh;
-    }
-    #fabricante_simat{
-        left: 29vw;
-        top: 3vh;
-    }
-    #proponente_sinac{
-        left: 31vw;
-        top: 3vh;
-    }
-    #up1{
-        display: flex;
-        margin-top: 1vh;
-        margin-left: 92vw;
-    }
-    #up2{
-        display: flex;
-        margin-top: 1vh;
-        margin-left: 92vw;
-    }
-    #up3{
-        display: flex;
-        margin-top: 1vh;
-        margin-left: 92vw;
-    }
-    #imgs_como_implementar{
-        display: none;
-    }
-    #button_como_implementar{
-        display: none;
-    }
-    #img_siac{
-        display: none;
-        height: 20vh;
-    }
-    #img_siac2{
-        display: none;
-        height: 20vh;
-    }
-    #img_siac3{
-        display: none;
-        height: 20vh;
-    }
-    #img1_siac{
-        margin-left: 8vw;
-        margin-top: 0.2vh;
-    }
-    #img2_siac{
-        margin-left: 10vw;
-        margin-top: 0.3vh;
-    }
-    #img3_siac{
-        margin-left: 8vw;
-    }
-    #img4_siac{
-        margin-left: 8vw;
-    }
-    #p1_siac1{
-        font-size: 12px;
-        margin-left: 8vw;
-        margin-top: 0.3vh;
-    }
-    #p2_siac2{
-        font-size: 12px;
-        margin-left: 3.5vw;
-        margin-top: 0.1vh;
-    }
-    #p3_siac3{
-        font-size: 12px;
-        margin-left: 6.5vw;
-        margin-top: 0.2vh;
-    }
-    #p4_siac4{
-        font-size: 12px;
-        margin-left: 4vw;
-    }
-    #siac_enfeite_ofc{
-        position: relative;
-        width: 82vw;
-        height: 0.3vh;
-        top: 0vh;
-        left: 0vw;
-        margin-top: 3vh;
-        margin-left: -88vw;
-        z-index: -100;
-        background-color: #0c2e4065; 
-    }
-    #button_siac_1{
-        color: #0c2e40;
-        font-family: Lato, sans-serif;
-        font-size: 15px;
-        width: 48vw;
-        height: 4vh;
-        text-align: center;
-        line-height: 15px;
-        border-radius: 27.5px;
-        border-color: #0c2e40;
-        border-style: solid;
-        font-weight: 900;
-        background-color: white; 
-        margin-top: 12vh;
-        margin-left: -65vw;
-    }
-    #button_siac_1:hover{
-        background-color: #0c2e40;
-        color: white;
-        transition: color 0.3s;
-    }
+
     #base_legal{
         height: 190vh;
     }
