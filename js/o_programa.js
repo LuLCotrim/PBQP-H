@@ -155,12 +155,14 @@ function toggleAlturam(numero) {
     let conteudo = document.getElementById("box_center_" + numero);
     let altura = document.getElementById("h2_box2_"+numero);
     let historico = document.getElementById("historico");
+    let centerHistorico = document.getElementById("centerHistorico");
       
         // Valores para ajuste de altura
         let alturaAumento = altura.offsetHeight + 75;
         let conteudoAumento = box.offsetHeight + altura.offsetHeight + 5;
         let barraAumento = alturaAumento; // Proporção ajustada
         let historicoAumento = alturaAumento;
+        let centerHistoricoAumento = alturaAumento;
 
         // Verifica se o número atual está expandido
         if (!isExpanded[numero]) {
@@ -169,6 +171,7 @@ function toggleAlturam(numero) {
             conteudo.style.height = conteudoAumento + "px";
             barra.style.height = (barra.offsetHeight + barraAumento) + "px";
             historico.style.height = (historico.offsetHeight + historicoAumento) + "px";
+            centerHistorico.style.height = (centerHistorico.offsetHeight + centerHistoricoAumento) + "px";
             isExpanded[numero] = true; // Marca como expandido
         } else {
             altura.innerHTML = "+";
@@ -176,6 +179,7 @@ function toggleAlturam(numero) {
             conteudo.style.height = "4.5vh";
             barra.style.height = (barra.offsetHeight - barraAumento) + "px";
             historico.style.height = (historico.offsetHeight - historicoAumento) + "px";
+            centerHistorico.style.height = (centerHistorico.offsetHeight - centerHistoricoAumento) + "px";
             isExpanded[numero] = false; // Marca como contraído
         }
 }
