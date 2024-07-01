@@ -46,27 +46,33 @@ function toggleAltura15() {
 
 function toggleAltura(numero) {
     let conteudo = document.getElementById('conteudo'+numero+'_historico');
-    let conteudo1 = document.getElementById('conteudo'+numero+'_ofc');
     let barra = document.getElementById('enfeite_barra_historico');
     let historico = document.getElementById('historico');
-    if(conteudo.style.height === '16vh'){
-        conteudo.style.height = '0vh';
-        conteudo1.style.display = 'none';
+    let centerHistorico = document.getElementById('centerHistorico');
+    if(conteudo.style.height === '180px'){
+        conteudo.style.height = '35px';
+        conteudo.style.transition = 'height 0.4s';
         let currentHeight = parseFloat(window.getComputedStyle(barra).height);
-        let newHeight = currentHeight - (window.innerHeight * 0.16);
+        let newHeight = currentHeight - 180;
         barra.style.height = newHeight + 'px';
         let currentHeight2 = parseFloat(window.getComputedStyle(historico).height);
-        let newHeight2 = currentHeight2 - (window.innerHeight * 0.16);
+        let newHeight2 = currentHeight2 -180;
         historico.style.height = newHeight2 + 'px';
+        let currentHeight3 = parseFloat(window.getComputedStyle(centerHistorico).height);
+        let newHeight3 = currentHeight3 -180;
+        centerHistorico.style.height = newHeight3 + 'px';
     }else{
-        conteudo.style.height = '16vh';
-        conteudo1.style.display = 'block';
+        conteudo.style.height = '180px';
+        conteudo.style.transition = 'height 0.4s';
         let currentHeight = parseFloat(window.getComputedStyle(barra).height);
-        let newHeight = currentHeight + (window.innerHeight * 0.16);
+        let newHeight = currentHeight + 180;
         barra.style.height = newHeight + 'px';
         let currentHeight2 = parseFloat(window.getComputedStyle(historico).height);
-        let newHeight2 = currentHeight2 + (window.innerHeight * 0.16);
+        let newHeight2 = currentHeight2 + 180;
         historico.style.height = newHeight2 + 'px';
+        let currentHeight3 = parseFloat(window.getComputedStyle(centerHistorico).height);
+        let newHeight3 = currentHeight3 + 180;
+        centerHistorico.style.height = newHeight3 + 'px';
     }
     
 }
@@ -162,7 +168,6 @@ function toggleAlturam(numero) {
         let conteudoAumento = box.offsetHeight + altura.offsetHeight + 5;
         let barraAumento = alturaAumento; // Proporção ajustada
         let historicoAumento = alturaAumento;
-        let centerHistoricoAumento = alturaAumento;
 
         // Verifica se o número atual está expandido
         if (!isExpanded[numero]) {
@@ -171,7 +176,7 @@ function toggleAlturam(numero) {
             conteudo.style.height = conteudoAumento + "px";
             barra.style.height = (barra.offsetHeight + barraAumento) + "px";
             historico.style.height = (historico.offsetHeight + historicoAumento) + "px";
-            centerHistorico.style.height = (centerHistorico.offsetHeight + centerHistoricoAumento) + "px";
+            centerHistorico.style.height = (historico.offsetHeight + historicoAumento) + "px";
             isExpanded[numero] = true; // Marca como expandido
         } else {
             altura.innerHTML = "+";
@@ -179,7 +184,7 @@ function toggleAlturam(numero) {
             conteudo.style.height = "4.5vh";
             barra.style.height = (barra.offsetHeight - barraAumento) + "px";
             historico.style.height = (historico.offsetHeight - historicoAumento) + "px";
-            centerHistorico.style.height = (centerHistorico.offsetHeight - centerHistoricoAumento) + "px";
+            centerHistorico.style.height = (historico.offsetHeight + historicoAumento) + "px";
             isExpanded[numero] = false; // Marca como contraído
         }
 }
