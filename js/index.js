@@ -10,7 +10,6 @@ function handleNavScroll() {
         nav.classList.remove('nav-top');
         button_nav.classList.add('button_nav_fixed');
         button_nav.classList.remove('button_nav'); 
-        
         if( window.matchMedia('(max-width: 768px)').matches){
             ocupation.style.height = "32vh"
         }else{
@@ -21,7 +20,6 @@ function handleNavScroll() {
         nav.classList.add('nav-top');
         button_nav.classList.add('button_nav');
         button_nav.classList.remove('button_nav_fixed');
-        
         if( window.matchMedia('(max-width: 768px)').matches){
              ocupation.style.height = "27vh"
         }else{
