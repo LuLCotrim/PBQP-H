@@ -174,12 +174,20 @@ a {
     color: black;
     transition: color 0.3s;
 }
+.button_nav:hover p{
+    color: black;
+    transition: color 0.3s;
+}
+.button_nav_fixed:hover p{
+    color: black;
+    transition: color 0.3s;
+}
 .button_nav_fixed{
     background-color: #0c2e40;
     position: relative;
     width: 107px;
     height: 39px;
-    top: 10px;
+    top: -50px;
     left: 1100px;
     font: normal normal normal 16px/19px Lato;
     border-style: solid;
