@@ -275,7 +275,7 @@ a {
 
 }
 #siac{
-    height: 1800px;
+    height: 2200px;
     border-bottom-color: rgba(0, 0, 0, 0.233);
     border-bottom-style: solid;
     border-bottom-width: 0.5px;
@@ -285,7 +285,7 @@ a {
 }
 #centerSiac{
     width: 1366px;
-    height: 1800px;
+    height: 2200px;
 }
 .h1_siac1{
     margin-top: 54px;
@@ -356,7 +356,7 @@ opacity: 1;
     margin-top: 60px;
     margin-left: 116px;
     width: 1113px;
-    height: 385px;
+    height: 500px;
     display: block; 
     overflow-x: auto;
 }
@@ -366,7 +366,7 @@ opacity: 1;
 }
 .box_siac{
     width: 244px;
-    height: 350px;
+    height: 480px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #4D697E66;
     border-radius: 4px;
@@ -408,32 +408,37 @@ opacity: 1;
     margin: 16px;
 }
 .documentos_siac{
-    background: linear-gradient(80deg, rgba(0, 0, 0, 0.075), #0000001e);
-    margin-top: 7vh;
-    margin-left: 5vw;
-    width: 45vw;
-    height: 42vh;
-    border-radius: 10px;
-    display: flex;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    margin-left: 120px;
+    width: 481px;
+    height: 229px;
+    background: transparent linear-gradient(85deg, #F2F2F2 0%, #E4E4E4 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    opacity: 1;
 }
 .img_documentos{
-    margin-top: -6vh;
-    margin-left: -4.5vw;
+    margin-top: -30px;
+    margin-left: -40px;
 }
 .title_documentos{
-    font-size: 17.6px;
-    line-height: 17.6px;
+    text-align: left;
+    font: normal normal 600 20px/25px Lato;
+    letter-spacing: 0px;
     color: #0c2e40;
-    margin-top: 8vh;
+    opacity: 1; 
+    margin-top: -1px;
     font-weight: 600;
+    margin-left: 43px;
 }
 .subTitle_documentos{
-    font-size: 12.2px;
-    line-height: 19.8px;
-    color: #252525;
-    margin-top: 2.5vh;
-    text-align: justify;
+    text-align: left;
+    font: normal normal normal 16px/25px Lato;
+    letter-spacing: 0px;
+    color: #0c2e40;
+    opacity: 1;
+    margin-top: 30px;
+    margin-left: 43px;
 }
 .p_style_documentos{
     font-size: 12.2px;
