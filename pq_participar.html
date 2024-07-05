@@ -8,144 +8,160 @@
 </head>
 <body>
     <header>
-        <button id="header_button">
-            Fale conosco
-        </button>
-        <script>
-            document.getElementById('header_button').addEventListener('click', function() {
-        window.location.href = 'fale_conosco.html';
-    });
-        </script>
+        <div id="centerHeader">
+            <button id="header_button">
+                Fale conosco
+            </button>
+            <script>
+                document.getElementById('header_button').addEventListener('click', function() {
+            window.location.href = 'fale_conosco.html';
+        });
+            </script>
+        </div>
+        
     </header>
     <div id="pre_nav">
-        <a href="index.html"><img src="images/logoAndName.png" id="logoAndName"></a>
-        <h1 id="name_pre_nav">Programa Brasileiro da Qualidade e Produtividade do Habitat</h1>
-        <img src="images/bandeira-brasil-1.png" id="bandeira_brasil">
+        <div id="centerPrenav">
+            <a href="index.html"><img src="images/logoAndName.png" id="logoAndName"></a>
+            <h1 id="name_pre_nav">Programa Brasileiro da Qualidade e Produtividade do Habitat</h1>
+            <img src="images/bandeira-brasil-1.png" id="bandeira_brasil">
+        </div>
     </div>
-    <nav id="nav" class="nav-top">
-        <button id="button_media"><img src="images/Captura de tela de 2024-05-27 15-59-22.png" alt=""></button>
-        <script>
-            document.getElementById('button_media').addEventListener('click', function() {
-                const ulNav = document.getElementById('ul_nav');
-                if (ulNav.style.display === 'none' || ulNav.style.display === '') {
-                    ulNav.style.display = 'block';
-                } else {
-                    ulNav.style.display = 'none';
-                }
-            });
-        </script>
-         <div id="ul_nav">
-            <div class="li" id="li_1"><a href="o_programa.html">O Programa <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_1" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
-            <div class="li" id="li_2"><a href="projetos.html">Projetos <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_2" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
-            <div class="li" id="li_3"><a href="pq_participar.html">Porque Participar <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_3" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
-            <div class="li" id="li_4"><a href="como_implementar.html">Como Implementar <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_4" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
-            <div class="li" id="li_5"><a href="base_legal.html">Base Legal <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_5" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
-            <div class="li" id="li_6"><a href="noticias.html">Notícias</a></div>
-            <div class="li" id="li_7"><a href="downloads.html">Downloads</a></div>
-            <input type="text" placeholder="Faça uma pesquisa" class="search-input">
-            <button class="search-button">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path fill="currentColor" d="M23.707 22.293l-6.364-6.364A9.917 9.917 0 0 0 20 10c0-5.523-4.477-10-10-10S0 4.477 0 10s4.477 10 10 10a9.917 9.917 0 0 0 5.93-2.071l6.364 6.364a1 1 0 0 0 1.414-1.414zM10 18c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"/>
-                </svg>
-            </button>
-         </div>
-         <button id="button_nav" class="button_nav"><p>Inscreva-se</p></button>
-         <script>
-            document.getElementById('button_nav').addEventListener('click', function() {
-        window.location.href = 'inscreva_se.html';
-    });
-        </script>
-    </nav>
+        <nav id="nav" class="nav-top">
+            <div id="centerNav">
+            <button id="button_media"><img src="images/Captura de tela de 2024-05-27 15-59-22.png" alt=""></button>
+            <script>
+                document.getElementById('button_media').addEventListener('click', function() {
+                    const ulNav = document.getElementById('ul_nav');
+                    if (ulNav.style.display === 'none' || ulNav.style.display === '') {
+                        ulNav.style.display = 'block';
+                    } else {
+                        ulNav.style.display = 'none';
+                    }
+                });
+            </script>
+            <div id="ul_nav">
+                <div class="li" id="li_1"><a href="o_programa.html">O Programa <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_1" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
+                <div class="li" id="li_2"><a href="projetos.html">Projetos <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_2" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
+                <div class="li" id="li_3"><a href="pq_participar.html">Porque Participar <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_3" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
+                <div class="li" id="li_4"><a href="como_implementar.html">Como Implementar <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_4" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
+                <div class="li" id="li_5"><a href="base_legal.html">Base Legal <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_5" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
+                <div class="li" id="li_6"><a href="noticias.html">Notícias</a></div>
+                <div class="li" id="li_7"><a href="downloads.html">Downloads</a></div>
+                <input type="text" placeholder="Faça uma pesquisa" class="search-input">
+                <button class="search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M23.707 22.293l-6.364-6.364A9.917 9.917 0 0 0 20 10c0-5.523-4.477-10-10-10S0 4.477 0 10s4.477 10 10 10a9.917 9.917 0 0 0 5.93-2.071l6.364 6.364a1 1 0 0 0 1.414-1.414zM10 18c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"/>
+                    </svg>
+                </button>
+            </div>
+            <button id="button_nav" class="button_nav"><p>Inscreva-se</p></button>
+            <script>
+                document.getElementById('button_nav').addEventListener('click', function() {
+            window.location.href = 'inscreva_se.html';
+        });
+            </script>
+            </div>
+        </nav>
     <div id="participar">
-        <h2 id="title_participar">Porque participar</h2>
-        <img src="images/freepik-export-20240509173156Ks3S.jpeg" id="img_participar">
+        <div id="centerParticipar">
+              <h2 id="title_participar">Porque participar</h2>
+              <img src="images/freepik-export-20240509173156Ks3S.jpeg" id="img_participar">
+        </div>
+      
     </div>
     <div id="explicacao">
-        <p class="explicacao_text">O PBQP-H é um programa de caráter voluntário e não compulsório/ obrigatório, porém é de exigência de seus clientes que as empresas tenham sua qualificação atestada ou seu produto qualificado para se valer de alguns benefícios ou para participarem de programas de instituições públicas (governo) ou privadas, como Programa Minha Casa Minha Vida, Casa Verde Amarela, Licitações de obras públicas e mesmo obras privadas. As linhas de créditos ofertadas por instituições financeiras públicas como CEF – Caixa Econômica Financeira e BB – Banco do Brasil para o setor da construção civil também são exigências a certificação no PBQP-H, assim como em instituições financeiras privadas como bancos Bradesco, Santander, itau/ Unibanco, entre outros.</p>
-        <p class="explicacao_text">A participação das empresas e do governo no PBQP-H não é apenas uma demanda mercadológica, competitividade e permanência do negócio, mas sim a responsabilidade social e de sustentabilidade com o planeta, seus recursos e seus usuários.</p>
-    </div>
+        <div id="centerExplicacao">
+            <p class="explicacao_text">O PBQP-H é um programa de caráter voluntário e não compulsório/ obrigatório, porém é de exigência de seus clientes que as empresas tenham sua qualificação atestada ou seu produto qualificado para se valer de alguns benefícios ou para participarem de programas de instituições públicas (governo) ou privadas, como Programa Minha Casa Minha Vida, Casa Verde Amarela, Licitações de obras públicas e mesmo obras privadas. As linhas de créditos ofertadas por instituições financeiras públicas como CEF – Caixa Econômica Financeira e BB – Banco do Brasil para o setor da construção civil também são exigências a certificação no PBQP-H, assim como em instituições financeiras privadas como bancos Bradesco, Santander, itau/ Unibanco, entre outros.</p>
+            <p class="explicacao_text2">A participação das empresas e do governo no PBQP-H não é apenas uma demanda mercadológica, competitividade e permanência do negócio, mas sim a responsabilidade social e de sustentabilidade com o planeta, seus recursos e seus usuários.</p>
+        </div>
+            </div>
     <div id="razoes">
-        <div id="nav_razoes">
-            <div class="iniciado" id="box_1" onclick="alterarTamanho1()">
-                <div class="flex_razoes">
-                    <img src="images/Captura de tela de 2024-05-09 17-12-58.png" class="img_razoes">
-                    <h3 class="h3_razoes">Empresas de Serviços e Obras</h3>
-                   
-                </div>
-                 <p id="p1" class="p1_razoes">As empresas construtoras têm um papel muito importante neste elo do ecossistema da Construção Civil, sendo o principal ator responsável dentro do PBQP-H para se atingir os objetivos do programa e com benefícios diretos a si mesma.</p>
-            </div>
-            <div class="box" id="box_2" onclick="alterarTamanho2()">
-                <div class="flex_razoes">
-                    <img src="images/Captura de tela de 2024-05-09 15-18-38.png" class="img_razoes">
-                    <h3 class="h3_razoes">Fabricantes de Materiais</h3>
-                   
-                </div>
-                 <p id="p2" class="p_razoes">A existência de normas técnicas da ABNT,  laboratórios de ensaios credenciados e acreditados não é garantia de que os produtos da construção civil os atendam ou que alcancem resultados satisfatórios, mas a qualificação destas empresas e seus produtos no SiMaC/ PSQ concede esta garantia.</p>
-            </div>
-            <div class="box" id="box_3" onclick="alterarTamanho3()">
-                <div class="flex_razoes">
-                    <img src="images//Captura de tela de 2024-05-09 15-18-46.png" class="img_razoes">
-                    <h3 class="h3_razoes">Governo</h3>
-                   
-                </div>
-                 <p id="p3" class="p_razoes">O governo federal como mantenedor do PBQP-H cumpre com sua responsabilidade com os fundamentos legais do programa, fornecendo moradia digna e com qualidade aos seus usuários/ compradores, otimizando seus recursos com esta finalidade.</p>
-            </div>
-            <div class="box" id="box_4" onclick="alterarTamanho4()">
-            <div class="flex_razoes">
-                    <img src="images/Captura de tela de 2024-05-09 15-18-54.png" class="img_razoes">
-                    <h3 class="h3_razoes">Empresas de Serviços e Obras</h3>
-                   
-                </div>
-                 <p id="p4" class="p_razoes">Os consumidores são os mais favorecidos pelo PBQP-H, usufruindo de produtos e processos certificados, com a garantia da qualidade e com custo mais baixo, permitindo a garantia da sua satisfação e com menor uso dos recursos naturais.</p>
-            </div>
-            <div class="box"  id="box_5" onclick="alterarTamanho5()">
-                <div class="flex_razoes">
-                        <img src="images/Captura de tela de 2024-05-09 15-19-07.png" class="img_razoes">
-                        <h3 class="h3_razoes">Agentes Financiadores</h3>
+        <div id="centerRazoes">
+            <div id="nav_razoes">
+                <div class="iniciado" id="box_1" onclick="alterarTamanho1()">
+                    <div class="flex_razoes">
+                        <img src="images/Captura de tela de 2024-05-09 17-12-58.png" class="img_razoes">
+                        <h3 class="h3_razoes">Empresas de Serviços e Obras</h3>
                     
                     </div>
-                    <p id="p5" class="p_razoes">As instituições financeiras públicas ou privadas são agentes essenciais no processo de garantia de uso da certificação de produtos e processos dentro do PBQP-H, pois são os principais clientes contratantes de serviços e obras da construção civil.</p>
-                </div>   
-            </div>
-            <div id="conteudo_razoes">
-                <div id="contents1">
-                    <h2 class="h2_contents">Obrigatoriedade</h2>
-                    <p class="p_contents" id="p_contents_1">Implantar os projetos do PBQP-H/ SiAC;</p>
-                    <div class="enfeite_contents"></div>
-                    <p class="p_contents" id="p_contents_2">Atender às normas técnicas da ABNT, incluindo o conjunto de Normas de Desempenho;</p>
-                    <div class="enfeite_contents"></div>
-                    <p class="p_contents" id="p_contents_3">Adquirir produtos, componentes e sistemas construtivos que atendam às normas da ABNT e que sejam produtos e empresas certificadas.</p>
+                    <p id="p1" class="p1_razoes">As empresas construtoras têm um papel muito importante neste elo do ecossistema da Construção Civil, sendo o principal ator responsável dentro do PBQP-H para se atingir os objetivos do programa e com benefícios diretos a si mesma.</p>
                 </div>
-                <div id="contents2">
-                    <h2 class="h2_contents">Benefícios</h2>
-                    <p class="p_contents" id="p_contents_4">
-Empresa habilitada para participar de licitações, financiamentos e obras em que o cliente exija a certificação;</p>
-                    <div class="enfeite_contents"></div>
-                    <p class="p_contents" id="p_contents_5">
-Processos e produtos de qualidade e aumento da produtividade;</p>
-                    <div class="enfeite_contents"></div>
-                    <p class="p_contents" id="p_contents_6">Aumento da competitividade e visibilidade comercial da empresa.</p>
+                <div class="box" id="box_2" onclick="alterarTamanho2()">
+                    <div class="flex_razoes">
+                        <img src="images/Captura de tela de 2024-05-09 15-18-38.png" class="img_razoes">
+                        <h3 class="h3_razoes">Fabricantes de Materiais</h3>
+                    
+                    </div>
+                    <p id="p2" class="p_razoes">A existência de normas técnicas da ABNT,  laboratórios de ensaios credenciados e acreditados não é garantia de que os produtos da construção civil os atendam ou que alcancem resultados satisfatórios, mas a qualificação destas empresas e seus produtos no SiMaC/ PSQ concede esta garantia.</p>
                 </div>
+                <div class="box" id="box_3" onclick="alterarTamanho3()">
+                    <div class="flex_razoes">
+                        <img src="images//Captura de tela de 2024-05-09 15-18-46.png" class="img_razoes">
+                        <h3 class="h3_razoes">Governo</h3>
+                    
+                    </div>
+                    <p id="p3" class="p_razoes">O governo federal como mantenedor do PBQP-H cumpre com sua responsabilidade com os fundamentos legais do programa, fornecendo moradia digna e com qualidade aos seus usuários/ compradores, otimizando seus recursos com esta finalidade.</p>
+                </div>
+                <div class="box" id="box_4" onclick="alterarTamanho4()">
+                <div class="flex_razoes">
+                        <img src="images/Captura de tela de 2024-05-09 15-18-54.png" class="img_razoes">
+                        <h3 class="h3_razoes">Empresas de Serviços e Obras</h3>
+                    
+                    </div>
+                    <p id="p4" class="p_razoes">Os consumidores são os mais favorecidos pelo PBQP-H, usufruindo de produtos e processos certificados, com a garantia da qualidade e com custo mais baixo, permitindo a garantia da sua satisfação e com menor uso dos recursos naturais.</p>
+                </div>
+                <div class="box"  id="box_5" onclick="alterarTamanho5()">
+                    <div class="flex_razoes">
+                            <img src="images/Captura de tela de 2024-05-09 15-19-07.png" class="img_razoes">
+                            <h3 class="h3_razoes">Agentes Financiadores</h3>
+                        
+                        </div>
+                        <p id="p5" class="p_razoes">As instituições financeiras públicas ou privadas são agentes essenciais no processo de garantia de uso da certificação de produtos e processos dentro do PBQP-H, pois são os principais clientes contratantes de serviços e obras da construção civil.</p>
+                    </div>   
+                </div>
+                <div id="conteudo_razoes">
+                    <div id="contents1">
+                        <h2 class="h2_contents">Obrigatoriedade</h2>
+                        <p class="p_contents" id="p_contents_1">Implantar os projetos do PBQP-H/ SiAC;</p>
+                        <div class="enfeite_contents"></div>
+                        <p class="p_contents" id="p_contents_2">Atender às normas técnicas da ABNT, incluindo o conjunto de Normas de Desempenho;</p>
+                        <div class="enfeite_contents"></div>
+                        <p class="p_contents" id="p_contents_3">Adquirir produtos, componentes e sistemas construtivos que atendam às normas da ABNT e que sejam produtos e empresas certificadas.</p>
+                    </div>
+                    <div id="contents2">
+                        <h2 class="h2_contents">Benefícios</h2>
+                        <p class="p_contents" id="p_contents_4">
+    Empresa habilitada para participar de licitações, financiamentos e obras em que o cliente exija a certificação;</p>
+                        <div class="enfeite_contents"></div>
+                        <p class="p_contents" id="p_contents_5">
+    Processos e produtos de qualidade e aumento da produtividade;</p>
+                        <div class="enfeite_contents"></div>
+                        <p class="p_contents" id="p_contents_6">Aumento da competitividade e visibilidade comercial da empresa.</p>
+                    </div>
+                </div>
+                <a id="a_estrutura" href="contato.html">Fale com um especialista</a>  
             </div>
-            <a id="a_estrutura" href="contato.html">Fale com um especialista</a>  
         </div>
     <footer>
-        <div id="div1_footer">
-            <a href="#"><img src="images/Captura de tela de 2024-05-02 16-32-22.png" id="img_footer"></a>
-            <a href="#"><img src="images/Captura de tela de 2024-05-02 16-37-09.png" id="img_footer_2" ></a>
-            <a href="#"><img src="images/Captura de tela de 2024-05-02 16-37-15.png" id="img_footer_3"></a>
-            <button id="button_footer">Inscreva-se</button> 
-            <script>
-            document.getElementById('button_footer').addEventListener('click', function() {
-        window.location.href = 'inscreva_se.html';
-    });
-        </script>      
+        <div id="centerFooter">
+            <div id="div1_footer">
+                <a href="#"><img src="images/Captura de tela de 2024-05-02 16-32-22.png" id="img_footer"></a>
+                <a href="#"><img src="images/Captura de tela de 2024-05-02 16-37-09.png" id="img_footer_2" ></a>
+                <a href="#"><img src="images/Captura de tela de 2024-05-02 16-37-15.png" id="img_footer_3"></a>
+                <button id="button_footer">Inscreva-se</button> 
+                <script>
+                document.getElementById('button_footer').addEventListener('click', function() {
+            window.location.href = 'inscreva_se.html';
+        });
+            </script>   
+            </div>
+            <div id="enfeite_footer"></div>
+            <div id="div2_footer">
+                <p id="direitos_reservados">© 2020 PBQP-H Consultoria. Todos os direitos reservados.</p>
+                <p id="rafael_ferr">Desenvolvido por Rafael Ferr</p>  
+            </div>
         </div>
-        <div id="enfeite_footer"></div>
-        <div id="div2_footer">
-            <p id="direitos_reservados">© 2020 PBQP-H Consultoria. Todos os direitos reservados.</p>
-            <p id="rafael_ferr">Desenvolvido por Rafael Ferr</p>  
-        </div> 
     </footer>
     <script type="text/javascript" src="js/pq_participar.js"> </script>
 </body>
