@@ -137,17 +137,19 @@ a {
     opacity: 1;
 }
 #li_1:hover #inverseVNav_1,
+#li_3:hover #inverseVNav_2,
 #li_3:hover #inverseVNav_3,
 #li_4:hover #inverseVNav_4,
 #li_5:hover #inverseVNav_5 {
     stroke: black;
 }
 #li_1:hover a,
+#li_2:hover a,
 #li_3:hover a,
 #li_4:hover a,
 #li_5:hover a,
 #li_6:hover a,
-#li_7:hover a {
+#li_7:hover a{
     color: black;
 }
 .active {
