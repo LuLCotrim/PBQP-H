@@ -16,15 +16,27 @@ header{
 #centerHeader{
     width: 1366px;
     height: 30px;
+    display: flex;
 }
 #header_button{
     background-color: #0c2e40;
-    color: white;
     position: relative;
     width: 120px;
     height: 30px;
-    margin-left: 1204px;
     border: none;
+    font: normal normal normal 14px/33px Lato;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+#aHeader{
+    display:block;
+    color: black;
+    margin-top: 1px;
+    font: normal normal normal 14px/33px Lato;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-left: 851px;
 }
 #centerPrenav{
     display: flex;
@@ -552,13 +564,23 @@ footer{
     transition: color 0.3s;
     transition: 0.2s;
 }
+#aFooter{
+    display:block;
+    color: white;
+    margin-top: 1px;
+    font: normal normal normal 16px/33px Lato;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-left: 490px;
+    margin-top: 10px;
+}
 #enfeite_footer{
     position: relative;
     width: 1115px;
     height: 2px;
     background-color: #F0F0F0;
     opacity: 0.1;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 132px;
 }
 #direitos_reservados{
