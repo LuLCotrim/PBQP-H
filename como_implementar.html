@@ -8,206 +8,387 @@
 </head>
 <body>
     <header>
-        <button id="header_button">
-            Fale conosco
-        </button>
-        <script>
-            document.getElementById('header_button').addEventListener('click', function() {
-        window.location.href = 'fale_conosco.html';
-    });
-        </script>
+        <div id="centerHeader">
+            <a href="mailto:contato@portalpbqp-h.com.br" id="aHeader">Email: contato@portalpbqp-h.com.br &nbsp;&nbsp;  Tel: (41) 99955-3390</a>
+            <button id="header_button">
+                Fale conosco
+            </button>
+            <script>
+                document.getElementById('header_button').addEventListener('click', function() {
+            window.location.href = 'fale_conosco.html';
+        });
+            </script>
+        </div>
+        
     </header>
     <div id="pre_nav">
-        <a href="index.html"><img src="images/logoAndName.png" id="logoAndName"></a>
-        <h1 id="name_pre_nav">Programa Brasileiro da Qualidade e Produtividade do Habitat</h1>
-        <img src="images/bandeira-brasil-1.png" id="bandeira_brasil">
+        <div id="centerPrenav">
+            <a href="index.html"><img src="images/logoAndName.png" id="logoAndName"></a>
+            <h1 id="name_pre_nav">Programa Brasileiro da Qualidade e Produtividade do Habitat</h1>
+            <img src="images/bandeira-brasil-1.png" id="bandeira_brasil">
+        </div>
     </div>
-    <nav id="nav" class="nav-top">
-        <button id="button_media"><img src="images/Captura de tela de 2024-05-27 15-59-22.png" alt=""></button>
-        <script>
-            document.getElementById('button_media').addEventListener('click', function() {
-                const ulNav = document.getElementById('ul_nav');
-                if (ulNav.style.display === 'none' || ulNav.style.display === '') {
-                    ulNav.style.display = 'block';
-                } else {
-                    ulNav.style.display = 'none';
-                }
+        <nav id="nav" class="nav-top">
+            <div id="centerNav">
+            <button id="button_media"><img src="images/Captura de tela de 2024-05-27 15-59-22.png" alt=""></button>
+            <script>
+                document.getElementById('button_media').addEventListener('click', function() {
+                    const ulNav = document.getElementById('ul_nav');
+                    if (ulNav.style.display === 'none' || ulNav.style.display === '') {
+                        ulNav.style.display = 'block';
+                    } else {
+                        ulNav.style.display = 'none';
+                    }
+                });
+            </script>
+            <div id="ul_nav">
+                <div class="li" id="li_1"><a href="o_programa.html">O Programa <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_1" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
+                <div class="li" id="li_2"><a href="projetos.html">Projetos <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_2" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
+                <div class="li" id="li_3"><a href="pq_participar.html">Porque Participar <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_3" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
+                <div class="li" id="li_4"><a href="como_implementar.html">Como Implementar <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_4" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
+                <div class="li" id="li_5"><a href="base_legal.html">Base Legal <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_5" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
+                <div class="li" id="li_6"><a href="noticias.html">Notícias</a></div>
+                <div class="li" id="li_7"><a href="downloads.html">Downloads</a></div>
+                <input type="text" placeholder="Faça uma pesquisa" class="search-input">
+                <button class="search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M23.707 22.293l-6.364-6.364A9.917 9.917 0 0 0 20 10c0-5.523-4.477-10-10-10S0 4.477 0 10s4.477 10 10 10a9.917 9.917 0 0 0 5.93-2.071l6.364 6.364a1 1 0 0 0 1.414-1.414zM10 18c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"/>
+                    </svg>
+                </button>
+            </div>
+            <button id="button_nav" class="button_nav"><p>Inscreva-se</p></button>
+            <script>
+                document.getElementById('button_nav').addEventListener('click', function() {
+            window.location.href = 'inscreva_se.html';
+        });
+            </script>
+            </div>
+        </nav>
+    
+    <div id="img_noticias_nav">
+    </div>
+    <div id="programa">
+        <div id="centerPrograma">
+            <div id="corrigirPrograma">
+                <h2 id="titulo_programa"> O Programa</h2>
+                <div id="enfeite_titulo_programa"></div>
+                <div id="conteudo_programa">
+                    Bem-vindo ao PBQP-H Programa Brasileiro da Qualidade e Produtividade do Habitat, uma ação do Governo Federal com o objetivo de promover a melhoria da qualidade e o aumento da produtividade no setor da construção civil. O PBQP-H proporciona a certificação de construtoras (regimento SiAC 2021), avaliação de materiais e componentes da construção civil (SiMAC e PSQ) e avalia produtos, processos ou sistemas inovadores ou convencionais (SIMAT), habilitando as empresas construtoras, fabricantes, importadores, distribuidores e pessoas físicas a ter acesso a linhas de créditos (financiamento) junto a bancos públicos e privados (principalmente CEF – Caixa Econômica Federal), acesso de fornecimento para o Programa Minha Casa Minha Vida – MCMV, Programa Casa Verde e Amarela – PCVA e Licitações de Obras Públicas, além de benefícios junto ao BNDS.
+                </div>
+                <button id="button_programa">Conheça mais ></button>
+                <script>
+                    document.getElementById('button_programa').addEventListener('click', function() {
+                window.location.href = 'o_programa.html';
             });
-        </script>
-         <div id="ul_nav">
-            <div class="li" id="li_1"><a href="o_programa.html">O Programa <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_1" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
-            <div class="li" id="li_2"><a href="projetos.html">Projetos <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_2" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
-            <div class="li" id="li_3"><a href="pq_participar.html">Porque Participar <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_3" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
-            <div class="li" id="li_4"><a href="como_implementar.html">Como Implementar <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_4" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
-            <div class="li" id="li_5"><a href="base_legal.html">Base Legal <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 8.163 14.325" style="    transform: rotate(90deg);    width: 1rem;"><g transform="translate(-4.334 1.414)"><path id="inverseVNav_5" d="M18,7.5l5.748,5.748L18,19" transform="translate(-12.252 -7.5)" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></g></svg></a></div>
-            <div class="li" id="li_6"><a href="noticias.html">Notícias</a></div>
-            <div class="li" id="li_7"><a href="downloads.html">Downloads</a></div>
-            <input type="text" placeholder="Faça uma pesquisa" class="search-input">
-            <button class="search-button">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                    <path fill="currentColor" d="M23.707 22.293l-6.364-6.364A9.917 9.917 0 0 0 20 10c0-5.523-4.477-10-10-10S0 4.477 0 10s4.477 10 10 10a9.917 9.917 0 0 0 5.93-2.071l6.364 6.364a1 1 0 0 0 1.414-1.414zM10 18c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"/>
-                </svg>
-            </button>
-         </div>
-         <button id="button_nav" class="button_nav"><p>Inscreva-se</p></button>
-         <script>
-            document.getElementById('button_nav').addEventListener('click', function() {
-        window.location.href = 'inscreva_se.html';
+                </script>
+            </div>
+            <img src="images/logoAndName.png" id="programa_logo">
+            <img src="images/minha-casa-minha-vida-logo-CE7E3A7165-seeklogo.com_.png" id="programa_minhaCasa">
+            <img src="images/caixalogo0-300x68.png" id="programa_caixa">
+        </div>
+        </div>
+
+    <div id="projetos">
+        <div id="centerProjetos">
+            <p id="estruturas_e_tipos">ESTRUTURAS E TIPOS</p>
+            <h1 id="projetos_titulo">Projetos</h1>
+            <div id="enfeite_projetos"></div>
+            <p id="conteudo_projetos">Conheça os projetos que compõem o PBQP-H e promovem a excelência na construção civil no Brasil. Os 3 principais projetos atualmente do PBQP-H: SiAC, SiMaC e SINAT são passíveis de certificação, por processos semelhantes, com regras e normativas distintas entre eles, sendo o SiAC certificação de processo, SiMaC certificação de produto e SINAT de componentes ou sistemas construtivos inovadores.</p>
+            <div id="box_projetos">
+                <div id="box_projetos1">
+                    <img src="images/Captura de tela de 2024-04-29 08-39-03.png" id="chapeu">
+                    <h2 id="box_projetos2_h1">SiAC</h2>
+                    <p id="box_projetos2_p1">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
+                    <a id="box_projetos2_a1" href="projetos.html#siac"> Saiba Mais</a>
+                </div>
+                <div id="box_projetos2">
+                    <img src="images/Captura de tela de 2024-04-29 08-39-13.png" id="agenda">
+                    <h2 id="box_projetos2_h2">SiMaC</h2>
+                    <p id="box_projetos2_p2">Descubra o SiMaC - Sistema de Avaliação da Conformidade de Materiais, Componentes e Sistemas Construtivos dentro do PBQP-H. O SiMaC por meio do PSQ - Programa Setorial da Qualidade tem o objetivo de qualificar produtos, componentes ou sistemas de empresas que fabricam, importam ou distribuem.</p>
+                    <a id="box_projetos2_a2" href="projetos.html#simac"> Saiba Mais</a>
+                </div>
+                <div id="box_projetos3">
+                    <img src="images/Captura de tela de 2024-04-29 08-39-21.png" id="desenho">
+                    <h2 id="box_projetos2_h3">SINAT</h2>
+                    <p id="box_projetos2_p3">Explore o SiNAT (Sistema Nacional de Avaliações Técnicas), projeto essencial do PBQP-H. O SiNAT oferece avaliações técnicas de produtos inovadores e sistemas construtivos, garantindo a segurança, confiabilidade e conformidade com as normas, promovendo edificações de alto padrão e qualidade.</p>
+                    <a id="box_projetos2_a3" href="projetos.html#sinat"> Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="pq_participar">
+        <div id="centerPqparticipar">
+             <div id="pq_participar_1">
+            <p id="estruturas_e_tipos_2">ESTRUTURAS E TIPOS</p>
+            <h1 id="titulo_pq_participar">Por que participar?</h1>
+            <div id="enfeite_pq_participar"></div>
+            <p id="conteudo_pq_participar">Entenda os diversos benefícios que o PBQP-H oferece para toda a cadeia produtiva da construção civil, seja empresas construtoras, indústrias fabricantes de materiais, profissionais da construção civil, bem como vantagens aos consumidores, governo, contribuintes etc. Ao aderir ao programa, sua empresa demonstra compromisso com a qualidade e segurança das construções, o que aumenta a credibilidade no mercado. Além disso, a certificação PBQP-H abre portas para novas oportunidades de negócios e parcerias, potencializando o crescimento e a competitividade. Ao seguir as diretrizes do SiAC, SiMaC e SiNAT, sua empresa se destaca pela excelência na gestão, sustentabilidade e inovação, conquistando a confiança dos clientes e contribuindo para o desenvolvimento sustentável do setor e do país. Não perca a chance de fazer parte deste programa que impulsiona o progresso da construção civil no Brasil!</p>
+            <button id="button_pq_participar">Conheça mais ></button>
+            <script>
+            document.getElementById('button_pq_participar').addEventListener('click', function() {
+        window.location.href = 'pq_participar.html';
     });
         </script>
-    </nav>
-    <div id="implementar">
-        <h2 id="title_implementar">Como Implementar o PBQP-H?</h2>
-        <img src="images/Captura de tela de 2024-05-13 14-07-54.png" id="img_implementar">
+        </div>
+        <div id="enfeite_pq_participar_2"></div>
+        <div id="pq_participar_2">
+            <p id="principais_vantagens">PRINCIPAIS VANTAGENS</p>
+            <div style="display: flex;">
+                <div>
+                    <img id="img_vantagens_1" src="images/Captura de tela de 2024-04-29 16-11-26.png">
+                    <p id="p_vantagens_1">Habilitar a empresa para participação de licitações</p>
+                </div>
+                <div>
+                    <img id="img_vantagens_2" src="images/Captura de tela de 2024-04-29 16-11-35.png">
+                    <p id="p_vantagens_2">Participação no programa “Minha Casa, Minha Vida”</p>
+                </div>
+            </div>
+            
+           <div style="display: flex;">
+            <div >
+                <img id="img_vantagens_3" src="images/Captura de tela de 2024-04-29 16-11-40.png">
+                <p id="p_vantagens_3">Aprovação de projetos e financiamentos junto à Caixa Econômica Federal (CEF)</p>  
+            </div>
+            <div>
+                <img id="img_vantagens_4" src="images/Captura de tela de 2024-04-29 16-11-54.png">
+                <p id="p_vantagens_4">Estabelecimento de padrões de qualidade</p>  
+            </div>
+           </div>
+           <div style="display: flex;">
+                <div>
+                    <img id="img_vantagens_5"src="images/Captura de tela de 2024-04-29 16-12-00.png">
+                    <p id="p_vantagens_5">Estabelecimento de padrões de qualidade empreendimentos realizados.</p>     
+                </div>
+                <div>
+                    <img id="img_vantagens_6" src="images/Captura de tela de 2024-04-29 16-12-06.png">
+                    <p id="p_vantagens_6">Aprovação de projetos e financiamentos junto à Caixa Econômica Federal (CEF) e outras instituições de crédito públicos e privados</p>            
+                </div>
+           </div>     
+        </div> 
+        </div>    
+    </div>    
+    <div id="quer_participar">
+        <div id="centerQuerparticipar">
+            <img  id="img_quer_participar" src="images/Captura de tela de 2024-04-30 08-34-57.png">
+                    <h2 id="h2_quer_participar">Quer Participar?</h2>
+                    <button id="button_quer_participar">Fale com um especialista ></button>
+                    <script>
+                        document.getElementById('button_quer_participar').addEventListener('click', function() {
+                    window.location.href = 'contato.html';
+                });
+                    </script>
+                </div>
+        </div>
+    <div id="como_implantar">
+        <div id="centerComoimplantar">
+            <p id="estruturas_e_tipos_3">ESTRUTURAS E TIPOS</p>
+            <h1 id="titulo_como_implementar">Como implementar o PBQP-H</h1>
+            <div id="enfeite_como_implementar"></div>
+            <p id="conteudo_como_implementar">O PBQP-H foi estruturado em projetos, a partir de um modelo matricial. Cada projeto corresponde a um conjunto de ações que contribui diretamente para o</p>
+            <div id="cmBox">
+                <div id="cmBox1" class="cmbox">
+                    <p class="subTCm">SIAC</p>
+                    <p class="tCm">Construtora</p>
+                </div>
+                <div id="cmBox2"  class="cmbox">
+                    <p class="subTCm">SIMAT</p>
+                    <p class="tCm">Fabricante de Material</p>
+                </div>
+                <div id="cmBox3"  class="cmbox">
+                    <p class="subTCm">SINAC</p>
+                    <p class="tCm">Proponente/Detentor</p>
+                </div>
+            </div>
+            <div id="cmImgs">
+                <div class="cmCenterImgs">
+                    <div id="cmCirculo" class="cmCirculo">
+                        <div id="cmNumber">
+                            #1
+                        </div>
+                        <p class="cmCirculoText" id="cmCirculoposition">
+                            DECISÃO
+                        </p>
+                    </div> 
+                </div>
+                <div class="cmCenterImgs">
+                    <div id="cmCirculo2" class="cmCirculo">
+                        <div id="cmNumber2">
+                            #2
+                        </div>
+                        <p class="cmCirculoText">
+                             IMPLANTAÇÃO
+                        </p>
+                    </div>
+    
+                </div>
+                <div class="cmCenterImgs">
+                    <div id="cmCirculo3" class="cmCirculo">
+                        <div id="cmNumber3">
+                            #3
+                        </div>
+                         <p class="cmCirculoText" id="cmCirculoposition2">
+                            AUDITORIA
+                        </p>
+                    </div>    
+                </div>
+                <div class="cmCenterImgs">
+                    <div id="cmCirculo4" class="cmCirculo">
+                        <div id="cmNumber4">
+                            #4
+                        </div>
+                        <p class="cmCirculoText">
+                            CERTIFICAÇÃO
+                        </p>
+                    </div>    
+                    
+                </div>
+            </div>
+            <button id="btnComoImplantar">ver processo completo</button>
+            <script>
+            document.getElementById('btnComoImplantar').addEventListener('click', function() {
+        window.location.href = 'como_implementar.html';
+    });
+        </script>
+        </div>
+    </div>  
+    <div id="base_legal">
+        <div id="centerBaseLegal">
+            <div id="base_legal_1">
+                <p id="estruturas_e_tipos_4">ESTRUTURAS E TIPOS</p>
+                <h1 id="titulo_base_legal">Base Legal</h1>
+                <div id="enfeite_base_legal"></div>
+                <p id="conteudo_base_legal">O PBQP-H é um programa do governo federal e tem sua base legal fundamentada em acordos internacionais, legislações federais, bem como em decretos e portarias, além de normas e regimentos. Conheça todo o arcabouço legal que rege o programa PBQP-H e suas implicações.</p>
+                <button id="button_base_legal">Saiba mais ></button>
+                <script>
+            document.getElementById('button_base_legal').addEventListener('click', function() {
+        window.location.href = 'base_legal.html';
+    });
+        </script>
+            </div>
+            <div id="base_legal_2">
+                <div id="box1_base_legal">
+                    <img src="images/Captura-de-tela-de-2024-05-01-16-06-38.svg">
+                    <h3 class="h3_base_legal1">Juridico</h3>
+                    <p class="p_base_legal1">Conheça alguns dos fundamentos legais do PBQP-H, como o Desenvolvimento sustentável das cidades e direito à moradia digna, além de princípios e objetivos claramente traçados.</p>
+                </div>
+                <div id="box2_base_legal">
+                    <img src="images/Captura-de-tela-de-2024-05-01-15-40-20.svg">
+                     <h3 class="h3_base_legal1">Exigências</h3>
+                    <p class="p_base_legal1">Apesar de caráter voluntário há exigências legais quanto à participação nos projetos do PBQP-H para as empresas</p>
+                </div>
+                <div id="box3_base_legal">
+                    <img src="images/Captura-de-tela-de-2024-05-01-16-06-31.svg">
+                     <h3 class="h3_base_legal1">Garantia Jurídica</h3>
+                    <p class="p_base_legal1">A garantia jurídica do PBQP-H está intrinsecamente ligada ao cumprimento das normas, regulamentos e regimentos, bem como à transparência e conformidade nos processos.</p>
+                </div>
+                <div id="box4_base_legal">
+                    <img src="images/Captura-de-tela-de-2024-05-01-15-40-20.svg">
+                     <h3 class="h3_base_legal1">Jurisprudências</h3>
+                    <p class="p_base_legal1">Desde a criação do PBQP-H, há 25 anos, houveram diversas decisões judiciais a favor das exigências do PBQP-H, com algumas jurisprudências.</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="central">
-        <div id="div1_central">
-           <p class="p1">A certificação do PBQP-H (produtos ou processos), exige a implantação dos regimentos específicos (SiAC ou SiMaC/PSQ) e requer compromisso e decisão da organização.</p>
-            <p class="p1">Seja para a certificação ou não, a implantação dos referenciais normativos e regimentos, exige conhecimento e experiência da empresa, o auxílio de Consultoria/ Assessoria especializada garante e facilita este trabalho.</p> 
-            <p class="p1">Os 3 principais projetos atualmente do PBQP-H: SiAC, SiMaC e SINAT são passíveis de certificação, por processos semelhantes, com regras e normativas distintas entre eles, sendo o SiAC certificação de processo, SiMaC certificação de produto e SINAT de componentes ou sistemas construtivos.</p> 
-            <p class="p1">A certificação se dá pelo atendimento às regras e exigências constantes em normativas, regimentos e regras específicas emitidas pelo Governo Federal em conjunto com especialistas e entidades.</p> 
-            <p class="p1">A implantação e orientação destas normativas necessitam de pessoal capacitado e experiente para auxiliar e assessorar as empresas interessadas na certificação.</p> 
+    <div id="noticias">
+        <div id="centerNoticias">
+            <h1 id="titulo_noticias">Notícias</h1>
+            <div id="enfeite_noticias"></div>
+            <div id="box_mobile">
+                <div id="box_central_noticias">
+                    <div id="box_noticias">
+                        <img src="images/A-importancia-do-uso-dos-EPIs-para-manuseio-das-maquinas-em-obras-imagem1-scaled-1-1024x684.jpg" class="imgs_noticias">
+                        <p class="box_noticias_data">1245-04-12</p>
+                        <p class="box_noticias_titulo">Teste</p>
+                        <p class="box_noticias_subtitulo">A garantia jurídica do PBQP-H está intrinsecamente ligada ao cumprimento das normas, regulamentos e regimentos, bem como à transparência e conformidade nos processos.</p>
+                        <a class="box_noticias_a" href="#">Leia Mais <p class="elemento_enfeite"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 11.518 21.828"><path d="M37.83,24.771,27.262,14.293l-.917.872,10.02,10.042L26.312,35.249l.956.872L37.83,25.643Z" transform="translate(-26.312 -14.293)" fill="#111" stroke="#0c2e40"></path></svg></p></a>
+                    </div>
+                    <div id="box_noticias_2">
+                        <img src="images/A-importancia-do-uso-dos-EPIs-para-manuseio-das-maquinas-em-obras-imagem1-scaled-1-1024x684.jpg" class="imgs_noticias">
+                        <p class="box_noticias_data">1245-04-12</p>
+                        <p class="box_noticias_titulo">Teste</p>
+                        <p class="box_noticias_subtitulo">A garantia jurídica do PBQP-H está intrinsecamente ligada ao cumprimento das normas, regulamentos e regimentos, bem como à transparência e conformidade nos processos.</p>
+                        <a class="box_noticias_a" href="#">Leia Mais <p class="elemento_enfeite"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 11.518 21.828"><path d="M37.83,24.771,27.262,14.293l-.917.872,10.02,10.042L26.312,35.249l.956.872L37.83,25.643Z" transform="translate(-26.312 -14.293)" fill="#111" stroke="#0c2e40"></path></svg></p></a>
+                    </div>
+                    <div id="box_noticias_3">
+                        <img src="images/A-importancia-do-uso-dos-EPIs-para-manuseio-das-maquinas-em-obras-imagem1-scaled-1-1024x684.jpg" class="imgs_noticias">
+                        <p class="box_noticias_data">1245-04-12</p>
+                        <p class="box_noticias_titulo">Teste</p>
+                        <p class="box_noticias_subtitulo">A garantia jurídica do PBQP-H está intrinsecamente ligada ao cumprimento das normas, regulamentos e regimentos, bem como à transparência e conformidade nos processos.</p>
+                        <a class="box_noticias_a" href="#">Leia Mais <p class="elemento_enfeite"><svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 11.518 21.828"><path d="M37.83,24.771,27.262,14.293l-.917.872,10.02,10.042L26.312,35.249l.956.872L37.83,25.643Z" transform="translate(-26.312 -14.293)" fill="#111" stroke="#0c2e40"></path></svg></p></a>
+                    </div>
+                </div>
+            </div>
+             <button id="button_left_noticias"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="26" viewBox="0 0 15 26" fill="none" class="right-nav"><path d="M1.95656 1.67773L13.6646 13.1367C13.8741 13.3417 13.8703 13.6799 13.6564 13.8801L1.95656 24.8332" stroke="#162D2F" stroke-width="2.05826" stroke-linecap="round"></path></svg></button>
+        <button id="button_right_noticias"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="26" viewBox="0 0 15 26" fill="none" class="left-nav"><path d="M13.0884 1.67773L1.38027 13.1367C1.17087 13.3417 1.17462 13.6799 1.38852 13.8801L13.0884 24.8332" stroke="#162D2F" stroke-width="2.05826" stroke-linecap="round"></path></svg></button>
+        <button id="button_noticias">Veja mais notícias ></button>
+        <script>
+            document.getElementById('button_noticias').addEventListener('click', function() {
+        window.location.href = 'noticias.html';
+    });
+        </script>
         </div>
-        <img class="img_implementar" src="images/Captura de tela de 2024-05-14 10-22-33.png">
-        <h1 class="h1_implementar">SIAC</h1>
-        <p class="p2">O SIAC é o projeto do PBQP-H voltado para Empresas Construtoras, que são certificadas ao implantar o regimento SiAC em sua versão atual.</p>
-        <p class="p2">O referencial normativo do SiAC estabelece a implantação de um Sistema de Gestão da Qualidade – SGQ, baseado na ISO 9001, aplicável a toda empresa construtora que pretenda melhorar sua eficiência técnica e econômica e eficácia, por meio do aumento de qualidade e produtividade.</p>
-        <p class="p2">Com relação ao SiAC em empresas construtoras, a organização de fazer um diagnóstico técnico para saber em que nível de atendimento ao regimento a empresa se encontra.</p>
-        <div class="box_geral">
-            <div class="box">
-                <div class="enfeite_circulo"></div>
-                <div class="circulo"><p class="numero">1</p></div>
-                <h2 class="h2_implementar">SIAC</h2>
-                <p class="p_box">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
-                <p class="p_box"></p>
-                <a class="a_estrutura" href="contato.html">Fale com um especialista</a>
+        <button id="button_right_noticias_mobile" onclick="scrollRight()"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="26" viewBox="0 0 15 26" fill="none" class="right-nav"><path d="M1.95656 1.67773L13.6646 13.1367C13.8741 13.3417 13.8703 13.6799 13.6564 13.8801L1.95656 24.8332" stroke="#162D2F" stroke-width="2.05826" stroke-linecap="round"></path></svg></button>
+    </div>
+    <div id="downloads">
+        <div id="centerDownloads">
+             <h1 id="titulo_downloads">Downloads</h1>
+            <div id="enfeite_downloads"></div>
+            <p id="conteudoDownloads">Baixe gratuitamente normas, documentações e outros materiais</p>
+            <div id="box_central_downloads">
+                <div style="display: flex;">
+                    <div id="box_downloads">
+                        <img src="images/Captura de tela de 2024-05-02 15-42-42.png" class="imgs_downloads">
+                        <p class="box_downloads_titulo">Publicações</p>
+                        <p class="box_downloads_subtitulo">Confira as publicações referentes ao PBQP-H</p>
+                    </div>
+                    <div id="box_downloads_2">
+                        <img src="images/Captura de tela de 2024-05-02 15-42-32.png" class="imgs_downloads">
+                        <p class="box_downloads_titulo">Normas</p>
+                        <p class="box_downloads_subtitulo">Acesse às normativas oficiais diretas e indiretamente ligadas ao PBQP-H</p>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div id="box_downloads_3">
+                        <img src="images/Captura-de-tela-de-2024-05-02-15-42-25.svg" class="imgs_downloads">
+                        <p class="box_downloads_titulo">Projetos</p>
+                        <p class="box_downloads_subtitulo">Obtenha os arquivos relativos aos Projetos do PBQP-H</p>
+                    </div>
+                    <div id="box_downloads_4">
+                        <img src="images/Captura de tela de 2024-05-02 15-42-05.png" class="imgs_downloads">
+                        <p class="box_downloads_titulo">outros</p>
+                        <p class="box_downloads_subtitulo">Outros estudos, pesquisas, trabalhos, etc. (Sentiu falta de algum documento? entre em contato) Novos Estudos, Teses, Dissertações, etc. são bem vindos</p>
+                    </div>
+                </div>
+                
             </div>
-            <div class="box">
-                <div class="enfeite_circulo"></div>
-                <div class="circulo"><p class="numero">2</p></div>
-                <h2 class="h2_implementar">SIAC</h2>
-                <p class="p_box">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
-                <a class="a_estrutura" href="contato.html">Fale com um especialista</a>
-            </div>
-            <div class="box">
-                <div class="enfeite_circulo"></div>
-                <div class="circulo"><p class="numero">3</p></div>
-                <h2 class="h2_implementar">SIAC</h2>
-                <p class="p_box">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
-                <a class="a_estrutura" href="contato.html">Fale com um especialista</a>
-            </div>
-            <div class="box">
-                <div class="enfeite_circulo"></div>
-                <div class="circulo"><p class="numero">4</p></div>
-                <h2 class="h2_implementar">SIAC</h2>
-                <p class="p_box">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
-                <a class="a_estrutura" href="contato.html">Fale com um especialista</a>
-            </div>
-        </div>
-        <img class="img_implementar" src="images/Captura de tela de 2024-05-14 15-41-13.png">
-        <h1 class="h1_implementar">SIMAC</h1>
-        <p class="p2">
-O SIMAC é o projeto do PBQP-H voltado para Empresas de Materiais, Componentes e Sistemas Construtivos, atuantes no setor da Construção Civil, sejam Fabricantes, Importadoras ou Distribuidoras.
-
-</p>
-        <p class="p2">Ou seja, não apenas para empresas que fabricam, mas para quem importa ou distribui, ou quem deseja importar ou distribuir.</p>
-        <p class="p2">A Qualificação destas Empresas no SiMaC do PBQP-H dá-se por meio da avaliação da qualidade e monitoramento dos produtos. Os diversos produtos estão divididos por Programa Setorial da Qualidade (PSQ)
-
-</p>
-        <p class="p2">PSQ</p>
-        <p class="p2">Programa Setorial da Qualidade</p>
-        <p class="p2">Cada PSQ referente aos materiais em questão, terão um conjunto de preceitos diferentes entre si e apontarão as normas da ABNT que deverão ser atendidas, entre outras exigências, todas definidas pela Entidade Mantenedora do PSQ relativo ao material em questão.</p>
-        <p class="p2">A verificação da qualidade realizada através de auditorias de produtos coletados na fábrica e revendas. Estas auditorias são realizadas pela Entidade Gestora Técnica de cada PSQ.</p>
-        <p class="p2"> O atendimento às Normas Técnicas da ABNT são exigências comuns a todos os PSQ’s, sendo alguns complementados por exigências à Legislações específicas e outras obrigações distintas.</p>
-        <p class="p2">Há a orientação e incentivo da implantação de um Sistema de Gestão da Qualidade baseado nos requisitos da norma ABNT NBR ISO 9001, para as empresas fabricantes. Alguns PSQ’s têm como objetivo esta cobrança.</p>
-        <p class="p2">Desta forma para as empresas aderirem ao SiMaC/ PSQ elas podem contar com a experiência de uma empresa de consultoria para o processo de formalização e principalmente para adequação em atendimento às normas da ABNT e outras exigências peculiares. Assim como para a implantação dos requisitos da norma ABNT NBR ISO 9001.</p>
-        <div class="box_geral">
-            <div class="box2">
-                <div class="enfeite_circulo"></div>
-                <div class="circulo"><p class="numero">1</p></div>
-                <h2 class="h2_implementar">SIAC</h2>
-                <p class="p_box">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
-                <p class="p_box"></p>
-                <a class="a_estrutura" href="contato.html">Fale com um especialista</a>
-            </div>
-            <div class="box2">
-                <div class="enfeite_circulo"></div>
-                <div class="circulo"><p class="numero">2</p></div>
-                <h2 class="h2_implementar">SIAC</h2>
-                <p class="p_box">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
-                <a class="a_estrutura" href="contato.html">Fale com um especialista</a>
-            </div>
-            <div class="box2">
-                <div class="enfeite_circulo"></div>
-                <div class="circulo"><p class="numero">3</p></div>
-                <h2 class="h2_implementar">SIAC</h2>
-                <p class="p_box">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
-                <a class="a_estrutura" href="contato.html">Fale com um especialista</a>
-            </div>
-            <div class="box2">
-                <div class="enfeite_circulo"></div>
-                <div class="circulo"><p class="numero">4</p></div>
-                <h2 class="h2_implementar">SIAC</h2>
-                <p class="p_box">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
-                <a class="a_estrutura" href="contato.html">Fale com um especialista</a>
-            </div>
-        </div>
-        <img class="img_implementar" src="images/Captura de tela de 2024-05-14 15-55-30.png">
-        <h1 class="h1_implementar">SINAT</h1>
-        <p class="p2">
-O SINAT é o projeto do PBQP-H para Pessoas Físicas ou Jurídicas, seja Produtor, Fabricante ou Detentor do Produto, Processo ou Sistema, tanto inovador quanto convencional.</p>
-        <p class="p2">A avaliação técnica destes produtos, processos ou sistemas são realizadas pelas ITA – Instituição Técnica Avaliadora, com base em Requisitos e Critérios de desempenho quanto à aptidão ao uso, considerando-se fundamentalmente requisitos de desempenho relativos à segurança, habitabilidade e sustentabilidade.</p>
-        <p class="p2">Todo o processo de cadastramento, condições mínimas para participar e propor sua ideia ao SINAT pode ser auxiliada e orientada por uma empresa de consultoria especializada, facilitando o entendimento para melhor aproveitamento e eficiência ao proposto.</p>
-        <div class="box_geral">
-            <div class="box3">
-                <div class="enfeite_circulo"></div>
-                <div class="circulo"><p class="numero">1</p></div>
-                <h2 class="h2_implementar">SIAC</h2>
-                <p class="p_box">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
-                <p class="p_box"></p>
-                <a class="a_estrutura" href="contato.html">Fale com um especialista</a>
-            </div>
-            <div class="box3">
-                <div class="enfeite_circulo"></div>
-                <div class="circulo"><p class="numero">2</p></div>
-                <h2 class="h2_implementar">SIAC</h2>
-                <p class="p_box">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
-                <a class="a_estrutura" href="contato.html">Fale com um especialista</a>
-            </div>
-            <div class="box3">
-                <div class="enfeite_circulo"></div>
-                <div class="circulo"><p class="numero">3</p></div>
-                <h2 class="h2_implementar">SIAC</h2>
-                <p class="p_box">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
-                <a class="a_estrutura" href="contato.html">Fale com um especialista</a>
-            </div>
-            <div class="box3">
-                <div class="enfeite_circulo"></div>
-                <div class="circulo"><p class="numero">4</p></div>
-                <h2 class="h2_implementar">SIAC</h2>
-                <p class="p_box">O SiAC - Sistema de Avaliação da Conformidade de Empresas de Serviços e Obras é um dos principais projetos do PBQP-H. Ele estabelece requisitos para a gestão da qualidade nas empresas do setor, garantindo construções mais seguras e com alto padrão de excelência.</p>
-                <a class="a_estrutura" href="contato.html">Fale com um especialista</a>
-            </div>
+            <button id="button_downloads">Ver Todos ></button>
+            <script>
+                document.getElementById('button_downloads').addEventListener('click', function() {
+            window.location.href = 'downloads.html';
+        });
+            </script>
         </div>
     </div>
     <footer>
-        <div id="div1_footer">
-            <a href="#"><img src="images/Captura de tela de 2024-05-02 16-32-22.png" id="img_footer"></a>
-            <a href="#"><img src="images/Captura de tela de 2024-05-02 16-37-09.png" id="img_footer_2" ></a>
-            <a href="#"><img src="images/Captura de tela de 2024-05-02 16-37-15.png" id="img_footer_3"></a>
-            <button id="button_footer">Inscreva-se</button> 
-            <script>
-            document.getElementById('button_footer').addEventListener('click', function() {
-        window.location.href = 'inscreva_se.html';
-    });
-        </script>   
-        </div>
-        <a href="mailto:contato@portalpbqp-h.com.br" id="aFooter">Email: contato@portalpbqp-h.com.br &nbsp;&nbsp;  Tel: (41) 99955-3390</a>
+        <div id="centerFooter">
+            <div id="div1_footer">
+                <a href="#"><img src="images/Captura de tela de 2024-05-02 16-32-22.png" id="img_footer"></a>
+                <a href="#"><img src="images/Captura de tela de 2024-05-02 16-37-09.png" id="img_footer_2" ></a>
+                <a href="#"><img src="images/Captura de tela de 2024-05-02 16-37-15.png" id="img_footer_3"></a>
+                <button id="button_footer">Inscreva-se</button> 
+                <script>
+                document.getElementById('button_footer').addEventListener('click', function() {
+            window.location.href = 'inscreva_se.html';
+        });
+            </script>   
+            </div>
+            <a href="mailto:contato@portalpbqp-h.com.br" id="aFooter">Email: contato@portalpbqp-h.com.br &nbsp;&nbsp;  Tel: (41) 99955-3390</a>
             <div id="enfeite_footer"></div>
-        <div id="div2_footer">
-            <p id="direitos_reservados">© 2020 PBQP-H Consultoria. Todos os direitos reservados.</p>
-            <p id="rafael_ferr">Desenvolvido por Rafael Ferr</p>  
-        </div> 
+            <div id="div2_footer">
+                <p id="direitos_reservados">© 2020 PBQP-H Consultoria. Todos os direitos reservados.</p>
+                <p id="rafael_ferr">Desenvolvido por Rafael Ferr</p>  
+            </div>
+        </div>
     </footer>
     <script type="text/javascript" src="js/como_implementar.js"> </script>
 </body>
